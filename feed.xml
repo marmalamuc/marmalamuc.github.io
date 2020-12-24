@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-24T13:15:47-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><entry><title type="html">Blog Songs</title><link href="http://localhost:4000/blogSongs" rel="alternate" type="text/html" title="Blog Songs" /><published>2020-12-16T00:00:00-06:00</published><updated>2020-12-16T00:00:00-06:00</updated><id>http://localhost:4000/blog-songs</id><content type="html" xml:base="http://localhost:4000/blogSongs">&lt;p&gt;So I didn’t keep track of my progress on the book. Or anything else this year. I guess who cares since I haven’t even launched this site yet.&lt;/p&gt;
+
+&lt;p&gt;I’ve really only started working on the book in earnest since the beginning of November. I’m shifting focus now to launch my author’s website first. I’m not sure if I’ll continue posting about the book, but for now, here’s where things stand:&lt;/p&gt;
+
+&lt;h2 id=&quot;the-book&quot;&gt;The book&lt;/h2&gt;
+
+&lt;p&gt;When the book is done, it’ll be located at &lt;a href=&quot;https://www.thegreatpermission.com&quot;&gt;thegreatpermission.com&lt;/a&gt;. I’m creating it on top of the &lt;a href=&quot;https://idratherbewriting.com/documentation-theme-jekyll/index.html&quot;&gt;Jekyll Doc Theme&lt;/a&gt; that &lt;a href=&quot;https://www.idratherbewriting.com&quot;&gt;Tom Johnson&lt;/a&gt; built. I guess you would call it a webbook. As much as I do want a physical book to hold in my hands &amp;amp; even one day sign at my readings (!!!), the digital format allows so many opportunities for me as a writer and you as a reader:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;navigation&lt;/li&gt;
+  &lt;li&gt;multimedia&lt;/li&gt;
+  &lt;li&gt;interactivity&lt;/li&gt;
+  &lt;li&gt;metapoetics/glosses&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It was too interesting to pass up. So possibly no publisher will be interested in this format (how would you monetize it?), but I think that’s okay. I have a career outside poetry, and if I have to continue balancing my professional &amp;amp; creative endeavors to travel the artistic avenues I want, I’m prepared to do that.&lt;/p&gt;
+
+&lt;!-- TGP screenshot --&gt;
+&lt;figure&gt;
+  
+
+    &lt;img class=&quot;docimage&quot; src=&quot;images/tgpInProgress.png&quot; alt=&quot;A screenshot of the author's in-progress webbook manuscript, showing the navigation &amp;amp; menu items on a blank `About the author` page.&quot; style=&quot;max-width: 650px&quot; /&gt;
+  
+
+  &lt;figcaption&gt;The book, in progress.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Of course, I &lt;em&gt;want&lt;/em&gt; to quit my corporate job to write poems and give readings and talk to other artists every week. So the webbook will have links to my &lt;a href=&quot;https:www.patreon.com/andrewpdillon&quot;&gt;Patreon&lt;/a&gt; &amp;amp; &lt;a href=&quot;https:www.paypal.me/andrewpdillon&quot;&gt;PayPal&lt;/a&gt; =D&lt;/p&gt;
+
+&lt;p&gt;The title of the book comes from a quote by poet &lt;a href=&quot;https://www.alicefrimanpoet.com&quot;&gt;Alice Friman&lt;/a&gt;. I’m not sure if it’s codified in a book or interview anywhere, but she visited the University of Tennessee when I was in the first semester of my MFA. &lt;q&gt;Poetry is the great permission&lt;/q&gt; is one of the many very quotable things she said during her craft talk.&lt;/p&gt;
+
+&lt;p&gt;The structure of the book is mostly in place. There are several poems I want to finish or revise before I publish the website, and that’s probably the bulk of the remaining work. But I still have a bunch of items to check off before the site is done from a technical perspective; the biggest ones are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;figure out the logic for previous &amp;amp; next buttons&lt;/li&gt;
+  &lt;li&gt;build a dark theme&lt;/li&gt;
+  &lt;li&gt;set up Google Analytics&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;strong&gt;previous/next&lt;/strong&gt; buttons are complicated because I’m not in any sense a web developer. I have that functionality here on the blog because it’s a built-in variable for posts. The doc theme that I’m using for book uses a YAML file to define the TOC, and I want the previous/next logic to loop through that to spit out buttons. It’s definitely possible because there’s separate logic that loops through that same YAML to create the sidebar navigation, and Jekyll’s own doc does something similar with its tutorials. I just don’t know what the fuck I’m doing yet.&lt;/p&gt;
+
+&lt;p&gt;I’m also color deficient (similar to colorblind), and color palettes mean nothing to me, so the dark theme will be weird.&lt;/p&gt;
+
+&lt;p&gt;I’m using &lt;a href=&quot;https://www.asana.com&quot;&gt;Asana&lt;/a&gt; to manage the effort, which I like a LOT more than other project management tools I’ve used. I’ve been part of Corporate America for almost a decade now, so I’ve used most of the big ones.&lt;/p&gt;
+
+&lt;p&gt;I hate Git, but use it because it’s integral to Jekyll &amp;amp; GitHub Pages.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-than-poetry&quot;&gt;Other than poetry&lt;/h2&gt;
+
+&lt;p&gt;I work in the healthcare industry as a Technical Writer. I’m in Nashville, where healthcare is maybe the biggest industry in the city—yes, even larger than music or tourism. It’s a wonderful career for an introvert. I wouldn’t have the skillset to put together this blog, much less my book, without my career in TechCom.&lt;/p&gt;
+
+&lt;p&gt;I’ve been studying Spanish since June 2018. I use Duolingo every day (with a 906 day streak as of Dec 16), and before the pandemic, I took group classes at the &lt;a href=&quot;https://tfli.org&quot;&gt;Tennessee Language Center&lt;/a&gt;. I’m not fluent by any stretch, but if I spent a couple months in a Spanish-speaking community, I think I’d come out communicating effectively.&lt;/p&gt;
+
+&lt;!-- Duolingo image --&gt;
+&lt;figure&gt;
+  &lt;a class=&quot;no_icon&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; href=&quot;https://www.duolingo.com&quot;&gt;
+
+    &lt;img class=&quot;docimage&quot; src=&quot;images/duolingoReview2020.png&quot; alt=&quot;The author's 2020 Duolingo statistics. He was in the top 2% of experience earners.&quot; style=&quot;max-width: 300px&quot; /&gt;
+  &lt;/a&gt;
+
+  &lt;figcaption&gt;My 2020 Duolingo stats&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I’m from Buffalo. The Bills are having a great season, and I’m not saying I had anything to do with that, but as soon as I stopped believing in jinxes, the Pegulas hired Sean McDermott &amp;amp; Brandon Beane. ::shrug:: Even though my family has been in Nashville since I was nine, I still consider myself “from” Buffalo. I’ve encountered a lot of people who have different opinions about how I should identify in that regard. Which is fun.&lt;/p&gt;
+
+&lt;p&gt;Lots of people also misspell my last name. It’s &lt;code&gt;D-I-L-L-O-N&lt;/code&gt;. No second “i”. As far as I know, “Dillion” has never been a surname anywhere in the world.&lt;/p&gt;
+
+&lt;p&gt;Okay! That seems like a whole blog post.&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><summary type="html">So I didn’t keep track of my progress on the book. Or anything else this year. I guess who cares since I haven’t even launched this site yet.</summary></entry><entry><title type="html">Your Invitation to a Modest Blog</title><link href="http://localhost:4000/yourInvitationModestBreakfast" rel="alternate" type="text/html" title="Your Invitation to a Modest Blog" /><published>2020-01-01T00:00:00-06:00</published><updated>2020-01-01T00:00:00-06:00</updated><id>http://localhost:4000/your-invitation</id><content type="html" xml:base="http://localhost:4000/yourInvitationModestBreakfast">&lt;p&gt;I decided to start this blog to record my progress and keep notes &amp;amp; ideas as I build this Jekyll site. I don’t know much about YAML or SASS, and I’ve never used Liquid before. Once I get the &lt;a href=&quot;&quot;&gt;site&lt;/a&gt; built, I might continue blogging about drafting new poems, reading/performing, publishing, etc.&lt;/p&gt;
+
+&lt;p&gt;Partly, I think this blog will help keep me accountable. Mostly, I think it’ll be useful to articulate the issues I’m having using the tools &amp;amp; logic I’m trying to learn. For example, “site” in the previous paragraph should have been a link to the homepage of this site. But it didn’t work. ::shrug::&lt;/p&gt;
+
+&lt;p&gt;The goal for this site is to serve as my author website, but I also have a second Jekyll instance that I’m using to write the manuscript for my first poetry collection. I’ll probably write here about my vision for that book, and my plans for compiling it using this toolset.&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><category term="helloWorld" /><summary type="html">I decided to start this blog to record my progress and keep notes &amp;amp; ideas as I build this Jekyll site. I don’t know much about YAML or SASS, and I’ve never used Liquid before. Once I get the site built, I might continue blogging about drafting new poems, reading/performing, publishing, etc.</summary></entry></feed>
