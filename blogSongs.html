@@ -86,7 +86,7 @@
   <li>set up Google Analytics</li>
 </ul>
 
-<p>The <strong>previous/next</strong> buttons are complicated because I’m not in any sense a web developer. I have that functionality here on the blog because it’s a built-in variable for posts. The doc theme that I’m using for book uses a YAML file to define the TOC, and I want the previous/next logic to loop through that to spit out buttons. It’s definitely possible because there’s separate logic that loops through that same YAML to create the sidebar navigation, and Jekyll’s own doc does something similar with its tutorials. I just don’t know what the fuck I’m doing yet.</p>
+<p>The <strong>previous/next</strong> buttons are complicated because I’m not in any sense a web developer. I have that functionality here on the blog because it’s a built-in variable for posts. The doc theme that I’m using for the book uses a YAML file to define the TOC, and I want the previous/next logic to loop through that to spit out buttons. It’s definitely possible because there’s separate logic that loops through that same YAML to create the sidebar navigation, and Jekyll’s own doc does something similar with its tutorials. I just don’t know what the fuck I’m doing yet.</p>
 
 <p>I’m also color deficient (similar to colorblind), and color palettes mean nothing to me, so the dark theme will be weird.</p>
 
@@ -129,6 +129,8 @@
     <a class="prev" href="/yourInvitationModestBreakfast">&laquo; Your Invitation to a Modest Blog</a>
   
   
+    <a class="next" href="/howToWebBlog">How to Web Blog &raquo;</a>
+  
 </div>
 
   <a class="u-url" href="/blogSongs" hidden></a>
@@ -144,12 +146,14 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name"></li><li><a class="u-email" href="mailto:contact@andrewdillonpoetry.com">contact@andrewdillonpoetry.com</a></li></ul>
+        <ul class="contact-list"><li><a class="u-email" href="mailto:contact@andrewdillonpoetry.com">contact@andrewdillonpoetry.com</a></li><li><ul class="social-media-list"><li><a href="https://www.twitter.com/DillonAndrewP"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">DillonAndrewP</span></a></li></ul>
+</li>
+        </ul>
       </div>
 
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://www.twitter.com/DillonAndrewP"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">DillonAndrewP</span></a></li></ul>
-</div>
+      <div class="footer-col footer-col-2">
+        Built with <a href="https://jekyllrb.com">Jekyll</a>
+      </div>
 
       <div class="footer-col footer-col-3">
         <p>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</p>
