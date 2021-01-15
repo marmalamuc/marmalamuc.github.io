@@ -21,13 +21,13 @@ h1 { margin-top: 49.5px; }
 
 h2 { margin-top: 43.5px; }
 
-h3 { margin-top: 37.5px; }
+h3 { margin-top: 37.5px; color: #CC8604; }
 
 h4 { margin-top: 30px; }
 
-h5 { margin-top: 25px; }
+h5 { margin-top: 25px; color: #CC04AE; }
 
-h6 { margin-top: 20px; }
+h6 { margin-top: 20px; font-style: italic; }
 
 /** `main` element */
 main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
