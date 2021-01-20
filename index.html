@@ -29,7 +29,12 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 }
 </script>
   
---><!-- Global site tag (gtag.js) - Google Analytics -->
+-->
+
+  <!-- cookie consent -->
+  
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H9W85MSC9G"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -39,7 +44,28 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
   gtag('config', 'G-H9W85MSC9G');
 </script>
 </head>
-<body><header class="site-header" role="banner">
+
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+  <script>
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#343c66",
+        "text": "#cfcfe8"
+      },
+      "button": {
+        "background": "#f71559"
+      }
+    },
+    "theme": "classic",
+    "content": {
+      "message": "This website uses cookies to collect data that does not contain PII. I will never sell or share your data."
+    }
+  });
+  </script>
+  
+
+  <body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Andrew P. Dillon</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -61,7 +87,7 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
   <figure>
   
 
-    <img class="docimage" src="images/authorColinPotts.jpg" alt="A close-up image of the author" />
+    <img class="docimage" src="images/authorColinPotts.jpg" alt="A close-up image of the author, by photographer Colin Potts." />
   
 
   
