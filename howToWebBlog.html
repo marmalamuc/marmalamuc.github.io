@@ -30,26 +30,7 @@
   gtag('config', 'G-H9W85MSC9G');
 </script>
 </head>
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-  <script>
-  window.cookieconsent.initialise({
-    "palette": {
-      "popup": {
-        "background": "#343c66",
-        "text": "#cfcfe8"
-      },
-      "button": {
-        "background": "#f71559"
-      }
-    },
-    "theme": "classic",
-    "content": {
-      "message": "This website uses cookies to collect data that does not contain PII. I will never sell or share your data."
-    }
-  });
-  </script>
-
-  <body><header class="site-header" role="banner">
+<body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Andrew P. Dillon</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -139,6 +120,26 @@
   </div>
 
 </footer>
-</body>
+<!-- cookie consent -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#343c66",
+          "text": "#cfcfe8"
+        },
+        "button": {
+          "background": "#f71559"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to collect data that does not contain PII. I will never sell or share your data."
+      }
+    });
+    </script>
+
+  </body>
 
 </html>
