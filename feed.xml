@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2021-01-25T11:35:15-06:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><entry><title type="html">There Are More Beautiful Things Than [My] Blog</title><link href="https://www.andrewdillonpoetry.com/moreBeautifulThings" rel="alternate" type="text/html" title="There Are More Beautiful Things Than [My] Blog" /><published>2021-01-15T00:00:00-06:00</published><updated>2021-01-15T00:00:00-06:00</updated><id>https://www.andrewdillonpoetry.com/more-beautiful-things</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/moreBeautifulThings">&lt;p&gt;Living in America is fun because when armed domestic terrorists that include off-duty police officers from around the country openly plan for weeks an insurrection on the Capitol and then execute that plan with a terrifying level of success aided by inside LEOs, that’s no different than a normal Wednesday to the business class.&lt;!-- here --&gt; No time for mourning or reflection; you still have to perform your role for the economy.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2021-01-29T19:13:44-06:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><entry><title type="html">The Stonks Blow Through the Diamonds of My Hands</title><link href="https://www.andrewdillonpoetry.com/windBlows" rel="alternate" type="text/html" title="The Stonks Blow Through the Diamonds of My Hands" /><published>2021-01-29T00:00:00-06:00</published><updated>2021-01-29T00:00:00-06:00</updated><id>https://www.andrewdillonpoetry.com/the-wind-blows</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/windBlows">&lt;p&gt;America &lt;a href=&quot;https://kottke.org/21/01/usa-downgraded-from-democracy-to-anocracy-part-democracy-and-part-dictatorship&quot;&gt;is no longer a democracy&lt;/a&gt; but an anocracy, so it’s a fun time to be alive in these here United States.&lt;!-- here --&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, that evaluation is based on the culmination of four years with Trump in office and a Republican Party of sycophants controlling the Senate. We’re likely to inch back up in next year’s evaluation, despite a number of Congresspeople who are literal conspiracy theorists. Conservatives have always been an embarrassment &amp;amp; a threat, but now absolutely everyone, including themselves, is at risk.&lt;/p&gt;
+
+&lt;h2 id=&quot;cookie-consent&quot;&gt;Cookie consent&lt;/h2&gt;
+&lt;p&gt;If you’ve never been to this site before, or cleared your cookies since last time, you saw the banner pop up at the bottom of the screen.&lt;/p&gt;
+
+&lt;p&gt;Since I’m still learning Javascript, I kept putting the script in the wrong place, but eventually figured it out. The directions on the &lt;a href=&quot;https://www.osano.com/cookieconsent/download/&quot;&gt;Osano&lt;/a&gt; website were fairly clear, I just misread the step that said to put the script just before the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; tag—I initially read it as &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; so, obviously, the script was not visible on the page.&lt;/p&gt;
+
+&lt;p&gt;It would have been more readable if it were worded: “add the following code within the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; of your &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; file, just before the closing tag.”&lt;/p&gt;
+
+&lt;p&gt;On that Osano page, at the bottom of the &lt;em&gt;Open Source Edition&lt;/em&gt; column, click &lt;strong&gt;Start Coding&lt;/strong&gt; to expand some configuration options. In Jekyll, you would add that script into your &lt;code class=&quot;highlighter-rouge&quot;&gt;default.html&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;!-- Osano screenshot --&gt;
+&lt;figure&gt;
+  
+
+    &lt;img class=&quot;docimage&quot; src=&quot;images/osano.png&quot; alt=&quot;A screenshot of the Osano Consent Management webpage that shows the Start Coding button you can press to configure your popup.&quot; style=&quot;max-width: 400px&quot; /&gt;
+  
+
+  &lt;figcaption&gt;Click the Start Coding button to configure your popup&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;content-management&quot;&gt;Content management&lt;/h2&gt;
+&lt;p&gt;I’m going to add a page called &lt;strong&gt;Read&lt;/strong&gt; to display poems that have been published, but are not immediately available because they’re either in print or the journal is no longer online. It’s obviously not up yet, and that’s because I have to decide how to deal with a single-sourcing issue with the poems.&lt;/p&gt;
+
+&lt;p&gt;In addition to this website, I have two other Jekyll projects:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;one for my forthcoming book, &lt;em&gt;The Great Permission&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;one to keep all my writing under version control&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ideally, all my poems would live in the latter project, and whenever I needed to include one in the book or on this website, I’d pull it in from there. That way, when I revise a poem, I don’t need to do it in three places. I don’t know how to single-source across Jekyll projects, though; or even if that’s possible. I’ll have to post on the &lt;a href=&quot;site.data.keys.links.jekylltalk&quot;&gt;Jekyll Talk&lt;/a&gt; forum to get some insight.&lt;/p&gt;
+
+&lt;p&gt;I actually also have a fourth directory of my poems in HTML that are served on my local Apache server, which I created long before I knew or had the skill to manage a Jekyll project. I desperately wanted to get away from writing &amp;amp; editing in Word, so I put everything in HTML, wrote a stylesheet, and created a simple PHP template to make submissions easier. (I’ll detail this setup in another blog post.) I could use Jekyll to handle submissions instead, but until I solve the single-sourcing issue, there’s no point in migrating.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-buffalo-bills&quot;&gt;The Buffalo Bills&lt;/h2&gt;
+&lt;p&gt;What a fun season! I was disappointed to see them get rolled in the AFC Championship, but they’re a young team and have the talent &amp;amp; coaching to make it back in coming years. We fans can’t have a chip on our shoulders anymore, so that’s gonna be a big attitude adjustment for most Buffalonians. If they aren’t perennial underachievers, how will we maintain this blue-collar, disrespected identity? I’m gonna have to edit my &lt;a href=&quot;/about&quot;&gt;short bio&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;fulbright&quot;&gt;Fulbright&lt;/h2&gt;
+&lt;p&gt;I’m going to apply for one! Being a government grant, the application process is a mess. If you’ve ever applied for the NEA, it’s not &lt;em&gt;quite&lt;/em&gt; that bad, but it is a jumble of redundant pages &amp;amp; counterintuitive terminology. For example, I’ll probably apply under the “U.S. Student Program” (as opposed to the U.S. Scholar Program) despite having completed my MFA in 2014.&lt;/p&gt;
+
+&lt;p&gt;There are also separate websites for those Fulbright programs on completely different domains:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://awards.cies.org&quot;&gt;U.S. Scholar Program&lt;/a&gt;: https://awards.cies.org&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://us.fulbrightonline.org&quot;&gt;U.S. Student Program&lt;/a&gt;: https://us.fulbrightonline.org&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Why aren’t these programs unified at a single starting point?&lt;/p&gt;
+
+&lt;p&gt;Right now, I have so many ideas for projects that I can’t decide which one to apply with. Which is a great problem to have. You can only submit a single application for a single project per cycle, so I do have to decide.&lt;/p&gt;
+
+&lt;p&gt;I started looking into this at a good time because the current application cycle is ending. The next cycle starts in October, meaning I have plenty of time to decide on a project, write everything up, and find recommenders. (Isn’t asking other people to do work for you the absolute worst?)&lt;/p&gt;
+
+&lt;p&gt;Along the way, I’ll post about my progress here. Hopefully, documenting the process will make it easier for someone else down the line.&lt;/p&gt;
+
+&lt;h2 id=&quot;gamestonks--amequic&quot;&gt;Gamestonks &amp;amp; AM(equi)C&lt;/h2&gt;
+&lt;p&gt;(I tried.)&lt;/p&gt;
+
+&lt;p&gt;Yes I jumped on this bandwagon. I won’t explain the whole situation, but here is a &lt;a href=&quot;https://www.vice.com/en/article/pkdvgy/send-this-to-anyone-who-wants-to-know-wtf-is-up-with-gamestop-stock&quot;&gt;good summary&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!-- Stonks screenshot --&gt;
+&lt;figure&gt;
+  
+
+    &lt;img class=&quot;docimage&quot; src=&quot;images/buyStonks.png&quot; alt=&quot;A screenshot of the buy amounts I paid for the popular meme stocks: AMC, BB, GME, NOK.&quot; style=&quot;max-width: 400px&quot; /&gt;
+  
+
+  &lt;figcaption&gt;Holding for the meme&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Quick disclaimer&lt;/strong&gt;: I’m not any kind of financial expert. You shouldn’t consider anything I say below to be advice or wisdom.&lt;/p&gt;
+
+&lt;p&gt;I’m lucky to have remained employed during the pandemic, and was able to spend a modest amount to patricipate in this cultural moment. I don’t expect to make money on these shares; I’m in it to help squeeze Melvin Capital &amp;amp; Citron Research, and force them to pour billions into closing their positions. This will drive the stock price higher, and allow regular ole retail traders to reap some of that.&lt;/p&gt;
+
+&lt;p&gt;This week already has been a massive redistribution of wealth from the financial elite to the middle class. This is wealth that we, as laborers whose capital is our very bodies, created. Firms like Melvin &amp;amp; Citron fuck around with the capital our labor creates, manipulate the market with ladder attacks &amp;amp; PR campaigns, and generally play with our lives &amp;amp; money as a business. Their losses this week are just the vigorish on decades of recklessness.&lt;/p&gt;
+
+&lt;p&gt;If you’re holding, here’s a simple site to let you know when it’s time to sell: &lt;strong&gt;&lt;a href=&quot;https://isthesqueezesquoze.com&quot;&gt;is the squeeze squoze&lt;/a&gt;&lt;/strong&gt;. Despite what r/WallStreetBets is saying, don’t hold forever. Those firms will eventually close their short positions, and then stocks like GME (which are absolutely overvalued now) will fall as everyone sells.&lt;/p&gt;
+
+&lt;p&gt;That said, I’m willing to lose everything I have invested in these stocks if it means the hedge funds lose their asses and it results in some policy change.&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><summary type="html">America is no longer a democracy but an anocracy, so it’s a fun time to be alive in these here United States.</summary></entry><entry><title type="html">There Are More Beautiful Things Than [My] Blog</title><link href="https://www.andrewdillonpoetry.com/moreBeautifulThings" rel="alternate" type="text/html" title="There Are More Beautiful Things Than [My] Blog" /><published>2021-01-15T00:00:00-06:00</published><updated>2021-01-15T00:00:00-06:00</updated><id>https://www.andrewdillonpoetry.com/more-beautiful-things</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/moreBeautifulThings">&lt;p&gt;Living in America is fun because when armed domestic terrorists that include off-duty police officers from around the country openly plan for weeks an insurrection on the Capitol and then execute that plan with a terrifying level of success aided by inside LEOs, that’s no different than a normal Wednesday to the business class.&lt;!-- here --&gt; No time for mourning or reflection; you still have to perform your role for the economy.&lt;/p&gt;
 
 &lt;!-- r/notTheOnion screenshot --&gt;
 &lt;figure&gt;
