@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="There Are More Beautiful Things Than [My] Blog" />
 <script type="application/ld+json">
-{"description":"Living in America is fun because when armed domestic terrorists that include off-duty police officers from around the country openly plan for weeks an insurrection on the Capitol and then execute that plan with a terrifying level of success aided by inside LEOs, that’s no different than a normal Wednesday to the business class.","headline":"There Are More Beautiful Things Than [My] Blog","dateModified":"2021-01-15T00:00:00-06:00","datePublished":"2021-01-15T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.andrewdillonpoetry.com/moreBeautifulThings"},"url":"https://www.andrewdillonpoetry.com/moreBeautifulThings","author":{"@type":"Person","name":"Andrew P. Dillon"},"@context":"https://schema.org"}</script>
+{"description":"Living in America is fun because when armed domestic terrorists that include off-duty police officers from around the country openly plan for weeks an insurrection on the Capitol and then execute that plan with a terrifying level of success aided by inside LEOs, that’s no different than a normal Wednesday to the business class.","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.andrewdillonpoetry.com/moreBeautifulThings"},"@type":"BlogPosting","url":"https://www.andrewdillonpoetry.com/moreBeautifulThings","headline":"There Are More Beautiful Things Than [My] Blog","dateModified":"2021-01-15T00:00:00-06:00","datePublished":"2021-01-15T00:00:00-06:00","author":{"@type":"Person","name":"Andrew P. Dillon"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.andrewdillonpoetry.com/feed.xml" title="Andrew P. Dillon" /><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" /><!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H9W85MSC9G"></script>
@@ -73,6 +73,7 @@
 
 <h2 id="google-analytics">Google Analytics</h2>
 <p>I was mostly wrong about my issue with Google Analytics. And the fix was pretty simple. As it turns out, there’s either something wrong with Minima’s GA integration, or it’s incompatible with the new GA4 tracking IDs.</p>
+<hr />
 
 <h3 id="the-minima-theme">The Minima theme</h3>
 <p>Jekyll’s Minima theme comes with a file in the hidden gem directory at <code class="highlighter-rouge">_includes/google-analytics.html</code>. (The gem directory is separate from the Jekyll project directory, which is kind of a pain in the ass. On Mac, it’s at <code class="highlighter-rouge">Macintosh HD/Users/&lt;username&gt;/.rvm/gems/ruby-2.#.#/gems/minima-2.#.#</code>. JFC.) It holds the following script:</p>
@@ -89,7 +90,7 @@
 <span class="p">}</span>
 <span class="o">&lt;</span><span class="sr">/script&gt;</span></code></pre></figure>
 
-<p>In that same directory is <code class="highlighter-rouge">head.html</code>. <code class="highlighter-rouge">head.html</code> is called by the <code class="highlighter-rouge">deafult</code> layout (also in the gem directory), which means it’s part of every page. <code class="highlighter-rouge">head.html</code> calls <code class="highlighter-rouge">google-analytics.html</code>, which should insert the script GA needs to track your pages.</p>
+<p>In that same directory is <code class="highlighter-rouge">head.html</code>. <code class="highlighter-rouge">head.html</code> is called by the <code class="highlighter-rouge">default</code> layout (also in the gem directory), which means it’s part of every page. <code class="highlighter-rouge">head.html</code> calls <code class="highlighter-rouge">google-analytics.html</code>, which should insert the script GA needs to track your pages.</p>
 
 <p>There’s also a site-wide variable for your GA tracking ID in <code class="highlighter-rouge">_config.yml</code>. You can see the script above calling {{ site.google_analytics }}.</p>
 
@@ -121,6 +122,7 @@
 <p>Because GA uses cookies, I decided I should provide a simple consent banner or pop-up. Not that I expect many readers in California or Europe, but it should be a fun learning project.</p>
 
 <p>I found an open-source project on GitHub called <a href="https://github.com/osano/cookieconsent">Osano</a> that I’ll probably implement.</p>
+<hr />
 
 <h2 id="the-book">The book</h2>
 <p>With this site fully operational, I started getting back to work on the manuscript. One element of the book is family recipes that really don’t exist outside of the heads of my mom &amp; my aunts. For the recipes I know, it’s just rote data entry into HTML. Same for a collection of workouts. I’m using the built-in <strong>Collections</strong> functionality to group each of them on a single page, but each individual recipe &amp; workout will appear as an interlude in the primary TOC. I still have some work to do figuring out how to integrate them.</p>
@@ -143,6 +145,7 @@
 <span class="nt">&lt;/audio&gt;</span></code></pre></figure>
 
 <p>It works because the poem &amp; audio files use identical filenames. It’s not very complicated, but it’s probably one of the more creative pieces of code I had to figure out.</p>
+<hr />
 
 <h2 id="sports">Sports!</h2>
 <p>The Bills play the Ravens this Saturday in the Divisional round of the playoffs. I really cannot handle the stress of a high-stakes game anymore (I haven’t had any practice in many years), so I probably won’t watch much or any of it. If they make the AFC Championship or Super Bowl, I will watch those games. In fact, I’ve already talked to my brother, and if the Bills are in SBLV on February 7, I’ll drive out to visit him so we can watch together in isolation. We’ll be isolated—not because of the pandemic or because we don’t <em>want</em> to watch with friends, but—because no one will want to be in the room with us. It would be awful to vicariously experience our anxiety for 4 hours.</p>
@@ -152,8 +155,7 @@
   </div>
 
   
-  <p>__<br />
-  The title of this post comes from <span id="title">morgan parker</span>'s collection <cite class="book" id="title">there are more beautiful things than beyoncé</cite>.</p>
+  <p>*The title of this post comes from <span id="title">morgan parker</span>'s collection <cite class="book" id="title">there are more beautiful things than beyoncé</cite>.</p>
   
 
   <hr>

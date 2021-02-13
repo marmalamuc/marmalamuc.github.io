@@ -1,3 +1,5 @@
-# mysite
+# An author's website
 
-An author's website for Andrew P. Dillon.
+Read poems & blog posts, or contact Andrew P. Dillon.
+
+[andrewdillonpoetry.com]({{site.data.keys.links.mysite}})
