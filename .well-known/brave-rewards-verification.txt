@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: andrewdillonpoetry.com
-Token: 4b2c408ee309fd683640a748a7258909d902bfca4468b06f6752861ac09f0b32
