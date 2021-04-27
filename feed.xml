@@ -1,4 +1,342 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2021-04-26T19:33:16-05:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><entry><title type="html">Melissa</title><link href="https://www.andrewdillonpoetry.com/melissa" rel="alternate" type="text/html" title="Melissa" /><published>2021-04-06T00:00:00-05:00</published><updated>2021-04-06T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/melissa</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/melissa">&lt;p&gt;I had been working on a few other posts, unsure which order to push them to the site, when I received some terrible news, and lost interest in the blog for a bit. I wrote what you see below, and have been sitting on it for a month, thinking I’d come to some moment of clarity or at least understanding. I did not.&lt;!-- here --&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2021-04-26T19:38:43-05:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><entry><title type="html">How Our Students Learned (Poetry)</title><link href="https://www.andrewdillonpoetry.com/howOurStudentsLearned" rel="alternate" type="text/html" title="How Our Students Learned (Poetry)" /><published>2021-04-22T00:00:00-05:00</published><updated>2021-04-22T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/how-our-students-learned</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/howOurStudentsLearned">&lt;p&gt;I’m adapting the bulk of this post from an email I recently sent to my friend Ryan. He’s been following this website, and reading the poems I point to from the &lt;a href=&quot;/links&quot;&gt;Links page&lt;/a&gt;. Ryan recently “confessed” (his word) that, although he has a degree in English/Creative Writing, and has written &amp;amp; even taught some poetry, he doesn’t really understand it. &lt;!-- here --&gt;I told him I would probably turn our emails into a blog post, so here’s an edited version of my reply.&lt;/p&gt;
+
+&lt;p&gt;But first, some small updates. Skip to the &lt;a href=&quot;#poetry-in-america-scratching-the-surface&quot;&gt;Poetry section&lt;/a&gt; if you’re not interested in new pubs or site updates.&lt;/p&gt;
+
+&lt;h2 id=&quot;publications&quot;&gt;Publications&lt;/h2&gt;
+&lt;p&gt;Several of my poems that had been accepted were published in March or April:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Two poems in &lt;a href=&quot;https://pleaseseeme.com/issue-7/poetry/two-poems-andrew-p-dillon/&quot;&gt;&lt;em&gt;Please See Me&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;One poem in &lt;a href=&quot;https://www.secondchancelit.com/dillon&quot;&gt;&lt;em&gt;Second Chance Lit&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Two poems in &lt;a href=&quot;https://bosphorusreview.com/march2021&quot;&gt;&lt;em&gt;The Bosphorus Review&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I wrote the poems in &lt;em&gt;Please See Me&lt;/em&gt; in the months &amp;amp; years after my blood clot (maybe a post about that one day). They deal with some specific mental health struggles &amp;amp; recoveries (&lt;em class=&quot;fas fa-exclamation-circle&quot;&gt;&lt;/em&gt; TW: suicidal ideation)&lt;/p&gt;
+
+&lt;p&gt;I also got word of two more acceptances:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Two poems in &lt;a href=&quot;http://www.poetrysalzburg.com/psr-main.htm&quot;&gt;&lt;em&gt;Poetry Salzburg Review&lt;/em&gt;&lt;/a&gt; (Iss. 38, Winter 2021)&lt;/li&gt;
+  &lt;li&gt;One poem in &lt;a href=&quot;https://aprilgloaming.com/&quot;&gt;&lt;em&gt;Sinew: 10 Years of Poetry in the Brew, 2011–2021&lt;/em&gt;&lt;/a&gt; (Summer 2021)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One of the poems to be published in &lt;em&gt;Poetry Salzburg Review&lt;/em&gt; is 13 years old! It’s among the first poems I wrote after taking up writing in college, in an undergrad workshop led by &lt;a href=&quot;http://www.arthursmithpoet.com/&quot;&gt;Art Smith&lt;/a&gt;. So the lesson I’m going to take is: stick with the poems you believe in, even when years of rejection can get you thinking that a poem is no good.&lt;/p&gt;
+
+&lt;h2 id=&quot;new-formatting-features&quot;&gt;New formatting features&lt;/h2&gt;
+&lt;p&gt;As a tech writer, I read a handful of industry blogs to stay on top of things. &lt;a href=&quot;https://gmbaker.net/&quot;&gt;Mark Baker’s&lt;/a&gt; is one of those blogs. He recently wrote something about readers being interested in process, and blogs being well suited to elucidating a journey (I can’t find the specific quote right now). With that in mind, I continue to post about my tweaks to the source code of this website:&lt;/p&gt;
+
+&lt;p&gt;I copied a couple features from Tom Johnson’s &lt;a href=&quot;https://idratherbewriting.com/documentation-theme-jekyll/index.html&quot;&gt;Jekyll Theme for Doc&lt;/a&gt; to use here. Just some new things to break up the monotony of black text on a white background. I’ll try not to overuse them &lt;em class=&quot;far fa-grimace fa-1x&quot;&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;!--
+  PREFIX: for most icons, use &quot;fas&quot;; for transluscent, use &quot;far&quot;; for brands, use &quot;fab&quot;
+  NAME: the icon's name from the library: https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free
+  SIZE: https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons
+    1x = normal size
+    lg = large
+    2x
+    3x
+    4x
+    5x
+
+  Rotating: https://fontawesome.com/how-to-use/on-the-web/styling/rotating-icons
+  List bullets: https://fontawesome.com/how-to-use/on-the-web/styling/icons-in-a-list
+
+  NOTE: add class of &quot;fa-fw&quot; for fixed-width icons
+--&gt;
+
+&lt;h3 id=&quot;callouts&quot;&gt;Callouts&lt;/h3&gt;
+&lt;p&gt;I copy &amp;amp; pasted into my stylesheet the Bootstrap styles that format some simple panels that a tech writer would use for notes, warnings, alerts. Then I grabbed his include and put it in my &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt; directory. Remember that in gem-based versions of Jekyll, the directories &amp;amp; files that build the structure of your site live in the &lt;code class=&quot;highlighter-rouge&quot;&gt;gem&lt;/code&gt; folder on your local drive. With at least Minima, the default Jekyll theme I use here, those include:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;colgroup&gt;
+    &lt;col width=&quot;15%&quot; /&gt;
+    &lt;col width=&quot;85%&quot; /&gt;
+  &lt;/colgroup&gt;
+  &lt;thead&gt;
+    &lt;tr class=&quot;header&quot;&gt;
+      &lt;th&gt;Directory&lt;/th&gt;
+      &lt;th&gt;Example files&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Files that are probably injected into every page:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code&gt;header.html&lt;/code&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;code&gt;head.html&lt;/code&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;code&gt;footer.html&lt;/code&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;code&gt;google-analytics.html&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Files that define the structure of individual pages. I have separate layouts for my:
+        &lt;ul&gt;
+          &lt;li&gt;homepage&lt;/li&gt;
+          &lt;li&gt;posts&lt;/li&gt;
+          &lt;li&gt;pages that are neither of the other two&lt;/li&gt;
+        &lt;/ul&gt;
+        There's also a &lt;code&gt;default&lt;/code&gt; layout that calls the head, header, &amp;amp; footer files. All the above layouts specify &lt;code&gt;layout: default&lt;/code&gt; in their frontmatter so the head, header, &amp;amp; footer get pulled in to every page.
+      &lt;/td&gt;
+    &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_sass&lt;/code&gt;&lt;/td&gt;
+        &lt;td&gt;Files for the CSS preprocessor, Sass, which allows you to single-source your styles&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;You can also add any of those directories to your project tree (where everything you write, like posts &amp;amp; images, lives). I have an &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt; directory in my project folder for a few things like the callouts.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;callout.html&lt;/code&gt; file looks like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;span&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bs-callout bs-callout-{{include.type}}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{include.content}}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;When I want to use a callout on a page, I write a line of Liquid that grabs everything in &lt;code class=&quot;highlighter-rouge&quot;&gt;callout.html&lt;/code&gt;. It looks like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;callout.html&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;default&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;This is where I type what I want to appear in the callout.&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can even speed that up using snippets. Atom (my preferred editor) uses CoffeeScript, a JSON-like syntax, to specify a prefix that expands into a larger block of code. I type &lt;code class=&quot;highlighter-rouge&quot;&gt;callout&lt;/code&gt;, and the whole include above appears.&lt;/p&gt;
+
+&lt;p&gt;The include is rendered like this:&lt;/p&gt;
+&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;
+This is where I type what I want to appear in the callout.
+&lt;/div&gt;
+
+&lt;!-- callout types:
+  danger
+  default
+  primary
+  success
+  info
+  warning
+--&gt;
+
+&lt;h3 id=&quot;fontawesome-icons&quot;&gt;Fontawesome icons&lt;/h3&gt;
+&lt;p&gt;The Jekyll Doc Theme also incorporates icons from &lt;a href=&quot;https://fontawesome.com&quot;&gt;Fontawesome&lt;/a&gt; (among others). It was easy to inject them with a line of Javascript in my &lt;code class=&quot;highlighter-rouge&quot;&gt;head.html&lt;/code&gt; file (an include) that connects to a Content Delivery Network to call the icons.&lt;/p&gt;
+
+&lt;p&gt;Then, I use the semantically meaningless &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;i&amp;gt;&lt;/code&gt; element to specify which icon I want by adding specific classes to it: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;i class=&quot;fas fa-icon-name fa-icon-size&quot;&amp;gt;&amp;lt;/i&amp;gt;&lt;/code&gt;. I wrote an include to do that too:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{include.prefix}} fa-{{include.name}} fa-{{include.size}}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;strong&gt;prefix&lt;/strong&gt; tells it whether to be bold, regular, or a brand logo. I search their library to find the &lt;strong&gt;name&lt;/strong&gt;. The icons inherit your styles, so the &lt;strong&gt;size&lt;/strong&gt; tells it whether to fit into your line height (1x), or be larger.&lt;/p&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;icon.html&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;prefix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;fas&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;book-open&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;1x&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;That include produces the book icon that now appears in the text at the bottom of every post that explains the shitty pun in my title:
+&lt;em class=&quot;fas fa-book-open fa-1x&quot;&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;!--
+  PREFIX: for most icons, use &quot;fas&quot;; for transluscent, use &quot;far&quot;; for brands, use &quot;fab&quot;
+  NAME: the icon's name from the library: https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free
+  SIZE: https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons
+    1x = normal size
+    lg = large
+    2x
+    3x
+    4x
+    5x
+
+  Rotating: https://fontawesome.com/how-to-use/on-the-web/styling/rotating-icons
+  List bullets: https://fontawesome.com/how-to-use/on-the-web/styling/icons-in-a-list
+
+  NOTE: add class of &quot;fa-fw&quot; for fixed-width icons
+--&gt;
+
+&lt;p&gt;It’s in every post because I put that code into my &lt;code class=&quot;highlighter-rouge&quot;&gt;post.html&lt;/code&gt; layout file. Meaning, whenever a file contains &lt;code class=&quot;highlighter-rouge&quot;&gt;layout: post&lt;/code&gt; in the YAML frontmatter, everything in &lt;code class=&quot;highlighter-rouge&quot;&gt;post.html&lt;/code&gt; gets added (or not, depending on the &lt;strong&gt;if&lt;/strong&gt; &amp;amp; &lt;strong&gt;for&lt;/strong&gt; logic in the file).&lt;/p&gt;
+
+&lt;h2 id=&quot;poetry-in-america-scratching-the-surface&quot;&gt;Poetry in America: scratching the surface&lt;/h2&gt;
+&lt;p&gt;There are always people claiming that poetry (or art in general) is dying. When I was getting my MFA, a handful of essays were published on the decline of American verse that became hot topics in the discourse community of poets. The two I remember most are Mark Edmundson’s &lt;cite class=&quot;article&quot;&gt;Poetry Slam&lt;/cite&gt; in &lt;cite class=&quot;journal&quot;&gt;Harper’s Magazine&lt;/cite&gt; (July 2013), and Arthur Krystal’s &lt;cite class=&quot;article&quot;&gt;The Missing Music in Today’s Poetry&lt;/cite&gt; in &lt;cite class=&quot;journal&quot;&gt;The Chronicle of Higher Education&lt;/cite&gt; (October 2013).&lt;/p&gt;
+
+&lt;p&gt;These arguments almost always rely on equivocation:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Start with an abstraction that’s never defined (i.e., “music in poetry”)&lt;/li&gt;
+  &lt;li&gt;Make a claim about a different, also undefined, concept (“meter”)&lt;/li&gt;
+  &lt;li&gt;Use the two concepts interchangeably&lt;/li&gt;
+  &lt;li&gt;Wrap up the article, ignoring (or unaware of) your fallacy&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Then, as always, there was no crisis in poetry. It’s just different from what those authors prefer. But I do think we have some kind of problem with how poetry is broadly perceived. In this post, I want to think through a couple ways that poetry exists in America.&lt;/p&gt;
+
+&lt;div class=&quot;bs-callout bs-callout-info&quot;&gt;
+
+  &lt;em class=&quot;fas fa-info-circle fa-1x&quot;&gt;&lt;/em&gt;
+
+&lt;!--
+  PREFIX: for most icons, use &quot;fas&quot;; for transluscent, use &quot;far&quot;; for brands, use &quot;fab&quot;
+  NAME: the icon's name from the library: https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free
+  SIZE: https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons
+    1x = normal size
+    lg = large
+    2x
+    3x
+    4x
+    5x
+
+  Rotating: https://fontawesome.com/how-to-use/on-the-web/styling/rotating-icons
+  List bullets: https://fontawesome.com/how-to-use/on-the-web/styling/icons-in-a-list
+
+  NOTE: add class of &quot;fa-fw&quot; for fixed-width icons
+--&gt;
+For this post, just assume I’m talking about poetics &amp;amp; pedagogy in the American context. I’m not sure how poetry is introduced in other countries, or how it functions in other cultures.
+&lt;/div&gt;
+
+&lt;!-- callout types:
+  danger
+  default
+  primary
+  success
+  info
+  warning
+--&gt;
+
+&lt;p&gt;I think there are two big, related issues at the root of folks believing poetry is hard to understand. But no one should feel bad about believing that. I don’t think we set students up to appreciate poetry. Here’s how I’ll approach that below below:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-problem-of-pedagogy&quot;&gt;The way poetry is introduced to students makes it hard to appreciate&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-problem-of-culture&quot;&gt;Poetry doesn’t have a much of a role in American culture anymore&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#practical-matters&quot;&gt;Some simple analysis &amp;amp; advice&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#recommendations&quot;&gt;Recommendations for poems that (I think) anyone will appreciate, regardless of how much poetry they read&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;the-problem-of-pedagogy&quot;&gt;The problem of pedagogy&lt;/h3&gt;
+&lt;p&gt;The poems I remember being introduced to in middle &amp;amp; high school were Shakespeare’s sonnets, and later some Dickinson &amp;amp; Frost. In schools, Shakespeare is still the standard-bearer for poetry &amp;amp; drama in the English language. To me, that’s insane, and a huge disservice to poetry, poets, &amp;amp; students. Why would an &lt;em&gt;introduction&lt;/em&gt; to poetry contain Shakespeare or Dickinson? (Frost seems to have fallen out of favor in academia compared to other Modernists.) Dickinson was a radical innovator of language, form, &amp;amp; punctuation. Shakespeare’s language is archaic—you need a translator to understand Victorian English. Take &lt;em&gt;Romeo &amp;amp; Juliet&lt;/em&gt;’s famous balcony soliloquy:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;O Romeo, Romeo, wherefore art thou Romeo?&lt;br /&gt;
+Deny thy father and refuse thy name.&lt;br /&gt;
+Or if thou wilt not, be but sworn my love&lt;br /&gt;
+And I’ll no longer be a Capulet.&lt;br /&gt;
+‘Tis but thy name that is my enemy:&lt;br /&gt;
+Thou art thyself, though not a Montague.&lt;br /&gt;
+What’s Montague? It is nor hand nor foot&lt;br /&gt;
+Nor arm nor face nor any other part&lt;br /&gt;
+Belonging to a man. O be some other name.&lt;br /&gt;
+What’s in a name? That which we call a rose&lt;br /&gt;
+By any other name would smell as sweet;&lt;br /&gt;
+So Romeo would, were he not Romeo call’d,&lt;br /&gt;
+Retain that dear perfection which he owes&lt;br /&gt;
+Without that title. Romeo, doff thy name,&lt;br /&gt;
+And for that name, which is no part of thee,&lt;br /&gt;
+Take all myself.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;—and consider the difference in meaning depending on whether you understand the first line to mean “Where are you, Romeo?” vs. “Why are you Romeo?”. “Wherefore”, of course, meant “why” in Victorian English, so the first line is asking “Why are you a Montague (and I a Capulet)?”. You need a teacher or a book with glosses to explain that to you. Meanwhile, there are thousands of living poets writing in idioms any kid can grasp. You do not need a primer to understand the poetry of your own era.&lt;/p&gt;
+
+&lt;!-- Shakespeare meme --&gt;
+&lt;figure&gt;
+&lt;img class=&quot;docimage&quot; src=&quot;images/billyShakesMeme.png&quot; alt=&quot;A meme image of Shakespeare that says 'Is the central focus of high school English | Basically write in a different language'&quot; style=&quot;max-width: 300px&quot; /&gt;   &lt;figcaption style=&quot;max-width: 300px&quot;&gt;
+Let's teach 500 year old literature to every student as though we haven't been telling the same 27 stories since humans could speak
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Besides the language, the cultural touchstones in the work of Shakespeare &amp;amp; Dickinson are completely irrelevant to any 21st century teenager. Again, you need so much contextual knowledge to appreciate what’s going on. Matthew Zapruder did an interview a few years ago on the podcast &lt;a href=&quot;http://historyofliterature.com/138-why-poetry-with-matthew-zapruder/&quot;&gt;&lt;em&gt;The History of Literature&lt;/em&gt;&lt;/a&gt;. In it, he talks about some problems with how poetry is taught, and one of them is this idea that you must learn the context of a poem before you can read it; and related, that belief that poetic language is coded and must carry some significant, deeper message.&lt;/p&gt;
+
+&lt;p&gt;Reader, if you are here and happen to not be a writer, please tell yourself that there is no key to understanding poetry. Repeat that to yourself every day, make it your meditation anchor. Just get it out of your head that poetry is a cipher. And of course, read some poetry by writers who are alive &amp;amp; writing now. See my &lt;a href=&quot;#recommendations&quot;&gt;recommendations&lt;/a&gt; below. If it seems like poems are hiding something, it’s probably because &lt;em&gt;it’s hard to say what you feel&lt;/em&gt;—the stuff going on in our heads is not organized into language—and poets usually solve for that by talking about something else (most commonly with metaphor).&lt;/p&gt;
+
+&lt;p&gt;Another pedagogical issue for new readers is that teachers may fall back on the “rules” of poetry to fill out lesson plans. The prescriptive rules of poetry are not important; we don’t write in fixed meters or rhyme schemes anymore. Or when we do, it’s usually an exercise. In any case, a new reader doesn’t need to know anything about stress patterns, types of rhyme, or even rhetorical structures to appreciate a poem. There’s no reason for a teacher who’s introducing students to poetry to mention those things—let alone teach scansion. Why would any kid need to know that a sonnet is 14 lines of iambic pentameter (in English)? Unless you’re taking a class in &lt;strong&gt;writing&lt;/strong&gt; poetry, I don’t think you ever need to talk about that.&lt;/p&gt;
+
+&lt;p&gt;Given an introduction of cryptic language by dead white people and rote memorization, I can see why most kids never engage with the form after high school.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-problem-of-culture&quot;&gt;The problem of culture&lt;/h3&gt;
+&lt;p&gt;The idea that it’s difficult to “understand” poetry is a significant problem for poets. It’s not a critical problem—people still write poetry &amp;amp; study it &amp;amp; turn to it in times of need; and there are some truly mammoth poets writing right now, in English, living in America. But poets used to be on magazine covers; newspapers used to publish poetry daily or weekly. It was part of our cultural conversation. Now, you might hear some poetry at a wedding (usually Biblical stuff) or at the Presidential inauguration. I’m not sure what happened between then &amp;amp; now. It probably requires a qualitative study, but I suspect that it involves a few factors:&lt;/p&gt;
+&lt;ul class=&quot;fa-ul&quot;&gt;
+  &lt;li&gt;&lt;span class=&quot;fa-li&quot;&gt;&lt;em class=&quot;fas fa-spinner fa-pulse&quot;&gt;&lt;/em&gt;&lt;/span&gt;&lt;strong&gt;Poetry demands time &amp;amp; attention&lt;/strong&gt;&lt;br /&gt; You can't casually read a poem like you can watch a sitcom or read an article on Buzzfeed. There's rarely immediate gratification with a poem.&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;fa-li&quot;&gt;&lt;em class=&quot;fas fa-spinner fa-pulse&quot;&gt;&lt;/em&gt;&lt;/span&gt;&lt;strong&gt;Poetry deals with complex, difficult material, and often doesn't resolve in satisfying ways&lt;/strong&gt;&lt;br /&gt; Americans hate being uncomfortable and dealing with ambiguity. To be fair, that's probably true of most people. And often, poetry doesn't resolve in &lt;em&gt;any&lt;/em&gt; kind of way.&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;fa-li&quot;&gt;&lt;em class=&quot;fas fa-spinner fa-pulse&quot;&gt;&lt;/em&gt;&lt;/span&gt;&lt;strong&gt;There's no quantitative argument for poetry&lt;/strong&gt;&lt;br /&gt; Even young, liberal-minded Americans struggle with how productive they are or aren't. You don't earn anything objectively valuable on your investment in the time it takes to read or write a poem. And even if you did, vanishingly few people can be professional poets (without the support &amp;amp; extra work of Academia).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And now these problems kinda perpetuate themselves. One of my all-time favorite poems is Jack Gilbert’s &lt;cite class=&quot;poem&quot;&gt;The Forgotten Dialect of the Heart&lt;/cite&gt;; in it, these lines (underline emphasis mine):&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;We say &lt;span class=&quot;noStyle&quot;&gt;bread&lt;/span&gt; and it means according&lt;br /&gt;
+to which nation. French has no word for home,&lt;br /&gt;
+&lt;u&gt;and we have no word for strict pleasure.&lt;/u&gt; A people&lt;br /&gt;
+in Northern India is dying out because their ancient&lt;br /&gt;
+tongue has no words for endearment. […]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There’s &lt;a href=&quot;https://www.theatlantic.com/health/archive/2015/12/the-book-of-human-emotions-language-feelings/420978/&quot;&gt;evidence to suggest&lt;/a&gt; that if we don’t have a word for something, we don’t fully experience it. I think constantly about Gilbert’s line, and how Americans are really bad at relaxing because (yes, Puritanism, but also) we don’t have words to describe things we do (or don’t do) &lt;em&gt;only because they feel good&lt;/em&gt;. &lt;em&gt;Leisure&lt;/em&gt; &amp;amp; &lt;em&gt;recreation&lt;/em&gt; approach it, but even our hobbies &amp;amp; passions become commoditized, and we end up wrapping all of that in the language of the marketplace:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I’m &lt;em&gt;spending my time&lt;/em&gt; writing this weekend&lt;/li&gt;
+  &lt;li&gt;I didn’t have a very &lt;em&gt;productive&lt;/em&gt; writing session last night&lt;/li&gt;
+  &lt;li&gt;I should &lt;em&gt;invest some time&lt;/em&gt; in finding an open mic&lt;/li&gt;
+  &lt;li&gt;It’s hard to &lt;em&gt;produce good work&lt;/em&gt; during the pandemic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So we drink &amp;amp; shop instead. Not everything needs to be a hustle. Gardening might be the last refuge of American pure leisure.&lt;/p&gt;
+
+&lt;!-- image: Stop confusing relaxation with laziness --&gt;
+&lt;figure&gt;
+&lt;img class=&quot;docimage&quot; src=&quot;images/strictPleasure.png&quot; alt=&quot;A picture of one corner of the author's living room. On the right side, there's a white-framed poster with a solid black background and text in white capital letters that says 'STOP CONFUSING RELAXATION WITH LAZINESS'.&quot; style=&quot;max-width: 500px&quot; /&gt;   &lt;figcaption style=&quot;max-width: 500px&quot;&gt;
+A daily reminder in my living room
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;practical-matters&quot;&gt;Practical matters&lt;/h3&gt;
+&lt;p&gt;I think what most poets would tell you is the reader shouldn’t be worried about understanding the poem, because they only wrote the poem to help them understand something. So one good way to think about poetry is as a method of understanding—for the writer. But there’s no 100% poem, no poem that knows exactly what it’s talking about. Or, if there is, it’s probably a boring poem. (I’m &lt;a href=&quot;https://www.commonpodcast.com/home/2017/1/20/episode-18-terrance-hayes&quot;&gt;paraphrasing Terrance Hayes&lt;/a&gt; here.)&lt;/p&gt;
+
+&lt;p&gt;When you read, you’re bringing a whole lifetime of experiences to the poem; so in a way, the poem can’t be complete until you read &amp;amp; receive some kind of message. Even if what you thought wasn’t what the writer had in mind, most of them would say you aren’t wrong. Because they’re still not sure about it either!&lt;/p&gt;
+
+&lt;p&gt;However, there is a lot of esoteric poetry written by people who don’t really care if their poems make any kind of sense. And schools of poetry that I still can’t get my head around. The “Language Poets” are a good example of the latter. I have a master’s in the art, and still have no idea what they’re doing. Maybe it’s because, as a School of Poetics, they have an ethos, and I’m quick to reject the formalization of art.&lt;/p&gt;
+
+&lt;p&gt;But okay, here’s some practical advice about reading poems:&lt;/p&gt;
+&lt;div class=&quot;bs-callout bs-callout-danger&quot;&gt;
+&lt;em class=&quot;far fa-thumbs-up fa-1x&quot;&gt;&lt;/em&gt;   &lt;!--
+  PREFIX: for most icons, use &quot;fas&quot;; for transluscent, use &quot;far&quot;; for brands, use &quot;fab&quot;
+  NAME: the icon's name from the library: https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free
+  SIZE: https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons
+    1x = normal size
+    lg = large
+    2x
+    3x
+    4x
+    5x
+
+  Rotating: https://fontawesome.com/how-to-use/on-the-web/styling/rotating-icons
+  List bullets: https://fontawesome.com/how-to-use/on-the-web/styling/icons-in-a-list
+
+  NOTE: add class of &quot;fa-fw&quot; for fixed-width icons
+--&gt;
+ &lt;strong&gt;Read with your heart first&lt;/strong&gt;&lt;br /&gt; Don't try to make sense of every word or line as you're reading it. Just read and see how it hits you. If you have any kind of reaction, there's something there to dig in to. &lt;br /&gt;&lt;br /&gt; &lt;em class=&quot;far fa-thumbs-up fa-1x&quot;&gt;&lt;/em&gt;   &lt;!--
+  PREFIX: for most icons, use &quot;fas&quot;; for transluscent, use &quot;far&quot;; for brands, use &quot;fab&quot;
+  NAME: the icon's name from the library: https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free
+  SIZE: https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons
+    1x = normal size
+    lg = large
+    2x
+    3x
+    4x
+    5x
+
+  Rotating: https://fontawesome.com/how-to-use/on-the-web/styling/rotating-icons
+  List bullets: https://fontawesome.com/how-to-use/on-the-web/styling/icons-in-a-list
+
+  NOTE: add class of &quot;fa-fw&quot; for fixed-width icons
+--&gt;
+ &lt;strong&gt;Read every poem out loud&lt;/strong&gt;&lt;br /&gt; Or listen to the audio if available. Poetry's an oral art, meant to be heard, and there's a lot to receive in the cadence &amp;amp; stresses of a poem. There's also something visceral about the poem in your mouth. I know that sounds silly. Nevertheless.
+&lt;/div&gt;
+
+&lt;p&gt;It must be said: there are a lot of poets with some unfortunate reading habits: they chant or sound bored or don’t let their poems breathe. Poet Voice. You probably know it when you hear it. Mostly though, the poet is the best reader of their own work. Like hearing a songwriter perform the song they wrote vs. the artist who cut it. There’s some kinda of magic there.&lt;/p&gt;
+
+&lt;h3 id=&quot;recommendations&quot;&gt;Recommendations&lt;/h3&gt;
+&lt;p&gt;To grease the wheel a bit, here are some poems I think are easy to appreciate. Poems that swing for the heart, so to speak:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Matthew Dickman, &lt;a href=&quot;https://www.poemhunter.com/best-poems/matthew-dickman/slow-dance-7/#content&quot;&gt;“Slow Dance”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Ross Gay, &lt;a href=&quot;https://www.poetryfoundation.org/poems/58762/catalog-of-unabashed-gratitude&quot;&gt;“Catalog of Unabashed Gratitude”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Terrance Hayes, &lt;a href=&quot;https://poets.org/poem/lightheads-guide-galaxy&quot;&gt;“Lighthead’s Guide to the Galaxy”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Marie Howe, &lt;a href=&quot;https://poets.org/poem/what-living-do&quot;&gt;“What the Living Do”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Marilyn Kallet, &lt;a href=&quot;https://www.poetryfoundation.org/poems/53787/fireflies-56d2336aa3b85&quot;&gt;“Fireflies”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Philip Levine, &lt;a href=&quot;https://www.poetryfoundation.org/poems/52173/what-work-is&quot;&gt;“What Work Is”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Anis Mojgani, &lt;a href=&quot;https://www.youtube.com/watch?v=ON_uDQmGyDk&quot;&gt;“Today’s Love”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Naomi Shihab Nye, &lt;a href=&quot;https://poets.org/poem/two-countries&quot;&gt;“Two Countries”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Mary Oliver, &lt;a href=&quot;https://www.vanderbilt.edu/olli/class-materials/2017Summer.MindfulnessWk1.pdf&quot;&gt;“Wild Geese”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Patrick Rosal, &lt;a href=&quot;https://poets.org/poem/brokeheart-just&quot;&gt;“Brokeheart: Just like that”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Danez Smith, &lt;a href=&quot;https://www.youtube.com/watch?v=XX7FWtFKqfg&quot;&gt;“dogs!”&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There’s also &lt;a href=&quot;https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/&quot;&gt;Poetry 180&lt;/a&gt;—a list of poems curated by former Poet Laureate, Billy Collins, for the purpose of teaching high school students one per day throughout an academic year.&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><summary type="html">I’m adapting the bulk of this post from an email I recently sent to my friend Ryan. He’s been following this website, and reading the poems I point to from the Links page. Ryan recently “confessed” (his word) that, although he has a degree in English/Creative Writing, and has written &amp;amp; even taught some poetry, he doesn’t really understand it.</summary></entry><entry><title type="html">Melissa</title><link href="https://www.andrewdillonpoetry.com/melissa" rel="alternate" type="text/html" title="Melissa" /><published>2021-04-06T00:00:00-05:00</published><updated>2021-04-06T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/melissa</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/melissa">&lt;p&gt;I had been working on a few other posts, unsure which order to push them to the site, when I received some terrible news, and lost interest in the blog for a bit. I wrote what you see below, and have been sitting on it for a month, thinking I’d come to some moment of clarity or at least understanding. I did not.&lt;!-- here --&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;melissa-rosella-marion&quot;&gt;Melissa Rosella Marion&lt;/h2&gt;
 &lt;p&gt;I met Melissa in middle school. I think we first connected over being northerners in Nashville (she being from Perth, Ontario, and me being from Buffalo). We graduated in the same high school class, ended up at different colleges in Tennessee, but stayed in loose touch through social media.&lt;/p&gt;
