@@ -4,6 +4,80 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul { margin: 0
 /** Basic styling */
 body { font: 400 16px/1.5 "Kohinoor Bangla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
 
+/* Callout & Alert styles */
+.bs-callout { padding: 20px; margin: 20px 0; border: 1px solid #eee; border-left-width: 5px; border-radius: 3px; }
+
+.bs-callout h4 { margin-top: 0; margin-bottom: 5px; }
+
+.bs-callout p:last-child { margin-bottom: 0; }
+
+.bs-callout code { border-radius: 3px; }
+
+.bs-callout + .bs-callout { margin-top: -5px; }
+
+.bs-callout-default { border-left-color: #777; }
+
+.bs-callout-default h4 { color: #777; }
+
+.bs-callout-primary { border-left-color: #428bca; }
+
+.bs-callout-primary h4 { color: #428bca; }
+
+.bs-callout-success { border-left-color: #5cb85c; }
+
+.bs-callout-success h4 { color: #5cb85c; }
+
+.bs-callout-danger { border-left-color: #d9534f; }
+
+.bs-callout-danger h4 { color: #d9534f; }
+
+.bs-callout-warning { border-left-color: #f0ad4e; }
+
+.bs-callout-warning h4 { color: #f0ad4e; }
+
+.bs-callout-info { border-left-color: #5bc0de; }
+
+.bs-callout-info h4 { color: #5bc0de; }
+
+.alert { padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px; }
+
+.alert h4 { margin-top: 0; color: inherit; }
+
+.alert .alert-link { font-weight: 700; }
+
+.alert > p, .alert > ul { margin-bottom: 0; }
+
+.alert > p + p { margin-top: 5px; }
+
+.alert-dismissable, .alert-dismissible { padding-right: 35px; }
+
+.alert-dismissable .close, .alert-dismissible .close { position: relative; top: -2px; right: -21px; color: inherit; }
+
+.alert-success { color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6; }
+
+.alert-success hr { border-top-color: #c9e2b3; }
+
+.alert-success .alert-link { color: #2b542c; }
+
+.alert-info { color: #31708f; background-color: #d9edf7; border-color: #bce8f1; }
+
+.alert-info hr { border-top-color: #a6e1ec; }
+
+.alert-info .alert-link { color: #245269; }
+
+.alert-warning { color: #8a6d3b; background-color: #fcf8e3; border-color: #faebcc; }
+
+.alert-warning hr { border-top-color: #f7e1b5; }
+
+.alert-warning .alert-link { color: #66512c; }
+
+.alert-danger { color: #a94442; background-color: #f2dede; border-color: #ebccd1; }
+
+.alert-danger hr { border-top-color: #e4b9c0; }
+
+.alert-danger .alert-link { color: #843534; }
+
+/* End Callout & Alert styles*/
 dl { display: flex; flex-flow: row wrap; border: hidden; }
 
 dt { flex-basis: 40%; padding: 2px 4px; text-align: left; }
@@ -110,13 +184,15 @@ table td { border: 0px; }
 
 .PageNavigation .next { text-align: right; float: right; }
 
-cite.album, cite.book, cite.magazine, cite.movie, cite.tv, cite.vgame { font-style: italic; quotes: none; }
+cite.album, cite.book, cite.journal cite.magazine, cite.movie, cite.tv, cite.vgame { font-style: italic; quotes: none; }
 
-cite.poem, cite.song { font-style: normal; quotes: auto; }
+cite.article, cite.poem, cite.song { font-style: normal; quotes: auto; }
 
-cite.poem::before, cite.song::before { content: open-quote; }
+cite.article::before, cite.poem::before, cite.song::before { content: open-quote; }
 
-cite.poem:after, cite.song:after { content: close-quote; }
+cite.article::after, cite.poem::after, cite.song::after { content: close-quote; }
+
+.noStyle { font-style: normal; }
 
 #title { text-transform: capitalize; }
 
