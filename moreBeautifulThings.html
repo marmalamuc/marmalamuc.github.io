@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="There Are More Beautiful Things Than [My] Blog" />
 <script type="application/ld+json">
-{"description":"Living in America is fun because when armed domestic terrorists that include off-duty police officers from around the country openly plan for weeks an insurrection on the Capitol and then execute that plan with a terrifying level of success aided by inside LEOs, that’s no different than a normal Wednesday to the business class.","headline":"There Are More Beautiful Things Than [My] Blog","dateModified":"2021-01-15T00:00:00-06:00","datePublished":"2021-01-15T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.andrewdillonpoetry.com/moreBeautifulThings"},"url":"https://www.andrewdillonpoetry.com/moreBeautifulThings","author":{"@type":"Person","name":"Andrew P. Dillon"},"@context":"https://schema.org"}</script>
+{"description":"Living in America is fun because when armed domestic terrorists that include off-duty police officers from around the country openly plan for weeks an insurrection on the Capitol and then execute that plan with a terrifying level of success aided by inside LEOs, that’s no different than a normal Wednesday to the business class.","@type":"BlogPosting","headline":"There Are More Beautiful Things Than [My] Blog","url":"https://www.andrewdillonpoetry.com/moreBeautifulThings","dateModified":"2021-01-15T00:00:00-06:00","datePublished":"2021-01-15T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.andrewdillonpoetry.com/moreBeautifulThings"},"author":{"@type":"Person","name":"Andrew P. Dillon"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <script src="https://kit.fontawesome.com/39ea5f5b99.js" crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="https://www.andrewdillonpoetry.com/feed.xml" title="Andrew P. Dillon" /><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" /><!-- Global site tag (gtag.js) - Google Analytics -->
@@ -126,29 +126,28 @@ Conservatives have killed satire
 
 <p>I found an open-source project on GitHub called <a href="https://github.com/osano/cookieconsent">Osano</a> that I’ll probably implement.</p>
 
-<h2 id="the-book">The book</h2>
-<p>With this site fully operational, I started getting back to work on the manuscript. One element of the book is family recipes that really don’t exist outside of the heads of my mom &amp; my aunts. For the recipes I know, it’s just rote data entry into HTML. Same for a collection of workouts. I’m using the built-in <strong>Collections</strong> functionality to group each of them on a single page, but each individual recipe &amp; workout will appear as an interlude in the primary TOC. I still have some work to do figuring out how to integrate them.</p>
-
-<h3 id="gallery">Gallery</h3>
-<p>I’m also planning a picture gallery similar to the above Collections, with individual images accompanying some poems &amp; interludes, but I’m not sure how I’ll handle storage. I could just include all the pics in the <code class="highlighter-rouge">images</code> directory, but that will increase the build &amp; load times. I could host on a public Google Photos album or similar image hosting platform, but I need to look into security.</p>
-
-<p>A related issue is the recent news that Google Photos storage will count toward your total Google account storage starting in June 2021. I don’t take many pictures or videos, and don’t have a ton of media stored (relatively speaking), but will probably back up everything onto an external drive.</p>
-
-<h3 id="audio">Audio</h3>
-<p>I have a similar issue to think through regarding recordings of me reading my poems. My dad is going to record me reading each in his studio, so the sound quality will be professional. Again though, 50–60 audio files at 45–120 seconds each will really balloon the size of the project. I’ve thought about SoundCloud, where a free account can host ~3 hours of audio. But I’m limited to certain file formats, which may make professional recordings pointless.</p>
-
-<p>The plan is for each poem to have an accompanying audio file. I’m using the HTML <code class="highlighter-rouge">&lt;audio&gt;</code> tag, which will use your browser’s default media player.</p>
-
-<p>Right now, I have some scratch recordings in an <code class="highlighter-rouge">audio</code> directory; I created a <code class="highlighter-rouge">poem</code> layout, which has an include for <code class="highlighter-rouge">audio.html</code>—a nifty piece of code I wrote to pull the correct audio file into the page with the poem:</p>
-
-<figure class="highlight">
-  <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;audio</span> <span class="na">display=</span><span class="s">"block"</span> <span class="na">controls</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;source</span> <span class="na">src=</span><span class="s">"audio/{{ page.permalink | replace: 'html', 'm4a' }}"</span><span class="nt">&gt;</span>
-  Your browser doesn't support HTML5 audio. <span class="c">&lt;!-- fallback text for old browsers --&gt;</span>
-<span class="nt">&lt;/audio&gt;</span></code></pre></div>  </div>
-</figure>
-
-<p>It works because the poem &amp; audio files use identical filenames. It’s not very complicated, but it’s probably one of the more creative pieces of code I had to figure out.</p>
+<div id="thebook">
+  <h2 id="the-book">The book</h2>
+  <p>With this site fully operational, I started getting back to work on the manuscript. One element of the book is family recipes that really don’t exist outside of the heads of my mom &amp; my aunts. For the recipes I know, it’s just rote data entry into HTML. Same for a collection of workouts. I’m using the built-in <strong>Collections</strong> functionality to group each of them on a single page, but each individual recipe &amp; workout will appear as an interlude in the primary TOC. I still have some work to do figuring out how to integrate them.</p>
+  <h3 id="gallery">Gallery</h3>
+  <p>I’m also planning a picture gallery similar to the above Collections, with individual images accompanying some poems &amp; interludes, but I’m not sure how I’ll handle storage. I could just include all the pics in the <code class="highlighter-rouge">images</code> directory, but that will increase the build &amp; load times. I could host on a public Google Photos album or similar image hosting platform, but I need to look into security.</p>
+  <p>A related issue is the recent news that Google Photos storage will count toward your total Google account storage starting in June 2021. I don’t take many pictures or videos, and don’t have a ton of media stored (relatively speaking), but will probably back up everything onto an external drive.</p>
+  <h3 id="audio">Audio</h3>
+  <p>I have a similar issue to think through regarding recordings of me reading my poems. My dad is going to record me reading each in his studio, so the sound quality will be professional. Again though, 50–60 audio files at 45–120 seconds each will really balloon the size of the project. I’ve thought about SoundCloud, where a free account can host ~3 hours of audio. But I’m limited to certain file formats, which may make professional recordings pointless.</p>
+  <p>The plan is for each poem to have an accompanying audio file. I’m using the HTML <code class="highlighter-rouge">&lt;audio&gt;</code> tag, which will use your browser’s default media player.</p>
+  <p>Right now, I have some scratch recordings in an <code class="highlighter-rouge">audio</code> directory; I created a <code class="highlighter-rouge">poem</code> layout, which has an include for <code class="highlighter-rouge">audio.html</code>—a nifty piece of code I wrote to pull the correct audio file into the page with the poem:</p>
+  <figure class="highlight">
+    <div class="language-html highlighter-rouge">
+      <div class="highlight">
+        <div class="highlight highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;audio display="block" controls&gt;
+  &lt;source src="audio/{{ page.permalink | replace: 'html', 'm4a' }}"&gt;
+  Your browser doesn't support HTML5 audio. &lt;!-- fallback text for old browsers --&gt;
+&lt;/audio&gt;</code></pre></div>        </div>
+      </div>
+    </div>
+  </figure>
+  <p>It works because the poem &amp; audio files use identical filenames. It’s not very complicated, but it’s probably one of the more creative pieces of code I had to figure out.</p>
+</div>
 
 <h2 id="sports">Sports!</h2>
 <p>The Bills play the Ravens this Saturday in the Divisional round of the playoffs. I really cannot handle the stress of a high-stakes game anymore (I haven’t had any practice in many years), so I probably won’t watch much or any of it. If they make the AFC Championship or Super Bowl, I will watch those games. In fact, I’ve already talked to my brother, and if the Bills are in SBLV on February 7, I’ll drive out to visit him so we can watch together in isolation. We’ll be isolated—not because of the pandemic or because we don’t <em>want</em> to watch with friends, but—because no one will want to be in the room with us. It would be awful to vicariously experience our anxiety for 4 hours.</p>
