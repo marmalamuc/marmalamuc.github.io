@@ -169,7 +169,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .social-media-list li + li { padding-top: 5px; }
 
 /** Tables */
-table { margin-bottom: 30px; width: 100%; text-align: left; color: #3f3f3f; border-collapse: collapse; border: 0px; /*tr { &:nth-child(even) { background-color: lighten($grey-color-light, 6%); } }*/ }
+table { margin-bottom: 30px; width: 100%; text-align: left; color: #3f3f3f; border-collapse: separate; border: 0px; /*tr { &:nth-child(even) { background-color: lighten($grey-color-light, 6%); } }*/ }
 
 table th, table td { padding: 10px 15px; }
 

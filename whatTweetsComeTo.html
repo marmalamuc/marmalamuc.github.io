@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>What Tweets Come To | Andrew P. Dillon</title>
+<meta name="generator" content="Jekyll v4.0.1" />
+<meta property="og:title" content="What Tweets Come To" />
+<meta name="author" content="Andrew P. Dillon" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Poetry Twitter blew up this month, and I’ve got cold takes." />
+<meta property="og:description" content="Poetry Twitter blew up this month, and I’ve got cold takes." />
+<link rel="canonical" href="https://www.andrewdillonpoetry.com/whatTweetsComeTo" />
+<meta property="og:url" content="https://www.andrewdillonpoetry.com/whatTweetsComeTo" />
+<meta property="og:site_name" content="Andrew P. Dillon" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-16T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="What Tweets Come To" />
+<script type="application/ld+json">
+{"description":"Poetry Twitter blew up this month, and I’ve got cold takes.","@type":"BlogPosting","url":"https://www.andrewdillonpoetry.com/whatTweetsComeTo","headline":"What Tweets Come To","dateModified":"2021-09-16T00:00:00-05:00","datePublished":"2021-09-16T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.andrewdillonpoetry.com/whatTweetsComeTo"},"author":{"@type":"Person","name":"Andrew P. Dillon"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css">
+  <script src="https://kit.fontawesome.com/39ea5f5b99.js" crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="https://www.andrewdillonpoetry.com/feed.xml" title="Andrew P. Dillon" /><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Andrew P. Dillon</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/blog">Blog</a><a class="page-link" href="/greatPermission">The Great Permission</a><a class="page-link" href="/links">Links</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">What Tweets Come To</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2021-09-16T00:00:00-05:00" itemprop="datePublished">16 Sep 2021
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Andrew P. Dillon</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Poetry Twitter blew up this month, and I’ve got cold takes. <!-- here -->But first, some updates.</p>
+
+<!--
+
+{{site.data.alerts.callout_default}}
+  {% include toc.html %}
+{{site.data.alerts.end}}
+
+-->
+
+<h2 id="the-book">The book</h2>
+<p>I finally made a bit of progress on the book (website? webbook? booksite?). After lamenting my lack of motivation in <a href="/updatesLatePatriarchy">the previous post</a>, I forced myself to open Atom and boldly continue to fail to understand a watered down scripting language.</p>
+
+<h3 id="nested-iteration">Nested iteration</h3>
+<p>On my “Acknowledgements” page, I wanted to call out previously published poems &amp; the journals they appeared in. The frontmatter of each individual poem includes the following variables (among many others):</p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Apologia</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">God</span><span class="nv"> </span><span class="s">Who</span><span class="nv"> </span><span class="s">Abandoned</span><span class="nv"> </span><span class="s">Its</span><span class="nv"> </span><span class="s">Creation"</span>
+  <span class="na">publishedFlag</span><span class="pi">:</span> <span class="s2">"</span><span class="s">true"</span>
+  <span class="na">journal</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Stirring"</span>
+</code></pre></div></div>
+
+<p>But even though I basically have a bachelor’s &amp; a master’s in abstraction, I guess I don’t grasp the kind of abstraction that programmers need, because it took me an embarrassing amount of time to figure out how to dynamically generate a list of published poems per journal.</p>
+
+<p>Here’s the code that worked:</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">pub</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">poems</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">where</span><span class="p">:</span><span class="w"> </span><span class="s2">"publishedFlag"</span><span class="p">,</span><span class="w"> </span><span class="s2">"true"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">sort</span><span class="p">:</span><span class="w"> </span><span class="s2">"journal"</span><span class="w"> </span><span class="p">%}</span>
+<span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">pubList</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">pub</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">map</span><span class="p">:</span><span class="w"> </span><span class="s2">"journal"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">uniq</span><span class="w"> </span><span class="p">%}</span>
+<span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">sortedPoems</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">poems</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">where</span><span class="p">:</span><span class="w"> </span><span class="s2">"publishedFlag"</span><span class="p">,</span><span class="w"> </span><span class="s2">"true"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">sort</span><span class="p">:</span><span class="w"> </span><span class="s2">"title"</span><span class="w"> </span><span class="p">%}</span>
+
+&lt;table&gt;
+  <span class="p">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">item</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">pubList</span><span class="w"> </span><span class="p">%}</span>
+    &lt;tr&gt;
+      &lt;th&gt;<span class="p">{{</span><span class="nv">item</span><span class="p">}}</span>&lt;/th&gt;
+      &lt;td&gt;&lt;ul&gt;<span class="p">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">p</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">sortedPoems</span><span class="w"> </span><span class="p">%}</span>
+        <span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">p</span><span class="p">.</span><span class="nv">journal</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nv">item</span><span class="w"> </span><span class="p">%}</span>
+        &lt;li&gt;&lt;a href="<span class="p">{{</span><span class="nv">p</span><span class="p">.</span><span class="nv">url</span><span class="p">}}</span>"&gt;<span class="p">{{</span><span class="nv">p</span><span class="p">.</span><span class="nv">title</span><span class="p">}}</span>&lt;/a&gt;&lt;/li&gt;
+        <span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
+      <span class="p">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="p">%}</span>
+      &lt;/ul&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  <span class="p">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="p">%}</span>
+&lt;/table&gt;
+</code></pre></div></div>
+
+<p>I can’t generate the output here because it’s in a different repository (I haven’t attempted to understand <a href="https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/version-control/git/submodules.html">Git submodules</a> yet), but here’s a screenshot:
+<!-- Acknowledgements/previously published screenshot --></p>
+<figure>
+<img class="docimage" src="images/tgp_pubs.png" alt="A partial list of journals &amp; the poems they published that will appear in the author's manuscript" style="max-width: 500px" />   <figcaption style="max-width: 500px">
+Definitely feel like a genius for coding some nested iterations.<br />This took me <em>days</em>
+  </figcaption>
+</figure>
+
+<p>Here’s what’s going on:</p>
+<table>
+  <colgroup>
+    <col width="20%" />
+    <col width="80%" />
+  </colgroup>
+  <tr>
+    <th><code>assign</code></th>
+    <td>Creates a new variable, and allows you to filter &amp; sort results, which other tags (like <code>for</code> &amp; <code>if</code>) don't allow.</td>
+  </tr>
+  <tr>
+    <th><code>site.poems</code></th>
+    <td>"Poems" is the name of a <a href="https://jekyllrb.com/docs/collections/"><i>Collection</i></a> I created. Jekyll allows you to access any collection with that <code>site.[collection]</code> notation.</td>
+  </tr>
+  <tr>
+    <th><code>map</code></th>
+    <td>Takes the attribute you specify ("journal", a frontmatter variable) and creates an array. I don't know a precise definition for "array", but I think of them as lists that programming languages can read.<br /><br />
+    <code>uniq</code> is an array filter, so I had to create an array before I could use it to eliminate duplicates (because some journals took more than one poem).</td>
+  </tr>
+  <tr>
+    <th><code>for</code> loop</th>
+    <td>Repeatedly executes whatever is between <code>{% for %}</code> &amp; <code>{% endfor %}</code>. The string immediately after "for" is a variable you create to access a directory, file, or another variable (in this case, the variables "pubList" &amp; "sortedPoems" I specified above).<br /><br />
+    There are two <code>for</code> loops: the first one creates a table row for each journal and a <code>ul</code> to contain the poem titles; the second is within the <code>ul</code> and creates (with the <code>{% if %}</code> statement) a list item for each poem published in that journal.</td>
+  </tr>
+  <tr>
+    <th><code>if</code> statement</th>
+    <td>Executes whatever is between <code>{% if %}</code> &amp; <code>{% endif %}</code> when the specified condition is <code>true</code>.<br /><br />
+    In this case, I'm using the <code>if</code> statement to ensure the only poems that get output are those whose <code>journal</code> frontmatter variable matches the array item from "pubList". If I removed the <code>if</code> statement, I'd get a list of <b>every</b> poem for which <code>publishedFlag: true</code> in <b>every</b> table row.</td>
+  </tr>
+</table>
+
+<p>I’m not sure I like the alternating highlighted table rows, though. I’ll have to dig into the CSS files to figure out what’s creating that so I can turn it off.</p>
+
+<h3 id="previousnext-buttons">Previous/Next buttons</h3>
+<p>I’ve figured out what my problem is, but I’m no closer to solving it. As I’ve mentioned before, I want each page to have buttons that point to the previous page &amp; the next page so readers don’t have to use the sidebar navigation to get to every page. (I may also try to add Javascript keyboard shortcuts to allow navigation with the <em class="fa fa-arrow-left fa-1x"></em> &amp; <em class="fa fa-arrow-right fa-1x"></em> keys.) Without the styles in my book, they look something like this:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><em class="fa fa-arrow-left fa-lg"></em> <a href=""><span class="label label-primary">Previous</span></a></td>
+      <td><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-via="DillonAndrewP" data-show-count="true">Tweet</a>        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</td>
+      <td><a href=""><span class="label label-primary">Next</span></a> <em class="fa fa-arrow-right fa-lg"></em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>But I can’t figure out how to generate the buttons with the correct URLs. The URLs that get output are always the URL of the current page. I expected this logic (not to mention dozens of variations of it) to work:</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">item</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">site.data.sidebars.mydoc_sidebar.entries</span><span class="w"> </span><span class="p">%}</span>
+  <span class="p">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">folder</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">item.folders</span><span class="w"> </span><span class="p">%}</span>
+    <span class="p">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">folderitem</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">folder.folderitems</span><span class="w"> </span><span class="p">%}</span>
+      <span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">folderitem</span><span class="p">.</span><span class="nv">url</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">url</span><span class="w"> </span><span class="p">%}</span>
+        <span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">folderitem</span><span class="p">.</span><span class="nv">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">thisPage</span><span class="w"> </span><span class="p">%}</span>
+        <span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">thisPage</span><span class="p">[</span><span class="nb">forloop.index</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"0"</span><span class="w"> </span><span class="p">%}</span>
+        <span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">prevPage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">thisPage</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">minus</span><span class="p">:</span><span class="w"> </span><span class="s2">"1"</span><span class="w"> </span><span class="p">%}</span>
+        <span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">nextPage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">thisPage</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">plus</span><span class="p">:</span><span class="w"> </span><span class="s2">"1"</span><span class="w"> </span><span class="p">%}</span>
+        &lt;strong&gt;This page index: <span class="p">{{</span><span class="w"> </span><span class="nb">forloop.index</span><span class="w"> </span><span class="p">}}</span>, <span class="p">{{</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">url</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">remove</span><span class="p">:</span><span class="w"> </span><span class="s2">"/"</span><span class="w"> </span><span class="p">}}</span>&lt;/strong&gt;
+        &lt;br&gt;
+        &lt;strong&gt;Prev page index: <span class="p">{{</span><span class="w"> </span><span class="nv">prevPage</span><span class="w"> </span><span class="p">}}</span>, <span class="p">{{</span><span class="w"> </span><span class="nv">prevPage</span><span class="p">.</span><span class="nv">title</span><span class="w"> </span><span class="p">}}</span>, <span class="p">{{</span><span class="w"> </span><span class="nv">prevPage</span><span class="p">.</span><span class="nv">url</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">relative_url</span><span class="w"> </span><span class="p">}}</span>&lt;/strong&gt;
+        &lt;br&gt;
+        &lt;strong&gt;Next page index: <span class="p">{{</span><span class="w"> </span><span class="nv">nextPage</span><span class="w"> </span><span class="p">}}</span>, <span class="p">{{</span><span class="w"> </span><span class="nv">nextPage</span><span class="p">.</span><span class="nv">title</span><span class="w"> </span><span class="p">}}</span>, <span class="p">{{</span><span class="w"> </span><span class="nv">nextPage</span><span class="p">.</span><span class="nv">url</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">relative_url</span><span class="w"> </span><span class="p">}}</span>&lt;/strong&gt;
+        <span class="p">{%</span><span class="w"> </span><span class="nt">break</span><span class="w"> </span><span class="p">%}</span>
+      <span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
+    <span class="p">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="p">%}</span>
+  <span class="p">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="p">%}</span>
+<span class="p">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="p">%}</span>
+
+&lt;div class="container"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-sm-4"&gt;
+      &lt;i class="fa fa-arrow-left fa-lg"&gt;&lt;/i&gt;&amp;nbsp;&lt;a href="<span class="p">{{</span><span class="w"> </span><span class="nv">prevPage</span><span class="p">.</span><span class="nv">url</span><span class="w"> </span><span class="p">}}</span>"&gt;&lt;span class="label label-primary"&gt;Previous&lt;/span&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-sm-4"&gt;
+      &lt;a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-via="DillonAndrewP" data-show-count="true"&gt;Tweet&lt;/a&gt;&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-sm-4"&gt;
+      &lt;a href="<span class="p">{{</span><span class="w"> </span><span class="nv">nextPage</span><span class="p">.</span><span class="nv">url</span><span class="w"> </span><span class="p">}}</span>"&gt;&lt;span class="label label-primary"&gt;Next&lt;/span&gt;&lt;/a&gt;&amp;nbsp;&lt;i class="fa fa-arrow-right fa-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<p>The <code class="highlighter-rouge">&lt;strong&gt;</code> tags contain some logic I found to help identify my problem; here’s some example output:</p>
+<blockquote>
+  <p>This page index: 6, viscosity.html<br />
+Prev page index: -1, ,<br />
+Next page index: 1, ,</p>
+</blockquote>
+
+<p>The blanks after “-1” &amp; “1” <em>should</em> be a title &amp; URL. Meaning my logic isn’t even accessing the YAML mapping in <code class="highlighter-rouge">mydoc_sidebar</code>.</p>
+
+<p>So. If you happen to know a solution, reply to <a href="https://talk.jekyllrb.com/t/how-can-i-create-previous-next-buttons-from-yaml-table-of-contents/6423">the issue I opened on Jekyll Talk</a>.</p>
+
+<h3 id="going-forward">Going forward</h3>
+<p>I don’t want to let some of these non-critical issues to keep me from releasing the book. The site builds, and you can navigate using the sidebar. I’m gonna try to update the site after the 1.0 release to add new features like:</p>
+<ul>
+  <li>previous/next buttons</li>
+  <li>dark theme</li>
+  <li>a prettier picture gallery</li>
+  <li>professionally recorded audio for each poem (my dad has a studio!)</li>
+</ul>
+
+<p>Since I’m almost certainly self-publishing, I need a plan for how to promote the book. How will I make people aware that my book exists? Targeted ads? Contact friends, editors, &amp; important people in my literary spaces? Book launch event(s)? I have no idea right now. This is probably the biggest gap I face by not pursuing more traditional first book publication.</p>
+
+<p>Finally, I need an editor! I have a few people in mind who I think would be excellent critical eyes for the poems &amp; the collection as a whole. When I have some kind of marketing plan in place, I’ll reach out to see if I can afford to hire them.</p>
+
+<h2 id="world-on-fire">World on fire</h2>
+<p>The tweet that divided us:</p>
+<blockquote class="twitter-tweet">
+  <p lang="en" dir="ltr">I wish poets understood that the general population has no interest in what we do, so when we speak we are speaking only to each other. The delusion that poetry is something powerful is a straight line to all kinds of toxic positivities that are really just us lying to ourselves.</p>
+— Danielle Rose (@danirosepoet) <a href="https://twitter.com/danirosepoet/status/1433816027947839494?ref_src=twsrc%5Etfw">September 3, 2021</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>If you read the replies, there are a handful of thoughtful people engaging sincerely. But mostly I saw frustrated poets leaving incredulous replies about how much poetry has affected their lives &amp; the lives of people they know. In other words, they willfully misread her tweet.</p>
+
+<h3 id="see-for-yourself">See for yourself</h3>
+<p>The general population absolutely has no interest in poetry, and you can demonstrate that for yourself with a micro qualitative study. If you’re a poet, ask your non-poet friends to name a single living poet who isn’t you. (If you’re one of my friends reading this, name a living poet who isn’t me.)</p>
+
+<p>After they all say “Amanda Gorman”, ask if they could have named one on January 19.</p>
+
+<p>I don’t mean to diminish Gorman’s moment or her impact—occasional poems are so hard, and she nailed it, and connected emotionally &amp; intellectually with a ton of people—but as I mentioned <a href="/howOurStudentsLearned">in a recent post</a>, Presidential inaugurations &amp; weddings are two of the only places non-poets <em>might</em> encounter poetry organically (versus the inescapability of, say, a new Taylor Swift single).</p>
+
+<p>How many non-poets do you know who search out poetry, who read it more often than when a poem/poet goes viral? Amanda Gorman was incidental for most people; few to zero people tuned in to see her. I—a reasonably active participant in literary spaces—didn’t even know Biden was going to have a poet.</p>
+
+<h3 id="unidentified-mystery-man">“Unidentified mystery man”</h3>
+<p>In June 2021, Page Six (a New York Post holding) published <a href="https://pagesix.com/2021/06/15/padma-lakshmi-kisses-mystery-man-after-adam-dell-split/" rel="nofollow">this article</a> about Padma Lakshmi on a date with an “unidentified mystery man”.</p>
+
+<p>Reader, that man was Terrance Hayes. Here’s a partial list of Hayes’s accomplishments:</p>
+<ul>
+  <li>Guggenheim fellow</li>
+  <li>MacArthur fellow</li>
+  <li>National Book Award winner (<em>Lighthead</em>)</li>
+  <li><em>New York Times</em> poetry editor (2017–2018)</li>
+</ul>
+
+<p>Also he’s tall, extremely handsome, &amp; an engaging reader at his events. In other words, he’s one of the most talented, accomplished, visible, &amp; marketable poets to ever live.</p>
+
+<!-- Terrance Hayes screenshot -->
+<figure>
+<img class="docimage" src="images/terrance-hayes.png" alt="Poet &amp; handsome guy, Terrance Hayes" style="max-width: 400px" />   <figcaption style="max-width: 400px">
+Some guy the <em>Top Chef</em> host kissed
+  </figcaption>
+</figure>
+
+<p>To be fair, other publications picked up the story and performed the basic journalistic work of discovering the name of the only other person in the story. But it speaks volumes about poetry’s role in America that one of the most decorated poets was a non-entity to this pop culture pub.</p>
+
+<h3 id="dont-read-the-comments">Don’t read the comments</h3>
+<p>One thing I noticed about the fallout was how much some poets need to believe that poetry is this force in the world. I love poetry. It means more to me than I can articulate. And I think it’s uniquely suited to approach &amp; comment on certain things in certain ways; as Edward Hirsch says, poetry is really hard, but there must be something vital about it, some reason we keep doing it—some reason every culture ever has had poetry.</p>
+
+<p>But that doesn’t mean most (or even many) people care about poetry. It doesn’t mean poetry is capable of saving the world from anything. I think this is the “toxic positivity” Rose was referring to. So many people jumped into the comments to say something like “I’ve taught poetry to my students for 20 years and seen it effect hundreds of powerful reactions”. That’s truly wonderful. Not a response to what she tweeted, but wonderful that you’ve made that impact. How many of the students who had those powerful experiences do you honestly believe read another poem after your class?</p>
+
+<p>If you’re a poet who’s still on the fence, ask yourself this—how many of your non-poet friends have:</p>
+<ul>
+  <li>attended any of your readings?</li>
+  <li>bought any your books?</li>
+  <li>asked to read one of your poems?</li>
+  <li>ever asked you how your writing is going?</li>
+</ul>
+
+<p>If non-poets cared about poetry, surely the ones who love poets would, at the very least, occasionally ask about their practice—this practice they love that’s a fundamental part of their lives and, I’m supposed to believe, a universal balm.</p>
+
+<p>Poetry may have saved your life (like in some ways it did mine), but I don’t need to believe this art has a mythical power for it to be a force in my life. I’m grateful for the personal, private ways poetry has devastated me and then put me back together. That I occasionally share those experiences with a small community of other writers, or even more rarely the world at large, deepens my love for poetry, but is not essential.</p>
+
+  </div>
+
+  <hr>
+  
+    
+    <div markdown="span" class="bs-callout bs-callout-default">
+      <i class="fas fa-book-open fa-1x"></i>
+
+<!--
+  PREFIX: for most icons, use "fas"; for transluscent, use "far"; for brands, use "fab"
+  NAME: the icon's name from the library: https://fontawesome.com/icons?d=gallery&p=2&m=free
+  SIZE: https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons
+    1x = normal size
+    lg = large
+    2x
+    3x
+    4x
+    5x
+
+  Rotating: https://fontawesome.com/how-to-use/on-the-web/styling/rotating-icons
+  List bullets: https://fontawesome.com/how-to-use/on-the-web/styling/icons-in-a-list
+
+  NOTE: add class of "fa-fw" for fixed-width icons
+-->
+The title of this post comes from <span id="title">ruth stone</span>'s collection <cite class="book" id="title">what love comes to</cite>
+    </div>
+
+<!-- callout types:
+  danger
+  default
+  primary
+  success
+  info
+  warning
+-->
+
+  
+
+  <div class="PageNavigation">
+  
+    <a class="prev" href="/updatesLatePatriarchy">&laquo; Updates from Late in the Patriarchy</a>
+  
+  
+</div>
+
+  <a class="u-url" href="/whatTweetsComeTo" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Andrew P. Dillon</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list"><li><a class="u-email" href="mailto:contact@andrewdillonpoetry.com">contact@andrewdillonpoetry.com</a></li><li><ul class="social-media-list"><li><a href="https://www.twitter.com/DillonAndrewP"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">DillonAndrewP</span></a></li></ul>
+</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        Built with <a href="https://jekyllrb.com">Jekyll</a>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+<!-- cookie consent -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#343c66",
+          "text": "#cfcfe8"
+        },
+        "button": {
+          "background": "#f71559"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to collect data that does not contain PII. I do not sell or share your data."
+      }
+    });
+    </script>
+
+  </body>
+
+</html>
