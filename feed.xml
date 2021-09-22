@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2021-09-21T14:15:35-05:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><entry><title type="html">What Tweets Come To</title><link href="https://www.andrewdillonpoetry.com/whatTweetsComeTo" rel="alternate" type="text/html" title="What Tweets Come To" /><published>2021-09-16T00:00:00-05:00</published><updated>2021-09-16T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/what-tweets-come-to</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/whatTweetsComeTo">&lt;p&gt;Poetry Twitter blew up this month, and I’ve got cold takes. &lt;!-- here --&gt;But first, some updates.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2021-09-22T15:09:21-05:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><entry><title type="html">What Tweets Come To</title><link href="https://www.andrewdillonpoetry.com/whatTweetsComeTo" rel="alternate" type="text/html" title="What Tweets Come To" /><published>2021-09-16T00:00:00-05:00</published><updated>2021-09-16T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/what-tweets-come-to</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/whatTweetsComeTo">&lt;p&gt;Poetry Twitter blew up this month, and I’ve got cold takes. &lt;!-- here --&gt;But first, some updates.&lt;/p&gt;
 
-&lt;!--
+&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;
+  &lt;nav&gt;
+&lt;strong&gt;Contents&lt;/strong&gt; - this unordered seed list will be replaced by toc as unordered list {:toc}
+  &lt;/nav&gt;
+  &lt;!--
+Must uncomment the following line in _config.yml:
+  parse_block_html: true
 
-{{site.data.alerts.callout_default}}
-  {% include toc.html %}
-{{site.data.alerts.end}}
-
+However, this seems to cause includes to be read as codeblocks
 --&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&quot;the-book&quot;&gt;The book&lt;/h2&gt;
 &lt;p&gt;I finally made a bit of progress on the book (website? webbook? booksite?). After lamenting my lack of motivation in &lt;a href=&quot;/updatesLatePatriarchy&quot;&gt;the previous post&lt;/a&gt;, I forced myself to open Atom and boldly continue to fail to understand a watered down scripting language.&lt;/p&gt;
