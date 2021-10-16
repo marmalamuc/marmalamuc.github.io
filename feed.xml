@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2021-09-22T15:09:21-05:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><entry><title type="html">What Tweets Come To</title><link href="https://www.andrewdillonpoetry.com/whatTweetsComeTo" rel="alternate" type="text/html" title="What Tweets Come To" /><published>2021-09-16T00:00:00-05:00</published><updated>2021-09-16T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/what-tweets-come-to</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/whatTweetsComeTo">&lt;p&gt;Poetry Twitter blew up this month, and I’ve got cold takes. &lt;!-- here --&gt;But first, some updates.&lt;/p&gt;
-
-&lt;div class=&quot;bs-callout bs-callout-default&quot;&gt;
-  &lt;nav&gt;
-&lt;strong&gt;Contents&lt;/strong&gt; - this unordered seed list will be replaced by toc as unordered list {:toc}
-  &lt;/nav&gt;
-  &lt;!--
-Must uncomment the following line in _config.yml:
-  parse_block_html: true
-
-However, this seems to cause includes to be read as codeblocks
---&gt;
-&lt;/div&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2021-10-16T15:06:18-05:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><entry><title type="html">What Tweets Come To</title><link href="https://www.andrewdillonpoetry.com/whatTweetsComeTo" rel="alternate" type="text/html" title="What Tweets Come To" /><published>2021-09-16T00:00:00-05:00</published><updated>2021-09-16T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/what-tweets-come-to</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/whatTweetsComeTo">&lt;p&gt;Poetry Twitter blew up this month, and I’ve got cold takes. &lt;!-- here --&gt;But first, some updates.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-book&quot;&gt;The book&lt;/h2&gt;
 &lt;p&gt;I finally made a bit of progress on the book (website? webbook? booksite?). After lamenting my lack of motivation in &lt;a href=&quot;/updatesLatePatriarchy&quot;&gt;the previous post&lt;/a&gt;, I forced myself to open Atom and boldly continue to fail to understand a watered down scripting language.&lt;/p&gt;
@@ -48,9 +36,11 @@ However, this seems to cause includes to be read as codeblocks
 &lt;p&gt;I can’t generate the output here because it’s in a different repository (I haven’t attempted to understand &lt;a href=&quot;https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/version-control/git/submodules.html&quot;&gt;Git submodules&lt;/a&gt; yet), but here’s a screenshot:
 &lt;!-- Acknowledgements/previously published screenshot --&gt;&lt;/p&gt;
 &lt;figure&gt;
-&lt;img class=&quot;docimage&quot; src=&quot;images/tgp_pubs.png&quot; alt=&quot;A partial list of journals &amp;amp; the poems they published that will appear in the author's manuscript&quot; style=&quot;max-width: 500px&quot; /&gt;   &lt;figcaption style=&quot;max-width: 500px&quot;&gt;
+&lt;img class=&quot;docimage&quot; src=&quot;images/tgp_pubs.png&quot; alt=&quot;A partial list of journals &amp;amp; the poems they published that will appear in the author's manuscript&quot; style=&quot;max-width: 100%&quot; /&gt;   &lt;!-- Changed max-width attribute to % from px --&gt;
+  &lt;figcaption style=&quot;max-width: 100%&quot;&gt;
 Definitely feel like a genius for coding some nested iterations.&lt;br /&gt;This took me &lt;em&gt;days&lt;/em&gt;
   &lt;/figcaption&gt;
+  &lt;!-- Changed max-width attribute to % from px --&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Here’s what’s going on:&lt;/p&gt;
@@ -195,9 +185,11 @@ Next page index: 1, ,&lt;/p&gt;
 
 &lt;!-- Terrance Hayes screenshot --&gt;
 &lt;figure&gt;
-&lt;img class=&quot;docimage&quot; src=&quot;images/terrance-hayes.png&quot; alt=&quot;Poet &amp;amp; handsome guy, Terrance Hayes&quot; style=&quot;max-width: 400px&quot; /&gt;   &lt;figcaption style=&quot;max-width: 400px&quot;&gt;
+&lt;img class=&quot;docimage&quot; src=&quot;images/terrance-hayes.png&quot; alt=&quot;Poet &amp;amp; handsome guy, Terrance Hayes&quot; style=&quot;max-width: 100%&quot; /&gt;   &lt;!-- Changed max-width attribute to % from px --&gt;
+  &lt;figcaption style=&quot;max-width: 100%&quot;&gt;
 Some guy the &lt;em&gt;Top Chef&lt;/em&gt; host kissed
   &lt;/figcaption&gt;
+  &lt;!-- Changed max-width attribute to % from px --&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;To be fair, other publications picked up the story and performed the basic journalistic work of discovering the name of the only other person in the story. But it speaks volumes about poetry’s role in America that one of the most decorated poets was a non-entity to this pop culture pub.&lt;/p&gt;
@@ -489,9 +481,11 @@ Take all myself.&lt;/p&gt;
 
 &lt;!-- Shakespeare meme --&gt;
 &lt;figure&gt;
-&lt;img class=&quot;docimage&quot; src=&quot;images/billyShakesMeme.png&quot; alt=&quot;A meme image of Shakespeare that says 'Is the central focus of high school English | Basically write in a different language'&quot; style=&quot;max-width: 300px&quot; /&gt;   &lt;figcaption style=&quot;max-width: 300px&quot;&gt;
+&lt;img class=&quot;docimage&quot; src=&quot;images/billyShakesMeme.png&quot; alt=&quot;A meme image of Shakespeare that says 'Is the central focus of high school English | Basically write in a different language'&quot; style=&quot;max-width: 100%&quot; /&gt;   &lt;!-- Changed max-width attribute to % from px --&gt;
+  &lt;figcaption style=&quot;max-width: 100%&quot;&gt;
 Let's teach 500 year old literature to every student as though we haven't been telling the same 27 stories since humans could speak
   &lt;/figcaption&gt;
+  &lt;!-- Changed max-width attribute to % from px --&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Besides the language, the cultural touchstones in the work of Shakespeare &amp;amp; Dickinson are irrelevant to any 21st century teenager. Again, you need so much contextual knowledge to appreciate what’s going on. Matthew Zapruder did an interview a few years ago on the podcast &lt;a href=&quot;http://historyofliterature.com/138-why-poetry-with-matthew-zapruder/&quot;&gt;&lt;em&gt;The History of Literature&lt;/em&gt;&lt;/a&gt;. In it, he talks about some problems with how poetry is taught, and one of them is this idea that you must learn the context of a poem before you can read it; and related, the belief that poetic language is coded and must carry some significant, deeper message.&lt;/p&gt;
@@ -531,9 +525,11 @@ tongue has no words for endearment. […]&lt;/p&gt;
 
 &lt;!-- image: Stop confusing relaxation with laziness --&gt;
 &lt;figure&gt;
-&lt;img class=&quot;docimage&quot; src=&quot;images/strictPleasure.png&quot; alt=&quot;A picture of one corner of the author's living room. On the right side, there's a white-framed poster with a solid black background and text in white capital letters that says 'STOP CONFUSING RELAXATION WITH LAZINESS'.&quot; style=&quot;max-width: 500px&quot; /&gt;   &lt;figcaption style=&quot;max-width: 500px&quot;&gt;
+&lt;img class=&quot;docimage&quot; src=&quot;images/strictPleasure.png&quot; alt=&quot;A picture of one corner of the author's living room. On the right side, there's a white-framed poster with a solid black background and text in white capital letters that says 'STOP CONFUSING RELAXATION WITH LAZINESS'.&quot; style=&quot;max-width: 100%&quot; /&gt;   &lt;!-- Changed max-width attribute to % from px --&gt;
+  &lt;figcaption style=&quot;max-width: 100%&quot;&gt;
 A daily reminder in my living room
   &lt;/figcaption&gt;
+  &lt;!-- Changed max-width attribute to % from px --&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;practical-matters&quot;&gt;Practical matters&lt;/h3&gt;
@@ -675,9 +671,11 @@ A daily reminder in my living room
 
 &lt;!-- ALGO chart screenshot --&gt;
 &lt;figure&gt;
-&lt;img class=&quot;docimage&quot; src=&quot;images/algo_20210212.png&quot; alt=&quot;A chart showing the increasing value of the ALGO cryptocurrency over between 11 Jan &amp;amp; 12 Feb, and the price point of $0.57 on 29 Jan when I started buying.&quot; style=&quot;max-width: 500px&quot; /&gt;   &lt;figcaption style=&quot;max-width: 500px&quot;&gt;
+&lt;img class=&quot;docimage&quot; src=&quot;images/algo_20210212.png&quot; alt=&quot;A chart showing the increasing value of the ALGO cryptocurrency over between 11 Jan &amp;amp; 12 Feb, and the price point of $0.57 on 29 Jan when I started buying.&quot; style=&quot;max-width: 100%&quot; /&gt;   &lt;!-- Changed max-width attribute to % from px --&gt;
+  &lt;figcaption style=&quot;max-width: 100%&quot;&gt;
 ALGO rocket go brrrrrrrr
   &lt;/figcaption&gt;
+  &lt;!-- Changed max-width attribute to % from px --&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Since I got caught as a $GME bag holder, I would have been in &amp;amp; out of Dogecoin too if Coinbase supported it. I might have to set alerts for when Elon Musk tweets so I can immediately buy whatever the fuck he’s blurbing and then sell a day later after the ensuing pump.&lt;/p&gt;
@@ -697,9 +695,11 @@ ALGO rocket go brrrrrrrr
 
 &lt;!-- Osano screenshot --&gt;
 &lt;figure&gt;
-&lt;img class=&quot;docimage&quot; src=&quot;images/osano.png&quot; alt=&quot;A screenshot of the Osano Consent Management webpage that shows the Start Coding button you can press to configure your popup.&quot; style=&quot;max-width: 400px&quot; /&gt;   &lt;figcaption style=&quot;max-width: 400px&quot;&gt;
+&lt;img class=&quot;docimage&quot; src=&quot;images/osano.png&quot; alt=&quot;A screenshot of the Osano Consent Management webpage that shows the Start Coding button you can press to configure your popup.&quot; style=&quot;max-width: 100%&quot; /&gt;   &lt;!-- Changed max-width attribute to % from px --&gt;
+  &lt;figcaption style=&quot;max-width: 100%&quot;&gt;
 Click the Start Coding button to configure your popup
   &lt;/figcaption&gt;
+  &lt;!-- Changed max-width attribute to % from px --&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&quot;content-management&quot;&gt;Content management&lt;/h2&gt;
@@ -742,9 +742,11 @@ Click the Start Coding button to configure your popup
 
 &lt;!-- Stonks screenshot --&gt;
 &lt;figure&gt;
-&lt;img class=&quot;docimage&quot; src=&quot;images/buyStonks.png&quot; alt=&quot;A screenshot of the buy amounts I paid for the popular meme stocks: AMC, BB, GME, NOK.&quot; style=&quot;max-width: 400px&quot; /&gt;   &lt;figcaption style=&quot;max-width: 400px&quot;&gt;
+&lt;img class=&quot;docimage&quot; src=&quot;images/buyStonks.png&quot; alt=&quot;A screenshot of the buy amounts I paid for the popular meme stocks: AMC, BB, GME, NOK.&quot; style=&quot;max-width: 100%&quot; /&gt;   &lt;!-- Changed max-width attribute to % from px --&gt;
+  &lt;figcaption style=&quot;max-width: 100%&quot;&gt;
 Holding for the meme
   &lt;/figcaption&gt;
+  &lt;!-- Changed max-width attribute to % from px --&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;Quick disclaimer&lt;/strong&gt;: I’m not any kind of financial expert. You shouldn’t consider anything I say below to be advice or wisdom.&lt;/p&gt;
@@ -759,9 +761,11 @@ Holding for the meme
 
 &lt;!-- r/notTheOnion screenshot --&gt;
 &lt;figure&gt;
-&lt;img class=&quot;docimage&quot; src=&quot;images/notTheOnion.png&quot; alt=&quot;A screenshot of a post from r/nottheonion, with the headline: Woman trampled to death at U.S. Capitol held flag that read, 'Don't tread on me'&quot; style=&quot;max-width: 300px&quot; /&gt;   &lt;figcaption style=&quot;max-width: 300px&quot;&gt;
+&lt;img class=&quot;docimage&quot; src=&quot;images/notTheOnion.png&quot; alt=&quot;A screenshot of a post from r/nottheonion, with the headline: Woman trampled to death at U.S. Capitol held flag that read, 'Don't tread on me'&quot; style=&quot;max-width: 100%&quot; /&gt;   &lt;!-- Changed max-width attribute to % from px --&gt;
+  &lt;figcaption style=&quot;max-width: 100%&quot;&gt;
 Conservatives have killed satire
   &lt;/figcaption&gt;
+  &lt;!-- Changed max-width attribute to % from px --&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;When I wasn’t doing meaningless knowledge work, here’s what I spent my time on:&lt;/p&gt;
@@ -879,9 +883,11 @@ Conservatives have killed satire
   &lt;p&gt;It was too interesting to pass up. So possibly no publisher will be interested in this format (how would you monetize it?), but I think that’s okay. I have a career outside poetry, and if I have to continue balancing my professional &amp;amp; creative endeavors to travel the artistic avenues I want, I’m prepared to do that.&lt;/p&gt;
   &lt;!-- TGP screenshot --&gt;
   &lt;figure&gt;
-&lt;img class=&quot;docimage&quot; src=&quot;images/tgpInProgress.png&quot; alt=&quot;A screenshot of the author's in-progress webbook manuscript, showing the navigation &amp;amp; menu items on a blank `About the author` page.&quot; style=&quot;max-width: 650px&quot; /&gt;     &lt;figcaption style=&quot;max-width: 650px&quot;&gt;
+&lt;img class=&quot;docimage&quot; src=&quot;images/tgpInProgress.png&quot; alt=&quot;A screenshot of the author's in-progress webbook manuscript, showing the navigation &amp;amp; menu items on a blank `About the author` page.&quot; style=&quot;max-width: 100%&quot; /&gt;     &lt;!-- Changed max-width attribute to % from px --&gt;
+    &lt;figcaption style=&quot;max-width: 100%&quot;&gt;
 The book, in progress.
     &lt;/figcaption&gt;
+    &lt;!-- Changed max-width attribute to % from px --&gt;
   &lt;/figure&gt;
   &lt;p&gt;Of course, I &lt;em&gt;want&lt;/em&gt; to quit my corporate job to write poems and give readings and talk to other artists every week. So the webbook will have links to my &lt;a href=&quot;https:www.patreon.com/andrewpdillon&quot;&gt;Patreon&lt;/a&gt; &amp;amp; &lt;a href=&quot;https:www.paypal.me/andrewpdillon&quot;&gt;PayPal&lt;/a&gt; =D&lt;/p&gt;
   &lt;p&gt;The title of the book comes from a quote by poet &lt;a href=&quot;https://www.alicefrimanpoet.com&quot;&gt;Alice Friman&lt;/a&gt;. I’m not sure if it’s codified in a book or interview anywhere, but she visited the University of Tennessee when I was in the first semester of my MFA. &lt;q&gt;Poetry is the great permission&lt;/q&gt; is one of the many very quotable things she said during her craft talk.&lt;/p&gt;
@@ -905,9 +911,10 @@ The book, in progress.
 
 &lt;!-- Duolingo image --&gt;
 &lt;figure&gt;
-&lt;a class=&quot;no_icon&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; href=&quot;https://www.duolingo.com&quot;&gt; &lt;img class=&quot;docimage&quot; src=&quot;images/duolingoReview2020.png&quot; alt=&quot;The author's 2020 Duolingo statistics. He was in the top 2% of experience earners.&quot; style=&quot;max-width: 300px&quot; /&gt; &lt;/a&gt;   &lt;figcaption style=&quot;max-width: 300px&quot;&gt;
+&lt;a class=&quot;no_icon&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; href=&quot;https://www.duolingo.com&quot;&gt; &lt;img class=&quot;docimage&quot; src=&quot;images/duolingoReview2020.png&quot; alt=&quot;The author's 2020 Duolingo statistics. He was in the top 2% of experience earners.&quot; style=&quot;max-width: 100%&quot; /&gt; &lt;!-- Changed max-width attribute to % from px --&gt; &lt;/a&gt;   &lt;figcaption style=&quot;max-width: 100%&quot;&gt;
 My 2020 Duolingo stats
   &lt;/figcaption&gt;
+  &lt;!-- Changed max-width attribute to % from px --&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I’m from Buffalo. The Bills are having a great season, and I’m not saying I had anything to do with that, but as soon as I stopped believing in jinxes, the Pegulas hired Sean McDermott &amp;amp; Brandon Beane. ::shrug:: Even though my family has been in Nashville since I was nine, I still consider myself “from” Buffalo. I’ve encountered a lot of people who have different opinions about how I should identify in that regard. Which is fun.&lt;/p&gt;
