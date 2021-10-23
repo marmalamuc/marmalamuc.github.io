@@ -1,4 +1,373 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2021-10-16T15:06:18-05:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><entry><title type="html">What Tweets Come To</title><link href="https://www.andrewdillonpoetry.com/whatTweetsComeTo" rel="alternate" type="text/html" title="What Tweets Come To" /><published>2021-09-16T00:00:00-05:00</published><updated>2021-09-16T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/what-tweets-come-to</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/whatTweetsComeTo">&lt;p&gt;Poetry Twitter blew up this month, and I’ve got cold takes. &lt;!-- here --&gt;But first, some updates.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2021-10-23T14:24:40-05:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><entry><title type="html">The Dream of a Common Submission</title><link href="https://www.andrewdillonpoetry.com/dreamCommonSub" rel="alternate" type="text/html" title="The Dream of a Common Submission" /><published>2021-10-23T00:00:00-05:00</published><updated>2021-10-23T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/the-dream-common-sub</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/dreamCommonSub">&lt;p&gt;Not long after I started working professionally as a Technical Writer, I decided to design a content strategy that would eliminate Microsoft Word from my personal writing. What I’ve got now works fairly well. It’s much more streamlined than my previous setup using Word, but there are several areas where I’d like to improve.&lt;!-- here --&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;why-not-word&quot;&gt;Why not Word?&lt;/h2&gt;
+&lt;p&gt;Microsoft as a whole manages to cling to this status as a suite of indispensable tools despite being entirely outclassed by other (free) products. I could point out many more problems I have with Word, but I’ll restrain myself to only those related to the topic of this post—Submissions.&lt;/p&gt;
+
+&lt;h3 id=&quot;word-doesnt-modularize&quot;&gt;Word doesn’t modularize&lt;/h3&gt;
+&lt;p&gt;Meaning you can’t easily break the things you write into smaller pieces to reuse in multiple places. Your submissions likely contain several identical pieces of content:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Your contact info&lt;/li&gt;
+  &lt;li&gt;The date&lt;/li&gt;
+  &lt;li&gt;A short bio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Maybe a few others. If you’re typing them out each time, you introduce the possibility of typos, inconsistencies, errors, or oversights. Even copy &amp;amp; pasting those items from a master document is an unnecessary use of time, and could result in unintended styling if you forget to correct it when Word pastes the wrong font or indentation into your document.&lt;/p&gt;
+
+&lt;p&gt;Word does have Quick Parts &amp;amp; Auto Text that can reuse chunks of content, but they’re unsurprisingly difficult to store &amp;amp; edit. And worst of all, they only work on your local installation of Word; the reusable content you create isn’t available globally.&lt;/p&gt;
+
+&lt;p&gt;That last part is probably only a concern for professional writers who need to share repositories with other authors, or people using virtual machines. If you’re gonna continue using Word, look into Quick Parts &amp;amp; Auto Text to make you writing life a bit easier.&lt;/p&gt;
+
+&lt;h3 id=&quot;no-distinction-between-presentation--semantics&quot;&gt;No distinction between presentation &amp;amp; semantics&lt;/h3&gt;
+&lt;p&gt;Word uses a proprietary markup (just a custom XML, I think) to code the content you add to a document. If you’ve ever copied something from Word and pasted it into a different program, you’ve probably seen the jumbled markup that Word applies.&lt;/p&gt;
+
+&lt;p&gt;This is a problem when you need to copy &amp;amp; paste poems into a submission document. Word has a feature called Styles that creates semi-separation between your content &amp;amp; how it appears. But even using Styles and copying a poem from one Word document to another, your formatting is rarely preserved.&lt;/p&gt;
+
+&lt;h3 id=&quot;version-control-is-a-nightmare&quot;&gt;Version control is a nightmare&lt;/h3&gt;
+&lt;p&gt;Briefly, version control is a method of tracking &amp;amp; managing changes to source files. “Source files” could be:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;files that build a website (like HTML, CSS, &amp;amp; Javascript).&lt;/li&gt;
+  &lt;li&gt;files that create an app (Java, Rust, etc.).&lt;/li&gt;
+  &lt;li&gt;any other document (Word, PDF, etc.).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A version control system (VCS) tracks every modification to the source files, and allows you to access any earlier version of those files. The industry standard VCS is &lt;a href=&quot;https://git-scm.com/&quot;&gt;Git&lt;/a&gt;. It can get extremely complicated, but if you set up &amp;amp; utilize a Git repo, you can feel confident that you’ll never lose anything you commit to the repo.&lt;/p&gt;
+
+&lt;p&gt;But you can’t really track Microsoft documents (Word, Excel, etc.) with Git because of their proprietary markup. Git &lt;em&gt;will&lt;/em&gt; save those files, but you can’t see the character-by-character changes you can with plaintext files. Which means if you wanted to find a previous version of a poem, you wouldn’t be able to tell which version you wanted with Git. If you don’t use a VCS, you probably have a dozen files for each poem, with &lt;code class=&quot;highlighter-rouge&quot;&gt;_v#&lt;/code&gt; appended to the filename, and you still have to open each one to find the historical version you’re looking for.&lt;/p&gt;
+
+&lt;p&gt;Dropbox has a version control feature, but it’s premium. Google Drive includes versioning for free! Though I’m not sure how well it works or how easy it is to use.&lt;/p&gt;
+
+&lt;p&gt;It’s possible to set up a workable version control scenario with Word, but you need:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;to be the only author (probably true).&lt;/li&gt;
+  &lt;li&gt;access to Sharepoint (it’s not free).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;theres-a-better-open-source-tool-for-that&quot;&gt;There’s a better (open source) tool for that&lt;/h3&gt;
+&lt;p&gt;Whatever you want to do with Word, there’s an easier, more efficient tool that’s probably free. In terms of submitting your poems, there’s no need to pay for Word when Google Docs &amp;amp; LibreOffice can save as &lt;code class=&quot;highlighter-rouge&quot;&gt;.docx&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;
+&lt;em class=&quot;far fa-thumbs-up&quot;&gt;&lt;/em&gt; Editors, I am simply begging you to accept submissions in at least one format that is not Microsoft Word.
+&lt;/div&gt;
+
+&lt;h2 id=&quot;submission-architecture&quot;&gt;Submission architecture&lt;/h2&gt;
+&lt;p&gt;I don’t know much at all about web development, just enough to make my website run, which I learned &lt;em&gt;in order to&lt;/em&gt; make it run.&lt;/p&gt;
+
+&lt;p&gt;In the case of my current submission architecture (which I’ll refer to as my “localhost setup”), I used &lt;a href=&quot;https://medium.com/@JohnFoderaro/how-to-set-up-apache-in-macos-sierra-10-12-bca5a5dfffba&quot;&gt;this guide by John Foderaro&lt;/a&gt; to get started. I doubt I would’ve figured it out on my own, or even had the patience to try. (Although I think I had to play around with some of the configurations, and I definitely used TextEdit—nano is atrocious to work in.)&lt;/p&gt;
+
+&lt;p&gt;Below is a detailed look at how I use HTML, CSS, PHP, &amp;amp; Apache to store poems and create journal submissions.&lt;/p&gt;
+&lt;div class=&quot;bs-callout bs-callout-info&quot;&gt;
+  &lt;p&gt;&lt;strong&gt;HTML&lt;/strong&gt; is the markup language that the web is written in; it defines the structure of your website &amp;amp; pages.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt; defines what your HTML looks like.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;PHP&lt;/strong&gt; is a server-side scripting language; meaning, your server interprets the code.&lt;br /&gt; (Javascript is a client-side scripting language, so your browser processes the code, just like it processes HTML &amp;amp; CSS when you navigate to a website.)&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Apache&lt;/strong&gt; is an open-source server. At the most basic level, a server accepts requests from a client (your browser) and responds with the content it's storing (a website).&lt;br /&gt; Apache is built in to Macs, so I just had to turn it on using the guide I mentioned above.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;poems&quot;&gt;Poems&lt;/h3&gt;
+&lt;p&gt;I use a very simple file that I titled &lt;code class=&quot;highlighter-rouge&quot;&gt;poemTemplate.html&lt;/code&gt; to write &amp;amp; save each poem. It’s not, strictly speaking, a template because I have to &lt;kbd&gt;command&lt;/kbd&gt; + &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt; to save; it’s possible I could create templates in my editor (&lt;a href=&quot;https://atom.io&quot;&gt;Atom&lt;/a&gt;), but I haven’t taken the time to look in to it.&lt;/p&gt;
+
+&lt;p&gt;I save each poem at &lt;code class=&quot;highlighter-rouge&quot;&gt;/Users/&amp;lt;username&amp;gt;/Sites/poems&lt;/code&gt; (on Mac), which you can access in Finder when you want to edit a file, or view in your browser by navigating to &lt;kbd&gt;localhost/~username/poems&lt;/kbd&gt; (where &lt;code class=&quot;highlighter-rouge&quot;&gt;poems&lt;/code&gt; is a directory you add after setup). You want to use your browser to view because that forces the server &amp;amp; browser to run all your code (like CSS, PHP, Javascript, etc.).&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Title&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1.0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;../poemStyle.css&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/css&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;../fonts/KohinoorBangla.ttc&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://fonts.googleapis.com/css?family=Montserrat&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Title&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;epigraph&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Epigraph&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Body&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;dedication&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Dedication&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Here’s what happening in that file:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;colgroup&gt;
+    &lt;col width=&quot;35%&quot; /&gt;
+    &lt;col width=&quot;65%&quot; /&gt;
+  &lt;/colgroup&gt;
+  &lt;tr&gt;
+    &lt;th&gt;&lt;code&gt;!DOCTYPE&lt;/code&gt;&lt;/th&gt;
+    &lt;td&gt;Tells the browser what version of HTML the file uses.&lt;br /&gt;&lt;br /&gt;
+    For HTML&lt;i class=&quot;fab fa-html5&quot;&gt;&lt;/i&gt;, the current version of HTML, it's the very simple &lt;code&gt;!DOCTYPE html&lt;/code&gt; you see above. It was more complicated for older versions.&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;&lt;code&gt;head&lt;/code&gt; &amp;amp; metadata elements&lt;/th&gt;
+    &lt;td&gt;Contains metadata elements—elements about the document:&lt;br /&gt;&lt;br /&gt;
+    &lt;b&gt;&lt;code&gt;title&lt;/code&gt;&lt;/b&gt;&lt;br /&gt;
+    The name of the document, which appears in the brower's title bar or page tab.&lt;br /&gt;&lt;br /&gt;
+    &lt;b&gt;&lt;code&gt;meta name=&quot;viewport&quot; …&lt;/code&gt;&lt;/b&gt;&lt;br /&gt;
+    Tells the browser how to control the page's dimensions. Essentially, it sets the width of the page to the screen-width of the device displaying it, so you can view on desktops, laptops, tablets, &amp;amp; phones.&lt;br /&gt;&lt;br /&gt;
+    &lt;b&gt;&lt;code&gt;link&lt;/code&gt;&lt;/b&gt;&lt;br /&gt;
+    Creates a relationship between the current document and an external one. In this case, I'm linking to my stylesheet so my CSS is applied to the poem, and to some fonts I like. &quot;KohinoorBangla&quot; is a font on my computer; the other is one Google makes available for free at that URL.&lt;br /&gt;&lt;br /&gt;
+    There are many other elements that could appear here.&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;&lt;code&gt;body&lt;/code&gt; &amp;amp; text elements&lt;/th&gt;
+    &lt;td&gt;Contains everything that actually gets rendered in a browser.&lt;br /&gt;&lt;br /&gt;
+    The header &amp;amp; paragraph tags are pretty straight-forward. Two &lt;code&gt;p&lt;/code&gt; elements include classes; those classes are defined in my stylesheet to look a certain way (dedications are indented &amp;amp; italic; epigraphs are right-aligned &amp;amp; italic).&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Depending on how I want a poem to look, it can get fairly complicated to tag it and apply the correct CSS. I won’t get into specifics here, but I’ll say that in my experience, it’s less complicated to get HTML &amp;amp; CSS to do what you want than MS Word. Plus, if you supply someone with your HTML poem &amp;amp; stylesheet, they’ll see exactly what you intended, which you can’t always say for Word, even when you’re both using the same version of Word.&lt;/p&gt;
+
+&lt;h3 id=&quot;submission-documents&quot;&gt;Submission documents&lt;/h3&gt;
+&lt;p&gt;Of course, no journal I’ve ever seen accepts submissions of HTML documents. So my final output is always to PDF.&lt;/p&gt;
+
+&lt;p&gt;This file is &lt;code class=&quot;highlighter-rouge&quot;&gt;submissionTemplate.php&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;JOURNAL poetry submission&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;author&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Andrew P. Dillon&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;../../poemStyle.css&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/css&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;../../fonts/Kohinoor&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://fonts.googleapis.com/css?family=Montserrat&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- CONTACT --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;../../contactInfo.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- JOURNAL --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;journal&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;JOURNAL poetry submission&lt;span class=&quot;nt&quot;&gt;&amp;lt;br&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;date_default_timezone_set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'America/Chicago'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;d M Y&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- TOC --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Contents&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#coverLetter&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Cover letter&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#poem1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Poem1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#poem2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Poem2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#poem3&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Poem3&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#poem4&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Poem4&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#poem5&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Poem5&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#bio&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Author bio&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- COVER LETTER --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;page-break&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;coverLetter&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  	&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;../../coverLetter.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- POEMS --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;page-break&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;poem1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  	&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;../../poems/.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;page-break&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;poem2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  	&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;../../poems/.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;page-break&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;poem3&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  	&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;../../poems/.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;page-break&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;poem4&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  	&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;../../poems/.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;page-break&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;poem5&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  	&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;../../poems/.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- BIO --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;page-break&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bio&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  	&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;../../shortBio.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It needs to be a &lt;code class=&quot;highlighter-rouge&quot;&gt;.php&lt;/code&gt; file so the server will parse the PHP commands (the date declaration &amp;amp; includes). &lt;em&gt;Includes&lt;/em&gt;, btw, are exactly what they sound like—they navigate to the file I specify and insert everything in that file into my submission document. That way, I only have to maintain:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;one file for contact info.&lt;/li&gt;
+  &lt;li&gt;one of each poem.&lt;/li&gt;
+  &lt;li&gt;one short bio.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In my profession, we call this “single-sourcing”.&lt;/p&gt;
+
+&lt;div class=&quot;bs-callout bs-callout-info&quot;&gt;
+&lt;em class=&quot;fa fa-info-circle&quot;&gt;&lt;/em&gt; I'm not including the CSS here because that file is lengthy &amp;amp; unwieldy, and I don't want to try to explain the use cases for each class.
+&lt;/div&gt;
+
+&lt;h3 id=&quot;workflow&quot;&gt;Workflow&lt;/h3&gt;
+&lt;p&gt;To bring it all together, here are the steps I take to create a submission document:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Open the template and enter submission info:
+    &lt;ol&gt;
+      &lt;li&gt;In the &lt;code class=&quot;highlighter-rouge&quot;&gt;head&lt;/code&gt; element &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;JOURNAL&lt;/code&gt; section, replace the &lt;strong&gt;JOURNAL&lt;/strong&gt; placeholder with the name of the journal I’m submitting to.&lt;/li&gt;
+      &lt;li&gt;In the &lt;code class=&quot;highlighter-rouge&quot;&gt;TOC&lt;/code&gt; section, copy &amp;amp; paste the titles of each poem.&lt;/li&gt;
+      &lt;li&gt;Probably delete the &lt;code class=&quot;highlighter-rouge&quot;&gt;COVER LETTER&lt;/code&gt; section because cover letters are unnecessary.&lt;br /&gt;
+ (More on this in a &lt;a href=&quot;/greatFireblog&quot;&gt;future post&lt;/a&gt;.)&lt;/li&gt;
+      &lt;li&gt;In the &lt;code class=&quot;highlighter-rouge&quot;&gt;POEM&lt;/code&gt; section, enter the filename of each poem in front of &lt;code class=&quot;highlighter-rouge&quot;&gt;.html&lt;/code&gt;.&lt;/li&gt;
+      &lt;li&gt;Type &lt;kbd&gt;command&lt;/kbd&gt; + &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt; to Save As.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Create a PDF:
+    &lt;ol&gt;
+      &lt;li&gt;In my browser, navigate to the folder where I save my submissions: &lt;kbd&gt;localhost/~username/submissions&lt;/kbd&gt;.&lt;/li&gt;
+      &lt;li&gt;Open the file I just created.&lt;/li&gt;
+      &lt;li&gt;Right click and select &lt;strong&gt;Print page&lt;/strong&gt;.&lt;br /&gt;
+ Make sure to right click on some negative space (not on any text), or else you’ll create a file with only what’s highlighted.&lt;/li&gt;
+      &lt;li&gt;In the &lt;em&gt;Print&lt;/em&gt; dialog, select &lt;strong&gt;Save as PDF&lt;/strong&gt;, and choose a location to save.&lt;br /&gt;
+ The specifics here depend on which browser you’re using. Safari seems to work best. Chrome works too. Brave does not.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Open the newly-created PDF and add page numbers.&lt;br /&gt;
+This is an Adobe premium feature now, but I have an old version of Acrobat Pro. I haven’t found a way to create page numbers with markup alone; although &lt;a href=&quot;https://www.pagedjs.org/&quot;&gt;paged.js&lt;/a&gt; seems promising.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here’s the cover page of the PDF I end up submitting:
+&lt;!-- pdf output screenshot --&gt;&lt;/p&gt;
+&lt;figure&gt;
+&lt;img class=&quot;docimage&quot; src=&quot;images/pdfOutput.png&quot; alt=&quot;A screenshot of an example PDF generated by my localhost submission workflow. It contains author contact info, the name of the journal I'm submitting to, the date, and a hyperlinked list of the poems it contains.&quot; style=&quot;max-width: 70%&quot; /&gt;   &lt;!-- Changed max-width attribute to % from px --&gt;
+  &lt;figcaption style=&quot;max-width: 70%&quot;&gt;
+A very simple submission document
+  &lt;/figcaption&gt;
+  &lt;!-- Changed max-width attribute to % from px --&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Unfortunately, some journals that I &lt;em&gt;really&lt;/em&gt; want to submit to still only accept &lt;code class=&quot;highlighter-rouge&quot;&gt;.docx&lt;/code&gt; files, so I do occasionally use Word. If you’re a student or work for a big enough company, you can usually get a discount on MS Office. At my previous employer, I think I upgraded to my current version for like $10. Of course, Office365 is a web subscription model now. I had to edit OneNote in the browser a couple times, and it’s essentially unusable. I can’t imagine a browser-based Word editor isn’t flaming garbage.&lt;/p&gt;
+
+&lt;h2 id=&quot;room-for-improvement&quot;&gt;Room for improvement&lt;/h2&gt;
+&lt;p&gt;You can probably see that a lot of the process is still somewhat manual &amp;amp; tedious. And considering I’m writing a book using a static site generator, which has &lt;em&gt;its own&lt;/em&gt; repository of poems, I am still duplicating effort in a major way. Here are some ways I’d like to streamline:&lt;/p&gt;
+
+&lt;h3 id=&quot;true-single-sourcing-with-submodules&quot;&gt;True single-sourcing with submodules&lt;/h3&gt;
+&lt;p&gt;The biggest problem I have is maintaining multiple copies of each poem. Right now I have &lt;em&gt;three&lt;/em&gt; poetry directories:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The localhost setup I detailed in this post&lt;/li&gt;
+  &lt;li&gt;The &lt;a href=&quot;https://idratherbewriting.com/documentation-theme-jekyll/index.html&quot;&gt;custom Jekyll&lt;/a&gt; project for my manuscript, &lt;em&gt;&lt;a href=&quot;/greatPermission&quot;&gt;The Great Permission&lt;/a&gt;&lt;/em&gt; (which only includes the poems that are actually in the book)&lt;/li&gt;
+  &lt;li&gt;A default &lt;a href=&quot;https:jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; project called &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry&lt;/code&gt; (which I don’t keep updated, but is meant to replace the localhost setup when I finally implement submodules)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Plus, I have this Jekyll project, the one that hosts this blog. Obviously, it doesn’t currently include any poems, but I’d like to one day add a &lt;a href=&quot;/read&quot;&gt;Read&lt;/a&gt; page that compiles poems that were published a while ago or aren’t available online.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/version-control/git/submodules/&quot;&gt;Michael Currin&lt;/a&gt;, who seems to be the most active contributor on &lt;a href=&quot;https://talk.jekyll.com&quot;&gt;Jekyll Talk&lt;/a&gt;, pointed me to one of his projects that explain submodules &amp;amp; how to implement them. I just haven’t taken the time to research the topic in-depth. I have read his About page, which includes this advice:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;I would avoid trying to make commits of new content in [the submodule] directly. Rather make them in the external repo in a different part of your machine or on GitHub, then update your submodule and commit the new reference.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Wait, so… once I create the relationship between an external repo &amp;amp; a submodule, I can’t update the submodule? I feel like I must be misinterpreting that. I need the submodule to contain all my poems, and be contained within two external repos (my manuscript project &amp;amp; this project). And as I edit, I’ll need to make new commits to the submodule of poems. So if that complicates the situation to enough of a degree, I may have to find another solution.&lt;/p&gt;
+
+&lt;div class=&quot;bs-callout bs-callout-info&quot;&gt;
+&lt;em class=&quot;fa fa-info-circle&quot;&gt;&lt;/em&gt; A &quot;commit&quot; is Git's terminology for content you save to your repo.
+&lt;/div&gt;
+
+&lt;p&gt;“Well,” you may be saying, “if Git is such a pain in the ass, [reader, it truly is] then why not try some other VCS?” Fair question. Git is one problem, and I have another:&lt;/p&gt;
+
+&lt;h4 id=&quot;git-is-a-necessary-evil&quot;&gt;Git is a necessary evil&lt;/h4&gt;
+&lt;p&gt;Github Pages &lt;em&gt;requires&lt;/em&gt; Git. Jekyll was created my Github’s cofounder, and has free, built-in support for GitHub Pages, which hosts my site. Right now, I just pay for the domains to &lt;a href=&quot;/index.html&quot;&gt;this site&lt;/a&gt; &amp;amp; my book. If I didn’t want to use Git, I’d have to find another host.&lt;/p&gt;
+
+&lt;p&gt;To be fair, Git is probably the best VCS out there. It’s just insanely complicated because it’s solving insanely complicated problems. Ideally, you wouldn’t have to be aware of your VCS—it would just work, the way Dropbox works without you thinking much about it beyond the initial setup. But Git forces you to interact with it in order for it to do anything; and its commands are complicated &amp;amp; unintuitive.&lt;/p&gt;
+
+&lt;h4 id=&quot;jekyll-is-feature-complete&quot;&gt;Jekyll is “feature-complete”(?)&lt;/h4&gt;
+&lt;p&gt;That is, its future is uncertain, and the project may no longer be under active development. The primary contributor &lt;a href=&quot;https://jekyllrb.com/news/2021/09/14/goodbye-dear-frank/&quot;&gt;died suddenly&lt;/a&gt;, and there’s been a lot of speculation about who, if anyone, will maintain the project. Reading some other articles about this, maybe the concern has been overblown. But if there &lt;em&gt;are&lt;/em&gt; no devs, then it’s only a matter of time before Jekyll won’t be safe to use. It’s a Ruby gem, and needs to be updated to support recent Ruby releases for security.&lt;/p&gt;
+
+&lt;p&gt;Right now, I’m not going to worry about this. I’ve invested too much time &amp;amp; effort into Jekyll &amp;amp; this toolchain to make a huge change now.&lt;/p&gt;
+
+&lt;h3 id=&quot;page-level-variables&quot;&gt;Page-level variables&lt;/h3&gt;
+&lt;p&gt;Looking at the localhost setup in isolation, the only real issue is that I still have to copy &amp;amp; paste a decent amount. In contrast, with a Jekyll project, &lt;a href=&quot;https://shopify.dev/api/liquid&quot;&gt;Liquid&lt;/a&gt; allows me to access variables on the pages I’m targeting so they’re auto-filled in each document.&lt;/p&gt;
+
+&lt;p&gt;For example, here’s what my submission template could look like in the &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry&lt;/code&gt; project:&lt;/p&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+author: &quot;Andrew P. Dillon&quot;
+title: &quot;JOURNAL poetry submission&quot;
+date: 2021-12-01
+dateModified: 2021-12-01
+layout: submission
+categories: template
+tags:
+poem1: apologiaNoAnswers
+poem2: todayYouWillDie
+poem3: forgingTheBoy
+---
+&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;assign&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poem1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poems&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;permalink&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;{{poem1}}&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;assign&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poem2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poems&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;permalink&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;{{poem2}}&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;assign&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poem3&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poems&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;permalink&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;{{poem3}}&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+
+&amp;lt;body&amp;gt;
+  &amp;lt;!-- CONTACT --&amp;gt;
+  &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;contactInfo.md&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+
+  &amp;lt;!-- JOURNAL --&amp;gt;
+  &amp;lt;p id=&quot;journal&quot;&amp;gt;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&amp;lt;br /&amp;gt;
+  &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;now&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%d %b %Y&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&amp;lt;/p&amp;gt;
+
+  &amp;lt;!-- TOC --&amp;gt;
+  &amp;lt;h4&amp;gt;Contents&amp;lt;/h4&amp;gt;
+  &amp;lt;ul&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;#coverLetter&quot;&amp;gt;Cover Letter&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;#poem1&quot;&amp;gt;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poem1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;#poem2&quot;&amp;gt;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poem2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;#poem3&quot;&amp;gt;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poem3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;#bio&quot;&amp;gt;Bio&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+
+  &amp;lt;!-- COVER LETTER --&amp;gt;
+  &amp;lt;div class=&quot;page-break&quot; id=&quot;coverLetter&quot;&amp;gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;coverLetter.md&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+  &amp;lt;/div&amp;gt;
+
+  &amp;lt;!-- POEMS --&amp;gt;
+  &amp;lt;div class=&quot;page-break&quot; id=&quot;poem1&quot;&amp;gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poem&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poem1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endfor&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+  &amp;lt;/div&amp;gt;
+
+  &amp;lt;div class=&quot;page-break&quot; id=&quot;poem2&quot;&amp;gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poem&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poem2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endfor&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+  &amp;lt;/div&amp;gt;
+
+  &amp;lt;div class=&quot;page-break&quot; id=&quot;poem3&quot;&amp;gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poem&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poem3&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;poem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endfor&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+  &amp;lt;/div&amp;gt;
+
+  &amp;lt;!-- BIO --&amp;gt;
+  &amp;lt;div class=&quot;page-break&quot; id=&quot;bio&quot;&amp;gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;shortBio.md&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/body&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The variables streamline everything. In this case, all I need to do is:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Open the template and fill out the YAML frontmatter (the top of the document, between the &lt;code class=&quot;highlighter-rouge&quot;&gt;---&lt;/code&gt;).&lt;/li&gt;
+  &lt;li&gt;On the command line, navigate to the project and serve the site: &lt;kbd&gt;bundle exec jekyll serve&lt;/kbd&gt;.&lt;/li&gt;
+  &lt;li&gt;Navigate to the submission in my browser (it also gets a localhost address), and save a PDF as described above.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I could also set some of those YAML variables as default values (like &lt;code class=&quot;highlighter-rouge&quot;&gt;author&lt;/code&gt; &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;layout&lt;/code&gt;) in the config file, so I wouldn’t have to include them in each file. And there are ways to automate creating PDFs, but all I know of, like PrinceXML, are paid. Pandoc might be able to handle it, but it seems very complicated. Jekyll might be able to do some post-processing using &lt;a href=&quot;https://jekyllrb.com/docs/plugins/hooks&quot;&gt;hooks&lt;/a&gt;, but again, I haven’t looked into it yet.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-thoughts&quot;&gt;Final thoughts&lt;/h2&gt;
+&lt;p&gt;Setting all this up is pretty complicated—especially the Jekyll projects, and especially if you’re not familiar with any markup or scripting languages. It’s a big effort, both in terms of time &amp;amp; mental energy. But then again, so is writing poetry &amp;amp; submitting &lt;em class=&quot;far fa-eye&quot;&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The good news is, like many open source projects, there’s a large community of people who have documented common use cases &amp;amp; issues and who are willing to help. You also end up saving a lot of time &amp;amp; energy in the long-run when you leave behind proprietary software.&lt;/p&gt;
+
+&lt;p&gt;Feel free to drop me a line if you’re a poet who needs a push in the open source direction!&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><category term="submissions" /><category term="troubleshooting" /><summary type="html">Not long after I started working professionally as a Technical Writer, I decided to design a content strategy that would eliminate Microsoft Word from my personal writing. What I’ve got now works fairly well. It’s much more streamlined than my previous setup using Word, but there are several areas where I’d like to improve.</summary></entry><entry><title type="html">What Tweets Come To</title><link href="https://www.andrewdillonpoetry.com/whatTweetsComeTo" rel="alternate" type="text/html" title="What Tweets Come To" /><published>2021-09-16T00:00:00-05:00</published><updated>2021-09-16T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/what-tweets-come-to</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/whatTweetsComeTo">&lt;p&gt;Poetry Twitter blew up this month, and I’ve got cold takes. &lt;!-- here --&gt;But first, some updates.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-book&quot;&gt;The book&lt;/h2&gt;
 &lt;p&gt;I finally made a bit of progress on the book (website? webbook? booksite?). After lamenting my lack of motivation in &lt;a href=&quot;/updatesLatePatriarchy&quot;&gt;the previous post&lt;/a&gt;, I forced myself to open Atom and boldly continue to fail to understand a watered down scripting language.&lt;/p&gt;
@@ -921,8 +1290,4 @@ My 2020 Duolingo stats
 
 &lt;p&gt;Lots of people also misspell my last name. It’s &lt;code class=&quot;highlighter-rouge&quot;&gt;D-I-L-L-O-N&lt;/code&gt;. No second “i”. As far as I know, “Dillion” has never been a surname anywhere in the world.&lt;/p&gt;
 
-&lt;p&gt;Okay! That seems like a whole blog post.&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><category term="buffaloBills" /><category term="techJourney" /><category term="troubleshooting" /><summary type="html">So I didn’t keep track of my progress on the book. Or anything else this year. I guess who cares since I haven’t even launched this site yet.</summary></entry><entry><title type="html">Your Invitation to a Modest Blog</title><link href="https://www.andrewdillonpoetry.com/yourInvitationModestBreakfast" rel="alternate" type="text/html" title="Your Invitation to a Modest Blog" /><published>2020-01-01T00:00:00-06:00</published><updated>2020-01-01T00:00:00-06:00</updated><id>https://www.andrewdillonpoetry.com/your-invitation</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/yourInvitationModestBreakfast">&lt;p&gt;I decided to start this blog to record my progress and keep notes &amp;amp; ideas as I build this Jekyll site.&lt;!-- here --&gt; I don’t know much about YAML or SASS, and I’ve never used Liquid before. Once I get the &lt;a href=&quot;&quot;&gt;site&lt;/a&gt; built, I might continue blogging about drafting new poems, reading/performing, publishing, etc.&lt;/p&gt;
-
-&lt;p&gt;Partly, I think this blog will help keep me accountable. Mostly, I think it’ll be useful to articulate the issues I have using the tools &amp;amp; logic I’m trying to learn. For example, “site” in the previous paragraph should have been a link to the homepage of this site. But it didn’t work. ::shrug::&lt;/p&gt;
-
-&lt;p&gt;The goal for this site is to serve as my author website, but I also have a second Jekyll instance that I’m using to write the manuscript for my first poetry collection. I’ll probably write here about my vision for that book, and my plans for compiling it using this toolset.&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><category term="helloWorld" /><category term="helloWorld" /><category term="troubleshooting" /><summary type="html">I decided to start this blog to record my progress and keep notes &amp;amp; ideas as I build this Jekyll site.</summary></entry></feed>
+&lt;p&gt;Okay! That seems like a whole blog post.&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><category term="buffaloBills" /><category term="techJourney" /><category term="troubleshooting" /><summary type="html">So I didn’t keep track of my progress on the book. Or anything else this year. I guess who cares since I haven’t even launched this site yet.</summary></entry></feed>

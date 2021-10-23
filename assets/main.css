@@ -80,7 +80,7 @@ body { font: 400 16px/1.5 "Kohinoor Bangla", -apple-system, BlinkMacSystemFont, 
 /* End Callout & Alert styles*/
 dl { display: flex; flex-flow: row wrap; border: hidden; }
 
-dt { flex-basis: 40%; padding: 2px 4px; text-align: left; }
+dt { flex-basis: 40%; padding: 2px 4px; text-align: left; font-weight: bold; }
 
 dd { flex-basis: 50%; flex-grow: 1; margin: 0; padding: 2px 4px; }
 
@@ -102,6 +102,8 @@ h4 { margin-top: 30px; }
 h5 { margin-top: 25px; color: #CC04AE; }
 
 h6 { margin-top: 20px; font-style: italic; }
+
+kbd { border-radius: 3px; padding: 1px 2px 0; border: 1px solid black; }
 
 /** `main` element */
 main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
