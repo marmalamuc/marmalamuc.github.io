@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2021-10-23T14:24:40-05:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><entry><title type="html">The Dream of a Common Submission</title><link href="https://www.andrewdillonpoetry.com/dreamCommonSub" rel="alternate" type="text/html" title="The Dream of a Common Submission" /><published>2021-10-23T00:00:00-05:00</published><updated>2021-10-23T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/the-dream-common-sub</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/dreamCommonSub">&lt;p&gt;Not long after I started working professionally as a Technical Writer, I decided to design a content strategy that would eliminate Microsoft Word from my personal writing. What I’ve got now works fairly well. It’s much more streamlined than my previous setup using Word, but there are several areas where I’d like to improve.&lt;!-- here --&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2021-10-26T12:41:10-05:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><entry><title type="html">The Dream of a Common Submission</title><link href="https://www.andrewdillonpoetry.com/dreamCommonSub" rel="alternate" type="text/html" title="The Dream of a Common Submission" /><published>2021-10-23T00:00:00-05:00</published><updated>2021-10-23T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/the-dream-common-sub</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/dreamCommonSub">&lt;p&gt;Not long after I started working professionally as a Technical Writer, I decided to design a content strategy that would eliminate Microsoft Word from my personal writing. What I’ve got now works fairly well. It’s much more streamlined than my previous setup using Word, but there are several areas where I’d like to improve.&lt;!-- here --&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;why-not-word&quot;&gt;Why not Word?&lt;/h2&gt;
 &lt;p&gt;Microsoft as a whole manages to cling to this status as a suite of indispensable tools despite being entirely outclassed by other (free) products. I could point out many more problems I have with Word, but I’ll restrain myself to only those related to the topic of this post—Submissions.&lt;/p&gt;
@@ -218,7 +218,8 @@
       &lt;li&gt;Probably delete the &lt;code class=&quot;highlighter-rouge&quot;&gt;COVER LETTER&lt;/code&gt; section because cover letters are unnecessary.&lt;br /&gt;
  (More on this in a &lt;a href=&quot;/greatFireblog&quot;&gt;future post&lt;/a&gt;.)&lt;/li&gt;
       &lt;li&gt;In the &lt;code class=&quot;highlighter-rouge&quot;&gt;POEM&lt;/code&gt; section, enter the filename of each poem in front of &lt;code class=&quot;highlighter-rouge&quot;&gt;.html&lt;/code&gt;.&lt;/li&gt;
-      &lt;li&gt;Type &lt;kbd&gt;command&lt;/kbd&gt; + &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt; to Save As.&lt;/li&gt;
+      &lt;li&gt;Type &lt;kbd&gt;command&lt;/kbd&gt; + &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt; to Save As.
+ &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;Create a PDF:
@@ -228,7 +229,8 @@
       &lt;li&gt;Right click and select &lt;strong&gt;Print page&lt;/strong&gt;.&lt;br /&gt;
  Make sure to right click on some negative space (not on any text), or else you’ll create a file with only what’s highlighted.&lt;/li&gt;
       &lt;li&gt;In the &lt;em&gt;Print&lt;/em&gt; dialog, select &lt;strong&gt;Save as PDF&lt;/strong&gt;, and choose a location to save.&lt;br /&gt;
- The specifics here depend on which browser you’re using. Safari seems to work best. Chrome works too. Brave does not.&lt;/li&gt;
+ The specifics here depend on which browser you’re using. Safari seems to work best. Chrome works too. Brave does not.
+ &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;Open the newly-created PDF and add page numbers.&lt;br /&gt;
@@ -238,8 +240,8 @@ This is an Adobe premium feature now, but I have an old version of Acrobat Pro. 
 &lt;p&gt;Here’s the cover page of the PDF I end up submitting:
 &lt;!-- pdf output screenshot --&gt;&lt;/p&gt;
 &lt;figure&gt;
-&lt;img class=&quot;docimage&quot; src=&quot;images/pdfOutput.png&quot; alt=&quot;A screenshot of an example PDF generated by my localhost submission workflow. It contains author contact info, the name of the journal I'm submitting to, the date, and a hyperlinked list of the poems it contains.&quot; style=&quot;max-width: 70%&quot; /&gt;   &lt;!-- Changed max-width attribute to % from px --&gt;
-  &lt;figcaption style=&quot;max-width: 70%&quot;&gt;
+&lt;img class=&quot;docimage&quot; src=&quot;images/pdfOutput.png&quot; alt=&quot;A screenshot of an example PDF generated by my localhost submission workflow. It contains author contact info, the name of the journal I'm submitting to, the date, and a hyperlinked list of the poems it contains.&quot; style=&quot;max-width: 100%&quot; /&gt;   &lt;!-- Changed max-width attribute to % from px --&gt;
+  &lt;figcaption style=&quot;max-width: 100%&quot;&gt;
 A very simple submission document
   &lt;/figcaption&gt;
   &lt;!-- Changed max-width attribute to % from px --&gt;
@@ -402,7 +404,7 @@ poem3: forgingTheBoy
 &amp;lt;/table&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;I can’t generate the output here because it’s in a different repository (I haven’t attempted to understand &lt;a href=&quot;https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/version-control/git/submodules.html&quot;&gt;Git submodules&lt;/a&gt; yet), but here’s a screenshot:
+&lt;p&gt;I can’t generate the output here because it’s in a different repository (I haven’t attempted to understand &lt;a href=&quot;https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/version-control/git/submodules/&quot;&gt;Git submodules&lt;/a&gt; yet), but here’s a screenshot:
 &lt;!-- Acknowledgements/previously published screenshot --&gt;&lt;/p&gt;
 &lt;figure&gt;
 &lt;img class=&quot;docimage&quot; src=&quot;images/tgp_pubs.png&quot; alt=&quot;A partial list of journals &amp;amp; the poems they published that will appear in the author's manuscript&quot; style=&quot;max-width: 100%&quot; /&gt;   &lt;!-- Changed max-width attribute to % from px --&gt;
