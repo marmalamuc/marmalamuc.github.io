@@ -1,4 +1,159 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2021-10-26T12:41:10-05:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><entry><title type="html">The Dream of a Common Submission</title><link href="https://www.andrewdillonpoetry.com/dreamCommonSub" rel="alternate" type="text/html" title="The Dream of a Common Submission" /><published>2021-10-23T00:00:00-05:00</published><updated>2021-10-23T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/the-dream-common-sub</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/dreamCommonSub">&lt;p&gt;Not long after I started working professionally as a Technical Writer, I decided to design a content strategy that would eliminate Microsoft Word from my personal writing. What I’ve got now works fairly well. It’s much more streamlined than my previous setup using Word, but there are several areas where I’d like to improve.&lt;!-- here --&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2021-11-02T19:02:36-05:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><author><name>Andrew P. Dillon</name></author><entry><title type="html">Unincorporated Problems in the Late Bama Dynasty</title><link href="https://www.andrewdillonpoetry.com/unincorporatedProblems" rel="alternate" type="text/html" title="Unincorporated Problems in the Late Bama Dynasty" /><published>2021-11-02T00:00:00-05:00</published><updated>2021-11-02T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/unincorporated-posts</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/unincorporatedProblems">&lt;p&gt;At this point in the COVID timeline, my reckoning of time seems irreparably damaged. This week, my girlfriend Sarah &amp;amp; I were browsing for a movie and settled on &lt;cite class=&quot;movie&quot;&gt;The Bourne Identity&lt;/cite&gt;. A few minutes in, I said “Didn’t we watch this a few months ago?” She looked confused. “Maybe you did?” No, reader, I hadn’t watched it myself over the summer. We watched it together, but at her old apartment. Where she hasn’t lived for 18 months.&lt;!-- here --&gt;&lt;/p&gt;
+
+&lt;p&gt;My usually precise memory has served me well as a writer. But the pandemic has felt like one long Sunday. I keep confusing the days of the week, which have all lost their feel. I imagine we all feel a bit unmoored in our lives now.&lt;/p&gt;
+
+&lt;p&gt;Anyway, here’s how my creative life is going:&lt;/p&gt;
+
+&lt;h2 id=&quot;the-book&quot;&gt;The book&lt;/h2&gt;
+&lt;p&gt;Since lamenting my lack of motivation &amp;amp; progress &lt;a href=&quot;/updatesLatePatriarchy&quot;&gt;a few posts ago&lt;/a&gt;, I found a renewed wave of mental energy, and have been working steadily (if still slowly).&lt;/p&gt;
+
+&lt;h3 id=&quot;tooltips&quot;&gt;Tooltips&lt;/h3&gt;
+&lt;p&gt;I finished my first pass at adding tooltips into the poems. You most often see tooltips as text that becomes visible when you mouse-over some element on a webpage:&lt;/p&gt;
+
+&lt;!-- tooltip screenshot --&gt;
+&lt;figure&gt;
+&lt;img class=&quot;docimage&quot; src=&quot;images/dopplerEffect.png&quot; alt=&quot;
+A screenshot of the poem 'Doppler Effect' from the author's in-progress book, showing an open tooltip on the word &amp;lt;i&amp;gt;Sunsphere&amp;lt;/i&amp;gt;, with the text &amp;lt;q&amp;gt;The symbol of the 1982 World's Fair, in Knoxville, TN&amp;lt;/q&amp;gt;
+&quot; style=&quot;max-width: 65%&quot; /&gt;   &lt;!-- Changed max-width attribute to % from px --&gt;
+  &lt;figcaption style=&quot;max-width: 65%&quot;&gt;
+Originally published in &lt;cite class=&quot;journal&quot;&gt;The Bosphorus Review of Books&lt;/cite&gt;
+  &lt;/figcaption&gt;
+  &lt;!-- Changed max-width attribute to % from px --&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I haven’t been able to test on mobile yet, so I don’t know if you can tap the word to open the tooltip. I won’t include the CSS here because it’s 119 lines of code, but &lt;a href=&quot;https://idratherbewriting.com/documentation-theme-jekyll/index.html&quot;&gt;Tom&lt;/a&gt; used the &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; element to create this functionality. Or maybe this is built in to Bootstrap? It’s honestly beyond me. I can read the stylesheet and understand what’s happening, but I’m not yet skilled enough to have known how to begin iterating it.&lt;/p&gt;
+
+&lt;p&gt;I tried to be judicial in applying the tooltips. One potential drawback to implementing them is that they become a distraction to the poems. I didn’t want too many tooltips, or ones containing complex information, that would stop the reader in the middle of the poem and kick them out of the experience; and I didn’t want them to contain links that would entice readers to leave the poem. It’s an awesome feature than opens a lot of possibilities, but it can also work against me.&lt;/p&gt;
+
+&lt;p&gt;For a similar reason, it’s a good idea to minimize the number of inline links in technical documentation; one compromise is to collect links at the end of a page. Similarly, my book uses tabs below each poem to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;collect longer notes, digressions, &amp;amp; links.&lt;/li&gt;
+  &lt;li&gt;compile a list of related poems (based on keywords).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If the term can be easily looked up, I didn’t bother to include a tooltip or note for it. For example, “Betelgeuse” or “Kuiper Belt”. I also wanted to avoid explaining &lt;em&gt;everything&lt;/em&gt;. There’s nothing wrong with expecting the reader to do a little research &amp;amp; reflection after reading. I mean, if you’re not willing to engage deeply with a poem, why are you even reading?&lt;/p&gt;
+
+&lt;h3 id=&quot;audio&quot;&gt;Audio&lt;/h3&gt;
+&lt;p&gt;I finished recording scratch files for each poem. I used the &lt;code class=&quot;highlighter-rouge&quot;&gt;audio&lt;/code&gt; element to embed the recording below the poem title. Here’s the recording of &lt;cite class=&quot;poem&quot;&gt;Doppler Effect&lt;/cite&gt;, the poem in the screenshot above:&lt;/p&gt;
+
+&lt;audio display=&quot;block&quot; controls=&quot;&quot; controlsList=&quot;nodownload&quot;&gt; &lt;source src=&quot;audio/dopplerEffect.m4a&quot; /&gt; Your browser doesn't support HTML5 audio. &lt;/audio&gt;
+
+&lt;p&gt;The recordings are very low-quality because I used my phone and then compressed those files to send over Bluetooth to my computer. Even though they’re very rough, I think I’m going to release the book with these recordings. My dad, who is a recording engineer, has offered to record them professionally, so I may take him up on that after the v1.0 release of the book.&lt;/p&gt;
+
+&lt;h3 id=&quot;mvp&quot;&gt;MVP&lt;/h3&gt;
+&lt;p&gt;Professional recordings are not on my plate right now because the booksite has already taken so much of my time &amp;amp; energy over the past 13 months. I’m shooting for a &lt;strong&gt;Minimum Viable Product&lt;/strong&gt;—a development strategy that introduces a new product with the minimum necessary features to get the user’s attention. Later, I can roll out new features to enhance the book. It’s a big advantage over print publishing, and part of this project is highlighting those advantages, so why wouldn’t I? As mentioned in &lt;a href=&quot;/whatTweetsComeTo&quot;&gt;an earlier post&lt;/a&gt;, all my updates after 1.0 will be dev-related; I will not be editing, adding, or removing any poems (with the exceptions of typos &amp;amp; coding errors).&lt;/p&gt;
+
+&lt;p&gt;As far as the poems go, I once heard &lt;a href=&quot;https://www.mtsu.edu/faculty/gaylord-brewer&quot;&gt;Gaylord Brewer&lt;/a&gt; reference “the dust on the butterfly’s wings” as an argument for moderation in revision; meaning, when you get too far from the original inspiration/muse/angel/duende of the poem, your edits risk sanitizing the poem—degrading what gave the poem its magic. I think he was paraphrasing another author, but it definitely sounds like some poet shit. Which I agree with! For me (even before I’m done) the book is something of an artifact. As is each poem. They represent who I was/what I felt/what I understood at a particular point in time.&lt;/p&gt;
+
+&lt;p&gt;Walt Whitman, in contrast, edited &lt;cite class=&quot;book&quot;&gt;Leaves of Grass&lt;/cite&gt; until he died. To edit a complete poem (especially after publication) feels like a transgressive form of revisionism. Even though I may have written wrong-headed, privileged, or just plain cringey poems in the past, I don’t want to edit them out of guilt or pride. Some of those poems I don’t ever submit; but for the ones that may have been published, they already reached an audience. To retroactively edit out my faults feels dishonest. For my writing. I’m not trying to restrict your process, of course.&lt;/p&gt;
+
+&lt;p&gt;So I’ll likely add a few features after I initially serve my site at &lt;a href=&quot;https://www.thegreatpermission.com&quot;&gt;thegreatpermission.com&lt;/a&gt; (again, nothing there yet), but I won’t add or remove poems, revise any poems, or change the organization of the book after that first release.&lt;/p&gt;
+
+&lt;h3 id=&quot;marketing-or-some-facsimile-thereof&quot;&gt;Marketing (or some facsimile thereof)&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;/dreamCommonSub&quot;&gt;Last post&lt;/a&gt;, I talked a bit about figuring out how to promote the book. Since I work in techcom, which is often within or adjacent to marketing in a business org, I have a patchwork understanding of what’s necessary (the doc team at my first tech writing job was part of the marketing department). But what I know is very surface level, and based mostly on observation, not practice.&lt;/p&gt;
+
+&lt;p&gt;This feels like the biggest category of remaining work for the book. Should I have a budget for things like ads? Who should I ask to review my book, how do I initiate that request, how many reviewers do I need? Should I plan release events/readings, how many, should I try to plan a book tour (where I lose money)? I’ve found some resources to help me get started, and may request a consultation with one or two people I know who have worked in publishing.&lt;/p&gt;
+
+&lt;p&gt;In some ways, this is harder that writing &amp;amp; organizing the book or building the website because I have next-to-no experience with this industry. Everything feels very abstract &amp;amp; somewhat indecipherable. At least my professional life prepared me for front-end web development. Promoting the book is essential, and as a novice in the marketing world, am I hanging the biggest project of my life on my general ability to become proficient at new things?&lt;/p&gt;
+
+&lt;p&gt;I guess there’s no way around that risk. Becoming or building anything is risky because there are always opportunity costs. Though in that light, I suppose I’m not risking all that much. What would I be doing if I hadn’t continued to write poetry after college? Where would I put my energy? Somewhere within athletics, likely. But I’m 36 now, so my life as a competitive athlete would be basically over. Music is my next obvious passion. I gave up playing guitar a long time ago, but I’m in Nashville, and my dad is a writer, musician, &amp;amp; engineer, so there’s a good chance I’d have picked up guitar or keyboards and tried to make it.&lt;/p&gt;
+
+&lt;p&gt;I have a series of poems in which I write to myself at different ages or across the multiverse to possible lives. I guess I have some new grist for that mill.&lt;/p&gt;
+
+&lt;h3 id=&quot;writing-retreat&quot;&gt;Writing retreat&lt;/h3&gt;
+&lt;p&gt;I’m taking PTO soon to work on all of this and more. I want to finish a few poems, but mostly focus on a handful of formatting &amp;amp; tech issues for the book, and draft my marketing plan.&lt;/p&gt;
+
+&lt;p&gt;Here are the big work items I’m focusing on:&lt;/p&gt;
+
+&lt;h4 id=&quot;poems&quot;&gt;Poems&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Complete revisions on 5–6 poems I’ve planned to include, and record the audio&lt;/li&gt;
+  &lt;li&gt;Confirm my TOC&lt;/li&gt;
+  &lt;li&gt;Reach out to potential editors to discuss interest/availability/cost&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;tech-issues&quot;&gt;Tech issues&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Resolve minor navigation &amp;amp; scripting issues&lt;/li&gt;
+  &lt;li&gt;Finish adding tooltips, notes, &amp;amp; the keywords that create the related poems lists&lt;/li&gt;
+  &lt;li&gt;Complete the workout pages&lt;br /&gt;
+Yes, the book will have workouts, like you’d do at the gym, and also some selected family recipes. The idea came to me while listening to &lt;a href=&quot;https://www.commonpodcast.com/home/2019/11/18/episode-77-tina-chang&quot;&gt;Rachel Zucker’s conversation with Tina Chang&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Place the interludes (which include the workouts &amp;amp; recipes)&lt;/li&gt;
+  &lt;li&gt;Clean up the project tree&lt;br /&gt;
+There are a lot of files from Tom’s theme that I’m not using, and leaving them in bloats my repository.&lt;/li&gt;
+  &lt;li&gt;Optimize Google Analytics&lt;br /&gt;
+I have GA running on this site, but I really don’t know how to use it effectively.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;marketing&quot;&gt;Marketing&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Draft an actual plan (research, competitive analysis, SWOT, goals, objectives, target markets, message, tactics, timeline, budget)&lt;br /&gt;
+This is a little weird, because I’m not marketing for a business or consumer product. I think not all of those categories will be directly relevant, but I do think it’ll be useful to think through my project with a business mind.&lt;/li&gt;
+  &lt;li&gt;Submit relentlessly to journals&lt;/li&gt;
+  &lt;li&gt;Make a list of people &amp;amp; institutions who care about my writing, and draft a communication (a press release, I guess) to inform them of the book and ask them to share/mention it&lt;/li&gt;
+  &lt;li&gt;Make a list of people who might write about or interview me&lt;/li&gt;
+  &lt;li&gt;Get a professional head shot&lt;br /&gt;
+The one on my homepage is by the excellent &lt;a href=&quot;https://www.instagram.com/colin.potts/&quot;&gt;Colin Potts&lt;/a&gt;, but it’s almost 8 years old now, and I have different hair.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More on some or all of those in forthcoming posts!&lt;/p&gt;
+
+&lt;h2 id=&quot;writing-poems&quot;&gt;Writing poems&lt;/h2&gt;
+&lt;p&gt;Hasn’t been much of this in the past 13 months. However, last week my girlfriend was making apple butter &amp;amp; cider, and she left the apple butter in the crock pot overnight. She went to work in the morning and asked me to stir it occasionally. When I walked into the kitchen to do that, the scent was so strong and, combined with the newly cold Fall air (and the little taste I took), it was a very intense sensory moment. I felt a poem come into me, and sat down to write it. I got a full draft in one sitting, which is unusual for me.&lt;/p&gt;
+
+&lt;p&gt;Last year, I adopted &lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt; as my notetaking app. I’ve been using OneNote for years and still have tons of scraps there, but am slowly migrating over. Obsidian is gorgeous, with useful features like backlinking &amp;amp; graph view. It’s freemium, but totally free for a local installation (sync is a premium feature). Since I haven’t been writing much, I hadn’t opened Obsidian in a while. After drafting this new poem, I read back through some old drafts—and wow! I’ve got some really good poems just waiting for a revision. I feel like I stumbled on this forgotten treasure, but it was always my treasure, and now I have more work to do.&lt;/p&gt;
+
+&lt;h2 id=&quot;this-site&quot;&gt;This site&lt;/h2&gt;
+&lt;p&gt;The biggest change is that I added a &lt;a href=&quot;/now&quot;&gt;Now page&lt;/a&gt;. You can read about Now pages at &lt;a href=&quot;https://nownownow.com/about&quot;&gt;Derek Sivers website&lt;/a&gt;, but essentially it’s a regularly updated page to inform visitors what you’ve been up to lately. In contrasts with &lt;a href=&quot;/about&quot;&gt;About&lt;/a&gt; pages, which are a long shot on the author—the highlights. It may be redundant on a blog, but I think targets visitors who don’t want to read through a backlog of posts, but want to know a bit more about you.&lt;/p&gt;
+
+&lt;p&gt;You might notice some new formatting too. I got some feedback on my website in the form of a (very helpful) issue in my code repository. The end result is that images are now mobile-friendly, and the homepage has some text &amp;amp; links so you don’t have to open the context menu to navigate.&lt;/p&gt;
+
+&lt;p&gt;In some root-level pages, I also styled some h2 headers with this label:&lt;/p&gt;
+&lt;h2 id=&quot;header&quot;&gt;&lt;span class=&quot;label label-info&quot;&gt;Header!&lt;/span&gt;&lt;/h2&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;label label-info&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Header!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It’s not good design on my part. They look like buttons, which should be interactive. I’ll fix that eventually, but I thought the site needed something to break up the monotony of black text on a white page, and this was already in the stylesheet.&lt;/p&gt;
+
+&lt;h2 id=&quot;sports-stuff&quot;&gt;Sports stuff&lt;/h2&gt;
+&lt;p&gt;Being active is probably my first priority, along with work. They’re like priorities 1A &amp;amp; 1B (work because, in a capitalist, Puritanical America, it’s almost impossible for it not to consume your waking life unless you’re independently wealthy). When I miss just a week of exercise, there’s nothing checking my depression &amp;amp; anxiety. If I didn’t exercise, I don’t think I’d be mentally well enough to write or maintain close personal relationships. Right now, my primary activity is Brazilian Jiu-Jitsu.&lt;/p&gt;
+
+&lt;h3 id=&quot;bjj&quot;&gt;BJJ&lt;/h3&gt;
+&lt;p&gt;As I mention in the current iteration of my &lt;a href=&quot;/now&quot;&gt;Now&lt;/a&gt; page, I’ve been practicing Brazilian Jiu-Jitsu since June; and I suffered another injury just before my birthday in August (a tradition for me)—a sprained ligament in my wrist. That’s reasonably healed now, so I’m back to sparring in my BJJ classes (or “rolling” as we call it).&lt;/p&gt;
+
+&lt;div class=&quot;bs-callout bs-callout-info&quot;&gt;
+  &lt;p&gt;I'm a beginner to BJJ, which is a very complicated discipline, full of nuance.&lt;/p&gt;
+  &lt;p&gt;Please contextualize my observations &amp;amp; opinions as those of someone who understands very little.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I’m a fairly athletic person. I pick up most sports very quickly, unless there’s significant sport-specific skill (for example, developing your handle in basketball). To some extent, that translates to BJJ; I move quickly and my instincts are decent. But the technical aspect is unreal. I’ve never experienced any athletics with so much theory (for lack of a better word) to learn. In every situation/position you find yourself in, there are new offensive &amp;amp; defensive techniques to learn. Since there’s no real limit to the number of positions your body can be in, there’s kind of a limitless number of techniques to learn. At least, that’s how it feels to me now as a fairly fresh white belt. There are, of course, foundational movements &amp;amp; techniques; I just haven’t developed that muscle memory yet.&lt;/p&gt;
+
+&lt;p&gt;Speaking of belts, I only practice no-gi (I don’t wear the thick cotton jacket &amp;amp; pants, sometimes called a “kimono”). I don’t think there’s a belt system, and strictly speaking, it may not even be considered jiu-jitsu. So, I may be more accurately described as a “grappler” than a “jiu-jitsuka”.&lt;/p&gt;
+
+&lt;h3 style=&quot;color: #FF8200;&quot; id=&quot;tennessee-vols-football&quot;&gt;Tennessee Vols football&lt;/h3&gt;
+&lt;p&gt;They were exciting there for a minute! The new hurry-up offense under Josh Heupel is fun to watch, but (we’ve been saying this for 12 years), the team lacks depth.&lt;/p&gt;
+
+&lt;p&gt;It’s not unexpected to see a new coach have limited success during his grace period—Tennessee’s first half against Alabama is a nice microcosm. Can his staff recruit &amp;amp; develop talent, and win meaningful games? No UT coach has since Fulmer (except the two times Butch Jones beat Georgia and the one time he beat Florida). That said, at 4–4 with games against South Alabama &amp;amp; Vanderbilt still to come, they should make a bowl game. I think they might beat Kentucky too.&lt;/p&gt;
+
+&lt;div class=&quot;bs-callout bs-callout-ut&quot;&gt;
+  &lt;h4 id=&quot;we-got-there-first&quot;&gt;We got there first&lt;/h4&gt;
+ For any Texas alumni, I refer to Tennessee as &lt;strong&gt;UT&lt;/strong&gt; because my school is almost a century older than yours.
+&lt;/div&gt;
+
+&lt;p&gt;Nick Saban has to retire one of these days, right? Until then, I expect my Vols to be irrelevant; if they’re on a similar trajectory as the Buffalo Bills, Heupel is our coach of the future, and Saban will retire after next season to usher in the Vols return to competitive football.&lt;/p&gt;
+
+&lt;h3 id=&quot;buffalo-bills&quot;&gt;Buffalo Bills&lt;/h3&gt;
+&lt;p&gt;I love &lt;a href=&quot;https://www.espn.com/nfl/recap?gameId=401326422&quot;&gt;the call&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Bills are 5–2 after beating the Dolphins for the second time, and will win the AFC East barring a massive implosion or injury to Josh Allen. I don’t worry about implosions anymore, because Sean McDermott is one of the best coaches in the league.&lt;/p&gt;
+
+&lt;p&gt;I just heard every Bills fan collectively groan, but I also don’t worry about jinxes anymore. Nothing any sports team does will affect my life, and nothing I do can affect the outcome of any game. You’ll be so much happier if you internalize that. To be fair, I internalized it the hard way, progressively, as a Bills fan from 1990–2016.&lt;/p&gt;
+
+&lt;h3 id=&quot;buffalo-sabres&quot;&gt;Buffalo Sabres&lt;/h3&gt;
+&lt;p&gt;They’re good this year! Or, at least, definitely Not Bad. They’ve started the season 5-1-1 with a +9 GD, and despite the Jack Eichel drama (a young, generational talent who was stripped of his captaincy before the season amid trade rumors), they seem to have pulled it together under a new coach.&lt;/p&gt;
+
+&lt;p&gt;This is amazing since they’ve been a bottom-5 team for a full decade.&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><category term="bjj" /><category term="buffaloBills" /><category term="techJourney" /><category term="tgp" /><summary type="html">At this point in the COVID timeline, my reckoning of time seems irreparably damaged. This week, my girlfriend Sarah &amp;amp; I were browsing for a movie and settled on The Bourne Identity. A few minutes in, I said “Didn’t we watch this a few months ago?” She looked confused. “Maybe you did?” No, reader, I hadn’t watched it myself over the summer. We watched it together, but at her old apartment. Where she hasn’t lived for 18 months.</summary></entry><entry><title type="html">The Dream of a Common Submission</title><link href="https://www.andrewdillonpoetry.com/dreamCommonSub" rel="alternate" type="text/html" title="The Dream of a Common Submission" /><published>2021-10-23T00:00:00-05:00</published><updated>2021-10-23T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/the-dream-common-sub</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/dreamCommonSub">&lt;p&gt;Not long after I started working professionally as a Technical Writer, I decided to design a content strategy that would eliminate Microsoft Word from my personal writing. What I’ve got now works fairly well. It’s much more streamlined than my previous setup using Word, but there are several areas where I’d like to improve.&lt;!-- here --&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;why-not-word&quot;&gt;Why not Word?&lt;/h2&gt;
 &lt;p&gt;Microsoft as a whole manages to cling to this status as a suite of indispensable tools despite being entirely outclassed by other (free) products. I could point out many more problems I have with Word, but I’ll restrain myself to only those related to the topic of this post—Submissions.&lt;/p&gt;
@@ -580,7 +735,7 @@ Some guy the &lt;em&gt;Top Chef&lt;/em&gt; host kissed
 
 &lt;p&gt;If non-poets cared about poetry, surely the ones who love poets would, at the very least, occasionally ask about their practice—this practice they love that’s a fundamental part of their lives and, I’m supposed to believe, a universal balm.&lt;/p&gt;
 
-&lt;p&gt;Poetry may have saved your life (like in some ways it did mine), but I don’t need to believe this art has a mythical power for it to be a force in my life. I’m grateful for the personal, private ways poetry has devastated me and then put me back together. That I occasionally share those experiences with a small community of other writers, or even more rarely the world at large, deepens my love for poetry, but is not essential.&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><category term="personal" /><category term="poetryWorld" /><category term="techJourney" /><category term="troubleshooting" /><summary type="html">Poetry Twitter blew up this month, and I’ve got cold takes.</summary></entry><entry><title type="html">Updates from Late in the Patriarchy</title><link href="https://www.andrewdillonpoetry.com/updatesLatePatriarchy" rel="alternate" type="text/html" title="Updates from Late in the Patriarchy" /><published>2021-08-29T00:00:00-05:00</published><updated>2021-08-29T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/updates-late-patriarchy</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/updatesLatePatriarchy">&lt;p&gt;Honestly, I’m just emotionally drained from &lt;del&gt;18 months of the pandemic&lt;/del&gt; &lt;del&gt;America’s political hellscape since 2015&lt;/del&gt; &lt;del&gt;the undeniable &amp;amp; increasingly unavoidable reality of a climate apocalypse&lt;/del&gt; literally everything, and haven’t managed to do much in my personal life since my last blog post.&lt;!-- here --&gt; In the interest of not forgetting everything I’ve taught myself about Liquid &amp;amp; Git, and pushing the updates about my recent &amp;amp; upcoming publications, here’s a brief update:&lt;/p&gt;
+&lt;p&gt;Poetry may have saved your life (like in some ways it did mine), but I don’t need to believe this art has a mythical power for it to be a force in my life. I’m grateful for the personal, private ways poetry has devastated me and then put me back together. That I occasionally share those experiences with a small community of other writers, or even more rarely the world at large, deepens my love for poetry, but is not essential.&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><category term="personal" /><category term="poetryWorld" /><category term="techJourney" /><category term="tgp" /><category term="troubleshooting" /><summary type="html">Poetry Twitter blew up this month, and I’ve got cold takes.</summary></entry><entry><title type="html">Updates from Late in the Patriarchy</title><link href="https://www.andrewdillonpoetry.com/updatesLatePatriarchy" rel="alternate" type="text/html" title="Updates from Late in the Patriarchy" /><published>2021-08-29T00:00:00-05:00</published><updated>2021-08-29T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/updates-late-patriarchy</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/updatesLatePatriarchy">&lt;p&gt;Honestly, I’m just emotionally drained from &lt;del&gt;18 months of the pandemic&lt;/del&gt; &lt;del&gt;America’s political hellscape since 2015&lt;/del&gt; &lt;del&gt;the undeniable &amp;amp; increasingly unavoidable reality of a climate apocalypse&lt;/del&gt; literally everything, and haven’t managed to do much in my personal life since my last blog post.&lt;!-- here --&gt; In the interest of not forgetting everything I’ve taught myself about Liquid &amp;amp; Git, and pushing the updates about my recent &amp;amp; upcoming publications, here’s a brief update:&lt;/p&gt;
 
 &lt;h2 id=&quot;publications&quot;&gt;Publications&lt;/h2&gt;
 &lt;p&gt;The &lt;a href=&quot;https://poetryinthebrew.wordpress.com/&quot;&gt;Poetry in the Brew&lt;/a&gt; anthology &lt;em&gt;&lt;a href=&quot;https://aprilgloaming.com/shop/sinew-10-years-of-poetry-in-the-brew-2011-2021/&quot;&gt;Sinew&lt;/a&gt;&lt;/em&gt; was released on August 24, and I attended their in-person release party last night at &lt;a href=&quot;https://www.portlandbrewcoffee.net/&quot;&gt;Portland Brew East&lt;/a&gt;, PitB’s home since 2011. You can catch me on the &lt;a href=&quot;https://www.facebook.com/poetryinthebrew/videos/152083610409589&quot;&gt;Facebook Live feed&lt;/a&gt;, starting at 56:20. I’m so out of practice that when I fucked up my second poem, I didn’t have the presence of mind to start over. Not to mention all the fidgeting &lt;em class=&quot;far fa-meh fa-1x&quot;&gt;&lt;/em&gt;&lt;/p&gt;
@@ -1224,7 +1379,7 @@ Conservatives have killed satire
 &lt;h2 id=&quot;sports&quot;&gt;Sports!&lt;/h2&gt;
 &lt;p&gt;The Bills play the Ravens this Saturday in the Divisional round of the playoffs. I really cannot handle the stress of a high-stakes game anymore (I haven’t had any practice in many years), so I probably won’t watch much or any of it. If they make the AFC Championship or Super Bowl, I will watch those games. In fact, I’ve already talked to my brother, and if the Bills are in SBLV on February 7, I’ll drive out to visit him so we can watch together in isolation. We’ll be isolated—not because of the pandemic or because we don’t &lt;em&gt;want&lt;/em&gt; to watch with friends, but—because no one will want to be in the room with us. It would be awful to vicariously experience our anxiety for 4 hours.&lt;/p&gt;
 
-&lt;p&gt;That said, Tennessee Vols football looks as ridiculous &amp;amp; incompetent as ever and I have no confidence in the Sabres anymore (poor Jack Eichel)—so I am fully willing to sacrifice them and all other teams I cheer for on superstition’s alter for a Bills win.&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><category term="buffaloBills" /><category term="techJourney" /><category term="troubleshooting" /><summary type="html">Living in America is fun because when armed domestic terrorists that include off-duty police officers from around the country openly plan for weeks an insurrection on the Capitol and then execute that plan with a terrifying level of success aided by inside LEOs, that’s no different than a normal Wednesday to the business class.</summary></entry><entry><title type="html">How to Web Blog</title><link href="https://www.andrewdillonpoetry.com/howToWebBlog" rel="alternate" type="text/html" title="How to Web Blog" /><published>2020-12-29T00:00:00-06:00</published><updated>2020-12-29T00:00:00-06:00</updated><id>https://www.andrewdillonpoetry.com/how-to-web-blog</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/howToWebBlog">&lt;p&gt;I finally got the website up! I’m pretty proud of myself, because it’s my first website, and I figured out everything through trial &amp;amp; error and reading a LOT of help forums. &lt;!-- here --&gt;Jekyll does provide a template for the website, but I had to learn enough HTML, CSS, &amp;amp; Liquid (the templating language Jekyll uses, developed by Shopify) to write &amp;amp; modify everything.&lt;/p&gt;
+&lt;p&gt;That said, Tennessee Vols football looks as ridiculous &amp;amp; incompetent as ever and I have no confidence in the Sabres anymore (poor Jack Eichel)—so I am fully willing to sacrifice them and all other teams I cheer for on superstition’s alter for a Bills win.&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><category term="buffaloBills" /><category term="techJourney" /><category term="tgp" /><category term="troubleshooting" /><summary type="html">Living in America is fun because when armed domestic terrorists that include off-duty police officers from around the country openly plan for weeks an insurrection on the Capitol and then execute that plan with a terrifying level of success aided by inside LEOs, that’s no different than a normal Wednesday to the business class.</summary></entry><entry><title type="html">How to Web Blog</title><link href="https://www.andrewdillonpoetry.com/howToWebBlog" rel="alternate" type="text/html" title="How to Web Blog" /><published>2020-12-29T00:00:00-06:00</published><updated>2020-12-29T00:00:00-06:00</updated><id>https://www.andrewdillonpoetry.com/how-to-web-blog</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/howToWebBlog">&lt;p&gt;I finally got the website up! I’m pretty proud of myself, because it’s my first website, and I figured out everything through trial &amp;amp; error and reading a LOT of help forums. &lt;!-- here --&gt;Jekyll does provide a template for the website, but I had to learn enough HTML, CSS, &amp;amp; Liquid (the templating language Jekyll uses, developed by Shopify) to write &amp;amp; modify everything.&lt;/p&gt;
 
 &lt;p&gt;Unfortunately, I kept getting a generic build error, so I ended up building the site locally with the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; command, and pushing the contents of the &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; directory (which is re-written each time you run the &lt;code class=&quot;highlighter-rouge&quot;&gt;build&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;serve&lt;/code&gt; command) to my GitHub repo. I have to use a pretty manual/unsophisticated workflow to update the website for now.&lt;/p&gt;
 
@@ -1238,58 +1393,4 @@ Conservatives have killed satire
 &lt;h2 id=&quot;the-buffalo-bills&quot;&gt;The Buffalo Bills&lt;/h2&gt;
 &lt;p&gt;This is the first season since the 90s when I feel like they’re legitimately as good as they look (unlike the flashes of the Losman/Edwards/Fitzpatrick years). Obviously my life will change in zero ways relative to the success or failure of a professional sports team, but it means… I dunno, something… to see Buffalo’s team playing well.&lt;/p&gt;
 
-&lt;p&gt;It’s a boring cliche to say that a team is the lifeblood/heartbeat/soul of a town, but people in Rust Belt towns like Buffalo really care about their distractions—myself included, despite trying to ignore games &amp;amp; whole seasons over the past two decades. Like other mid-sized cities, Buffalo is undergoing something of a renaissance right now; but I grew up in the aftermath of the steel &amp;amp; grain industry exodus. Having this team to celebrate means something. I don’t know if I buy into the idea of sports-as-community, but in a crowd of Bills fans, I would without question shotgun a Labatt and body slam a folding table.&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><category term="buffaloBills" /><category term="techJourney" /><category term="troubleshooting" /><summary type="html">I finally got the website up! I’m pretty proud of myself, because it’s my first website, and I figured out everything through trial &amp;amp; error and reading a LOT of help forums.</summary></entry><entry><title type="html">Blog Songs</title><link href="https://www.andrewdillonpoetry.com/blogSongs" rel="alternate" type="text/html" title="Blog Songs" /><published>2020-12-16T00:00:00-06:00</published><updated>2020-12-16T00:00:00-06:00</updated><id>https://www.andrewdillonpoetry.com/blog-songs</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/blogSongs">&lt;p&gt;So I didn’t keep track of my progress on the book. Or anything else this year. I guess who cares since I haven’t even launched this site yet.&lt;!-- here --&gt;&lt;/p&gt;
-
-&lt;p&gt;I’ve really only started working on the book in earnest since the beginning of November. I’m shifting focus now to launch my author’s website first. I’m not sure if I’ll continue posting about the book, but for now, here’s where things stand:&lt;/p&gt;
-
-&lt;div id=&quot;thebook&quot;&gt;
-  &lt;h2 id=&quot;the-book&quot;&gt;The book&lt;/h2&gt;
-  &lt;p&gt;When the book is done, it’ll be located at &lt;a href=&quot;https://www.thegreatpermission.com&quot;&gt;thegreatpermission.com&lt;/a&gt;. I’m creating it on top of the &lt;a href=&quot;https://idratherbewriting.com/documentation-theme-jekyll/index.html&quot;&gt;Jekyll Doc Theme&lt;/a&gt; that &lt;a href=&quot;https://www.idratherbewriting.com&quot;&gt;Tom Johnson&lt;/a&gt; built. I guess you would call it a webbook. As much as I do want a physical book to hold in my hands &amp;amp; even one day sign at my readings (!!!), the digital format allows so many opportunities for me as a writer and you as a reader:&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;navigation&lt;/li&gt;
-    &lt;li&gt;multimedia&lt;/li&gt;
-    &lt;li&gt;interactivity&lt;/li&gt;
-    &lt;li&gt;metapoetics/glosses&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;p&gt;It was too interesting to pass up. So possibly no publisher will be interested in this format (how would you monetize it?), but I think that’s okay. I have a career outside poetry, and if I have to continue balancing my professional &amp;amp; creative endeavors to travel the artistic avenues I want, I’m prepared to do that.&lt;/p&gt;
-  &lt;!-- TGP screenshot --&gt;
-  &lt;figure&gt;
-&lt;img class=&quot;docimage&quot; src=&quot;images/tgpInProgress.png&quot; alt=&quot;A screenshot of the author's in-progress webbook manuscript, showing the navigation &amp;amp; menu items on a blank `About the author` page.&quot; style=&quot;max-width: 100%&quot; /&gt;     &lt;!-- Changed max-width attribute to % from px --&gt;
-    &lt;figcaption style=&quot;max-width: 100%&quot;&gt;
-The book, in progress.
-    &lt;/figcaption&gt;
-    &lt;!-- Changed max-width attribute to % from px --&gt;
-  &lt;/figure&gt;
-  &lt;p&gt;Of course, I &lt;em&gt;want&lt;/em&gt; to quit my corporate job to write poems and give readings and talk to other artists every week. So the webbook will have links to my &lt;a href=&quot;https:www.patreon.com/andrewpdillon&quot;&gt;Patreon&lt;/a&gt; &amp;amp; &lt;a href=&quot;https:www.paypal.me/andrewpdillon&quot;&gt;PayPal&lt;/a&gt; =D&lt;/p&gt;
-  &lt;p&gt;The title of the book comes from a quote by poet &lt;a href=&quot;https://www.alicefrimanpoet.com&quot;&gt;Alice Friman&lt;/a&gt;. I’m not sure if it’s codified in a book or interview anywhere, but she visited the University of Tennessee when I was in the first semester of my MFA. &lt;q&gt;Poetry is the great permission&lt;/q&gt; is one of the many very quotable things she said during her craft talk.&lt;/p&gt;
-  &lt;p&gt;The structure of the book is mostly in place. There are several poems I want to finish or revise before I publish the website, and that’s probably the bulk of the remaining work. But I still have a bunch of items to check off before the site is done from a technical perspective; the biggest ones are:&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;figure out the logic for previous &amp;amp; next buttons&lt;/li&gt;
-    &lt;li&gt;build a dark theme&lt;/li&gt;
-    &lt;li&gt;set up Google Analytics&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;p&gt;The &lt;strong&gt;previous/next&lt;/strong&gt; buttons are complicated because I’m not in any sense a web developer. I have that functionality here on the blog because it’s a built-in variable for posts. The doc theme that I’m using for the book uses a YAML file to define the TOC, and I want the previous/next logic to loop through that to spit out buttons. It’s definitely possible because there’s separate logic that loops through that same YAML to create the sidebar navigation, and Jekyll’s own doc does something similar with its tutorials. I just don’t know what the fuck I’m doing yet.&lt;/p&gt;
-  &lt;p&gt;I’m also color deficient (similar to colorblind), and color palettes mean nothing to me, so the dark theme will be weird.&lt;/p&gt;
-  &lt;p&gt;I’m using &lt;a href=&quot;https://www.asana.com&quot;&gt;Asana&lt;/a&gt; to manage the effort, which I like a LOT more than other project management tools I’ve used. I’ve been part of Corporate America for almost a decade now, so I’ve used most of the big ones.&lt;/p&gt;
-  &lt;p&gt;I hate Git, but use it because it’s integral to Jekyll &amp;amp; GitHub Pages.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;other-than-poetry&quot;&gt;Other than poetry&lt;/h2&gt;
-
-&lt;p&gt;I work in the healthcare industry as a Technical Writer. I’m in Nashville, where healthcare is maybe the biggest industry in the city—yes, even larger than music or tourism. It’s a wonderful career for an introvert. I wouldn’t have the skillset to put together this blog, much less my book, without my career in TechCom.&lt;/p&gt;
-
-&lt;p&gt;I’ve been studying Spanish since June 2018. I use Duolingo every day (with a 906 day streak as of Dec 16), and before the pandemic, I took group classes at the &lt;a href=&quot;https://tfli.org&quot;&gt;Tennessee Language Center&lt;/a&gt;. I’m not fluent by any stretch, but if I spent a couple months in a Spanish-speaking community, I think I’d come out communicating effectively.&lt;/p&gt;
-
-&lt;!-- Duolingo image --&gt;
-&lt;figure&gt;
-&lt;a class=&quot;no_icon&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; href=&quot;https://www.duolingo.com&quot;&gt; &lt;img class=&quot;docimage&quot; src=&quot;images/duolingoReview2020.png&quot; alt=&quot;The author's 2020 Duolingo statistics. He was in the top 2% of experience earners.&quot; style=&quot;max-width: 100%&quot; /&gt; &lt;!-- Changed max-width attribute to % from px --&gt; &lt;/a&gt;   &lt;figcaption style=&quot;max-width: 100%&quot;&gt;
-My 2020 Duolingo stats
-  &lt;/figcaption&gt;
-  &lt;!-- Changed max-width attribute to % from px --&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I’m from Buffalo. The Bills are having a great season, and I’m not saying I had anything to do with that, but as soon as I stopped believing in jinxes, the Pegulas hired Sean McDermott &amp;amp; Brandon Beane. ::shrug:: Even though my family has been in Nashville since I was nine, I still consider myself “from” Buffalo. I’ve encountered a lot of people who have different opinions about how I should identify in that regard. Which is fun.&lt;/p&gt;
-
-&lt;p&gt;Lots of people also misspell my last name. It’s &lt;code class=&quot;highlighter-rouge&quot;&gt;D-I-L-L-O-N&lt;/code&gt;. No second “i”. As far as I know, “Dillion” has never been a surname anywhere in the world.&lt;/p&gt;
-
-&lt;p&gt;Okay! That seems like a whole blog post.&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><category term="buffaloBills" /><category term="techJourney" /><category term="troubleshooting" /><summary type="html">So I didn’t keep track of my progress on the book. Or anything else this year. I guess who cares since I haven’t even launched this site yet.</summary></entry></feed>
+&lt;p&gt;It’s a boring cliche to say that a team is the lifeblood/heartbeat/soul of a town, but people in Rust Belt towns like Buffalo really care about their distractions—myself included, despite trying to ignore games &amp;amp; whole seasons over the past two decades. Like other mid-sized cities, Buffalo is undergoing something of a renaissance right now; but I grew up in the aftermath of the steel &amp;amp; grain industry exodus. Having this team to celebrate means something. I don’t know if I buy into the idea of sports-as-community, but in a crowd of Bills fans, I would without question shotgun a Labatt and body slam a folding table.&lt;/p&gt;</content><author><name>Andrew P. Dillon</name></author><category term="buffaloBills" /><category term="techJourney" /><category term="tgp" /><category term="troubleshooting" /><summary type="html">I finally got the website up! I’m pretty proud of myself, because it’s my first website, and I figured out everything through trial &amp;amp; error and reading a LOT of help forums.</summary></entry></feed>

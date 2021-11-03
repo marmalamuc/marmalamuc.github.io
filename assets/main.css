@@ -39,6 +39,10 @@ body { font: 400 16px/1.5 "Kohinoor Bangla", -apple-system, BlinkMacSystemFont, 
 
 .bs-callout-info h4 { color: #5bc0de; }
 
+.bs-callout-ut { border-left-color: #FF8200; }
+
+.bs-callout-ut h4 { color: #FF8200; }
+
 .alert { padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px; }
 
 .alert h4 { margin-top: 0; color: inherit; }
