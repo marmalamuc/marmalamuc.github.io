@@ -192,7 +192,7 @@ table td { border: 0px; }
 
 .PageNavigation .next { text-align: right; float: right; }
 
-cite.album, cite.book, cite.game, cite.journal cite.magazine, cite.movie, cite.tv, cite.vgame { font-style: italic; quotes: none; }
+cite.album, cite.book, cite.game, cite.journal cite.magazine, cite.movie, cite.podcast, cite.tv, cite.vgame { font-style: italic; quotes: none; }
 
 cite.article, cite.poem, cite.song { font-style: normal; quotes: auto; }
 
