@@ -2,4 +2,4 @@
 
 Read poems & blog posts, or contact Andrew P. Dillon.
 
-[andrewdillonpoetry.com]({{site.data.keys.links.mysite}})
+[andrewdillonpoetry.com]({{site.url}})
