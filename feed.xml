@@ -1,4 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2022-02-07T12:45:08-06:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><author><name>Andrew P. Dillon</name></author><entry><title type="html">In Which Language Do I Keep Blogging</title><link href="https://www.andrewdillonpoetry.com/inWhichLanguage" rel="alternate" type="text/html" title="In Which Language Do I Keep Blogging" /><published>2021-12-15T00:00:00-06:00</published><updated>2021-12-15T00:00:00-06:00</updated><id>https://www.andrewdillonpoetry.com/in-which-language</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/inWhichLanguage"><![CDATA[<p>I cannot conceive of more concrete evidence of America as a failed state than our regular need for heroic teenage bullet sponges. <!-- here -->Tate Myer is the latest victim of America’s childish obsession with guns. Usually, when a news item erodes what little faith I have rebuilt in people, I can console myself with the fact that it’s reporting by exception. But in America, a day without gun violence <em>is</em> the exception.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2022-02-15T09:37:06-06:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><author><name>Andrew P. Dillon</name></author><entry><title type="html">The Computer on Which I Troubleshoot</title><link href="https://www.andrewdillonpoetry.com/computerTroubleshoot" rel="alternate" type="text/html" title="The Computer on Which I Troubleshoot" /><published>2022-02-15T00:00:00-06:00</published><updated>2022-02-15T00:00:00-06:00</updated><id>https://www.andrewdillonpoetry.com/the-computer-on-which</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/computerTroubleshoot"><![CDATA[<p>We’re still in the habit of asking people “How was your week/weekend?” or “What have you been up to?” But since every day is the same and time has no meaning anymore, I have no answers. <!-- here -->Especially since most of the people asking those questions are colleagues or casual acquaintances. I’m not telling them about how I watched Rick &amp; Morty s5 in one sitting, or <em>all my computer problems</em>.</p>
+
+<h2 id="publications">Publications</h2>
+<p>I’ve had several poems published recently! Sort of a coincidence that the publishing schedules all lined up in this three month period, because they were all accepted at different times—one a full year ago:</p>
+<ul>
+  <li>5 poems in the <a href="https://www.ws.edu/_media/pdf/special-events/mildred/review/2021-review.pdf">Mildred Haun Review</a></li>
+  <li>1 poem in <a href="https://thewildword.com/poetry-andrew-p-dillon">The Wild Word</a></li>
+  <li>1 poem in <a href="https://www.stirringlit.com/vol-24-ed-1-p-dead-letters-by-andrew-p-dillon">Stirring</a></li>
+  <li>1 poem in <a href="https://www.westreview.org/what-he-didnt.html">The West Review</a></li>
+</ul>
+
+<p>I’ve also got 2 poems forthcoming in print in <a href="http://www.poetrysalzburg.com/psr-main.htm">Poetry Salzburg Review</a>, which will now be a Spring 2022 pub, rather than the Winter 2021 release that was planned. The editor recently posted that the master copy is with the printer, so… however long it takes to print then ship. (From Austria.)</p>
+
+<h3 id="submissions">Submissions</h3>
+<p>I was on a streak, submitting poems most days November–January. There are probably 30 submissions still awaiting reply (plus a few chapbook contests). 30 submissions represents about 150 poems, and with my lifetime acceptance rate around 3% of the total poems I submit, I can probably expect another 4–5 poems published.</p>
+
+<p>No submissions since the end of January, though. After doing a clean migration to a new computer whose OS no longer supports PHP, I’m still redesigning my submission architecture. Big surprise, it wasn’t as easy as <a href="/dreamCommonSub#page-level-variables">I made it out to be</a>. More on this <a href="#migrating">below</a>.</p>
+
+<h2 id="this-site">This site</h2>
+<p>A few small changes here. I removed the <em>About</em> page, and added its content to the homepage. It didn’t seem necessary to have a separate page for my short bio and contact info while I had a homepage with no content except a headshot. Considering getting rid of the Contact info panel, since all that info is in the footer of every page.</p>
+
+<p>I hate my homepage, actually. It’s boring, and I don’t think the elements really work together; it looks, I dunno, blocky. I need to spend some time revising. I also need a new headshot in advance of releasing the book, and since the current one is 8 years old.</p>
+
+<p>On the <a href="/links">Links page</a>, all my poetry publications are now visible. I can’t remember now why I decided to highlight only some of them; it’s not like I have an unwieldy number of credits. Several of the journals &amp; their websites are now defunct, and others were published in print, so many of my published poems aren’t available at all. Which brings me to my final update on this site, the <em>Read</em> page.</p>
+
+<h3 id="read-page">Read page</h3>
+<p>It’s not quite ready yet. Because I <a href="#symlinks">solved my single-sourcing issue</a>, I now have all my poems available in the repo for this website. The plan is to use the <em>Read</em> page to display all my published poems that are:</p>
+<ul>
+  <li>unavailable because the journal folded.</li>
+  <li>older than one year (preferring to direct traffic to the journal until then).</li>
+</ul>
+
+<p>But I can’t figure out the code to disallow pubs less than a year old <em class="far fa-meh-rolling-eyes"></em></p>
+
+<p>Dates are tricky in Liquid. I can’t just say something like <code class="highlighter-rouge">if date ≤ ('now' - 365)</code>. In Liquid, you can only use operators (==, !=, &lt;, &lt;=, &gt;, &gt;=, or, and) within control flow tags (if, unless, case/when). But you can’t use filters in any of those tags to limit output; and most of the useful filters (like <code class="highlighter-rouge">where</code>) only act on arrays. Basically, it takes too much effort to compare dates. And Liquid (sometimes?) treats them as strings instead of numbers or, ya know, dates.</p>
+
+<p>One solution <em>should be</em> to convert all dates to Unix time (the number of seconds since   <time datetime="1970-01-01T00:00:00">midnight 01 Jan 1970</time>
+), subtract the published date from today’s date, and ensure that number is greater than <code class="highlighter-rouge">31,556,926</code> (the number of seconds in a non-leap year). It’s basically how I wrote the <em>Links</em> page to say “forthcoming” if the issue hasn’t been released yet. But it’s not working, and I haven’t figured it out because I’m very bad at this.</p>
+
+<p>Of course, that solution will only reflect dates at the second I build my site, before pushing to the GitHub repo. Javascript should be able to keep all my date-dependent code current, but I’m only just now learning that language.</p>
+
+<h2 id="migrating">Migrating</h2>
+<p>My old computer was experiencing increasingly regular kernel panics (like a crash, but more severe because it’s related to the core program within your operating system), so I bought a new computer before the old one could brick on me. Because of the kernel panics, I decided to do a clean migration to avoid accidentally bringing over whatever corrupt file was fucking up the old computer. I thought it would be a good learning experience, but it was just a massive pain in the ass.</p>
+
+<h3 id="users">Users</h3>
+<p>I decided to implement the common security practice of setting up a standard user for day-to-day use, separate from the admin user you create when you first power on a new computer. The rationale being that Admin has access to everything on the computer, so if you get phished or download the wrong file, the scammer has full access; Standard users have a more limited scope, so a scammer can do less damage.</p>
+
+<p>All that sounds great, but for people like me who use a lot of open-source tools, it requires updating PATH variables for every tool or language. This is usually poorly documented, if at all. It’s also scary because you’re running command line commands to edit configuration files. Entering the wrong PATH probably won’t screw anything up that you can’t easily fix, but there are other elements in those files that <em>will</em> fuck up your computer should you mistype.</p>
+
+<h3 id="jekyll">Jekyll</h3>
+<p>I won’t get into all the details, but getting my Jekyll projects up &amp; running was… infuriating. In theory, you just clone the repo from GitHub, but the gem theme directory structure complicates it.</p>
+
+<p>Jekyll allows you to choose a theme (or skin) for your site, and while the project directory can be anywhere (like your desktop), the files for the theme are buried in the directory for whatever tool you use to manage Ruby (RVM, in my case).</p>
+
+<p>I ended up moving all the necessary theme files into the project folders, then transferring the files over Airdrop. I have two projects that use the same theme (this site &amp; my submissions project); with the gem theme directory structure, all those files are shared. Which I think is very stupid. Unless you want both projects to have the exact same layouts, headers, footers, &amp; stylesheets, it only makes things harder as a user.</p>
+
+<h3 id="dotfiles">Dotfiles</h3>
+<p>Finally (and this was my dumb fault), I used a tool called Mackup to transfer my <a href="https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory">dotfiles</a>. That temporarily fucked everything up because I continued to use the old computer. I didn’t realize (but should have) that Mackup was <em>syncing</em> those files (it uses your Dropbox or similar account). So I ended up with important config files being shared with both computers (oops) as aliases (shit). Fortunately, once I uninstalled Mackup, everything went back to normal.</p>
+
+<h3 id="symlinks">Symlinks</h3>
+<p>The big thing that migrating forced me to deal with was my bad practice of <a href="dreamCommonSub#true-single-sourcing-with-submodules">maintaining multiple copies</a> of my poems. To recap, I have three projects that might need to use my poems:</p>
+<ul>
+  <li>this site</li>
+  <li>the <a href="/greatPermission">booksite</a></li>
+  <li>a setup for creating submissions</li>
+</ul>
+
+<p>Two of those three had their own copies of each poem (I’ve been holding off adding poems to this site so as not to create another copy):</p>
+<ul>
+  <li>The booksite is another Jekyll project, so those poems needed YAML frontmatter.</li>
+  <li>The <a href="/dreamCommonSub#submission-architecture">submissions setup on the old computer</a> used the built-in Apache server, with poems written in HTML and compiled with a PHP template.</li>
+</ul>
+
+<p>Given two different formats, they couldn’t have been shared. In some macOS update after my old computer wasn’t able to upgrade anymore, Mac deprecated support for PHP. Rather than recreate that setup, I figured I could use Jekyll to create submission documents.</p>
+
+<div class="bs-callout bs-callout-info">
+I decided not to change anything with the poems in the booksite. They have custom frontmatter elements for navigation &amp; notes that would be meaningless in another project. Plus, I want the booksite to remain static after I release it; I don't want any future edits to those poems to get pushed to the booksite.
+</div>
+
+<p>To have a single source of poems, I tested Git submodules. But because Git is trash, it wasn’t a solution. First of all, the files in the submodule weren’t available in the superprojects I added them to—Jekyll basically acted like they weren’t there. And even if it had worked, that setup would have required me to run <em>all</em> of the following commands <em>each time</em> I updated any poem:</p>
+
+<p><em>in the submodule (poems) repo</em></p>
+<ol>
+  <li>git add</li>
+  <li>git commit</li>
+  <li>git push</li>
+</ol>
+
+<p><em>in <strong>each</strong> superproject (repos using the poems)</em></p>
+<ol>
+  <li>git submodule update –remote</li>
+  <li>git add</li>
+  <li>git commit</li>
+  <li>git push</li>
+</ol>
+
+<p>Finally, I remembered that another Jekyll Talk user <a href="https://talk.jekyllrb.com/t/is-it-possible-to-single-source-files-across-jekyll-projects/5565">suggested</a> I look into symlinks. And they work seamlessly! I just ran the following Zsh command (in Terminal) for each project where I want the poems to be available:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ln</span> <span class="nt">-s</span> path/to/poems path/to/project
+</code></pre></div></div>
+
+<p>And that’s it! <em class="fas fa-glass-cheers"></em> All my poems are now persistently available in this project &amp; the submissions project.</p>
+
+<p>As far as I can tell, the only real downside here is that <em>every</em> poem gets pulled into the build, even the ones that aren’t being used anywhere. For this site, that’s kind of a pain in the ass, since the GitHub repo has to be public in order for GH Pages to read &amp; serve it, and a lot of journals have strict interpretations of what constitutes “previous publication”. So I have to manually remove those files.</p>
+
+<h2 id="the-book">The book</h2>
+<p>No real progress here because of all the time I spent dealing with the new computer. I have some time away from work coming up that I plan to devote to the book; specifically communicating with a friend who works in book promotion.</p>
+
+<h2 id="bjj">BJJ</h2>
+<div class="bs-callout bs-callout-info">
+  <p>I'm a beginner to BJJ, which is a very complicated discipline, full of nuance.</p>
+  <p>Please contextualize my observations &amp; opinions as those of someone who understands very little.</p>
+</div>
+
+<p>This week, I used a Kimura to tap someone in a roll while I had him in full guard.</p>
+
+<p>That was probably a weird sentence for anyone reading this blog, so let me break it down:</p>
+<ul>
+  <li><strong><a href="https://en.wikipedia.org/wiki/Armlock#Kimura_(Gyaku_ude-garami)">Kimura</a></strong> is an arm &amp; shoulder lock, named after Masahiko Kimura (regarded as the judo GOAT).</li>
+  <li><strong>tap</strong> means I submitted my opponent—I made him tap.</li>
+  <li><strong>roll</strong> is a spar, or a practice fight.</li>
+  <li><strong>guard</strong> is a position. When I’m on the ground and my opponent is above me, I’m “in guard”.<br /><strong>Full guard</strong> means I’m on my back with my legs around my opponent’s torso and ankles locked; here, my opponent is “in my guard”. (Counterintuitively, if I have an opponent in full guard, <em>I</em> am in the advantageous position.)</li>
+</ul>
+
+<p>I’d never managed it from that position, so I felt like a total boss. The Kimura (or the similar Americana) is my favorite submission; I go for it a lot, mostly failing. I’m trying to master them because (from my inexpert perspective) one of them is available from pretty much every position.</p>
+
+<p>Mostly, I got my ass kicked again this week. I’m very sore because one roll was with a black belt, and he basically decided what my body would be doing for those three minutes.</p>]]></content><author><name>Andrew P. Dillon</name></author><category term="bjj" /><category term="publications" /><category term="submissions" /><category term="techJourney" /><category term="troubleshooting" /><summary type="html"><![CDATA[We’re still in the habit of asking people “How was your week/weekend?” or “What have you been up to?” But since every day is the same and time has no meaning anymore, I have no answers.]]></summary></entry><entry><title type="html">In Which Language Do I Keep Blogging</title><link href="https://www.andrewdillonpoetry.com/inWhichLanguage" rel="alternate" type="text/html" title="In Which Language Do I Keep Blogging" /><published>2021-12-15T00:00:00-06:00</published><updated>2021-12-15T00:00:00-06:00</updated><id>https://www.andrewdillonpoetry.com/in-which-language</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/inWhichLanguage"><![CDATA[<p>I cannot conceive of more concrete evidence of America as a failed state than our regular need for heroic teenage bullet sponges. <!-- here -->Tate Myer is the latest victim of America’s childish obsession with guns. Usually, when a news item erodes what little faith I have rebuilt in people, I can console myself with the fact that it’s reporting by exception. But in America, a day without gun violence <em>is</em> the exception.</p>
 
 <h2 id="publications">Publications</h2>
 <p>My poem <a href="https://www.westreview.org/what-he-didnt.html"><cite class="poem">What He Didn’t Know Before</cite></a> was published in the new issue of <a href="https://www.westreview.org/current-issue.html"><cite class="journal">The West Review</cite></a>. It’s such a strong issue. And I was so happy to have my poem alongside <a href="https://www.westreview.org/to-be-honest.html"><cite class="poem">To Be Honest, Not At All Like Fine Wine</cite></a> by <a href="http://donnavorreyer.com">Donna Vorreyer</a>, whose newest collection, <cite class="book">To Everything There Is</cite>, I’ve read through a few times this year.</p>
@@ -1553,81 +1678,4 @@ ALGO rocket go brrrrrrrr
 
 <p>Since I got caught as a $GME bag holder, I would have been in &amp; out of Dogecoin too if Coinbase supported it. I might have to set alerts for when Elon Musk tweets so I can immediately buy whatever the fuck he’s blurbing and then sell a day later after the ensuing pump.</p>
 
-<p>The market, of course, is very volatile, and the value of individual currencies can swing wildly from hour to hour, so you can’t be a reactive investor. If you want to invest some cash in crypto, here’s my <a href="https://www.coinbase.com/join/dillon_q3b">Coinbase referral link</a>. If you sign up and put in $100, we both get $10 in Bitcoin.</p>]]></content><author><name>Andrew P. Dillon</name></author><category term="crypto" /><category term="publications" /><category term="tgp" /><summary type="html"><![CDATA[Since last March, I’ve been going to a local high school track to exercise. My gym was hit by the tornado that flattened a path through East Nashville; and of course, the pandemic was fully in effect just a couple weeks later. There are several regulars in the early afternoon, and on Monday this week, a woman stopped to say hello.]]></summary></entry><entry><title type="html">The Stonks Blow Through the Diamonds of My Hands</title><link href="https://www.andrewdillonpoetry.com/windBlows" rel="alternate" type="text/html" title="The Stonks Blow Through the Diamonds of My Hands" /><published>2021-01-29T00:00:00-06:00</published><updated>2021-01-29T00:00:00-06:00</updated><id>https://www.andrewdillonpoetry.com/the-wind-blows</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/windBlows"><![CDATA[<p>America <a href="https://kottke.org/21/01/usa-downgraded-from-democracy-to-anocracy-part-democracy-and-part-dictatorship">is no longer a democracy</a> but an anocracy, so it’s a fun time to be alive in these here United States.<!-- here --></p>
-
-<p>Of course, that evaluation is based on the culmination of four years with Trump in office and a Republican Party of sycophants controlling the Senate. We’re likely to inch back up in next year’s evaluation, despite a number of Congresspeople who are literal conspiracy theorists. Conservatives have always been an embarrassment &amp; a threat, but now absolutely everyone, including themselves, is at risk.</p>
-
-<h2 id="cookie-consent">Cookie consent</h2>
-<p>If you’ve never been to this site before, or cleared your cookies since last time, you saw the banner pop up at the bottom of the screen.</p>
-
-<p>Since I’m still learning Javascript, I kept putting the script in the wrong place, but eventually figured it out. The directions on the <a href="https://www.osano.com/cookieconsent/download/">Osano</a> website were fairly clear, I just misread the step that said to put the script just before the <code class="highlighter-rouge">&lt;/body&gt;</code> tag—I initially read it as <code class="highlighter-rouge">&lt;body&gt;</code> so, obviously, the script was not visible on the page.</p>
-
-<p>It would have been more readable if it were worded: “add the following code within the <code class="highlighter-rouge">&lt;body&gt;</code> of your <code class="highlighter-rouge">index.html</code> file, just before the closing tag.”</p>
-
-<p>On that Osano page, at the bottom of the <em>Open Source Edition</em> column, click <strong>Start Coding</strong> to expand some configuration options. In Jekyll, you would add that script into your <code class="highlighter-rouge">default.html</code> layout file.</p>
-
-<!-- Osano screenshot -->
-<figure>
-<img class="docimage" src="images/osano.png" alt="A screenshot of the Osano Consent Management webpage that shows the Start Coding button you can press to configure your popup." style="max-width: 75%" />   <!-- Changed max-width attribute to % from px -->
-  <figcaption style="max-width: 75%">
-Click the Start Coding button to configure your popup
-  </figcaption>
-  <!-- Changed max-width attribute to % from px -->
-</figure>
-
-<h2 id="content-management">Content management</h2>
-<p>I’m going to add a page called <strong>Read</strong> to display poems that have been published, but are not immediately available because they’re either in print or the journal is no longer online. It’s obviously not up yet, and that’s because I have to decide how to deal with a single-sourcing issue with the poems.</p>
-
-<p>In addition to this website, I have two other Jekyll projects:</p>
-<ul>
-  <li>one for my forthcoming book, <em>The Great Permission</em></li>
-  <li>one to keep all my writing under version control</li>
-</ul>
-
-<p>Ideally, all my poems would live in the latter project, and whenever I needed to include one in the book or on this website, I’d pull it in from there. That way, when I revise a poem, I don’t need to do it in three places. I don’t know how to single-source across Jekyll projects, though; or even if that’s possible. I’ll have to post on the <a href="https://talk.jekyllrb.com">Jekyll Talk</a> forum to get some insight.</p>
-
-<p>I actually also have a fourth directory of my poems in HTML that are served on my local Apache server, which I created long before I had the skill to manage a Jekyll project. I desperately wanted to get away from writing &amp; editing in Word, so I put everything in HTML, wrote a stylesheet, and created a simple PHP template to make submissions easier. (I’ll detail this setup in another blog post.) I could use Jekyll to handle submissions instead, but until I solve the single-sourcing issue, there’s no point in migrating.</p>
-
-<h2 id="the-buffalo-bills">The Buffalo Bills</h2>
-<p>What a fun season! I was disappointed to see them get rolled in the AFC Championship, but they’re a young team and have the talent &amp; coaching to make it back in coming years. We fans can’t have a chip on our shoulders anymore, so that’s gonna be a big attitude adjustment for most Buffalonians. If they aren’t perennial underachievers, how will we maintain this blue-collar, disrespected identity? I’m gonna have to edit my <a href="/about">short bio</a>.</p>
-
-<h2 id="fulbright">Fulbright</h2>
-<p>I’m going to apply for one! Being a government grant, the application process is a mess. If you’ve ever applied for the NEA, it’s not <em>quite</em> that bad, but it is a jumble of redundant pages &amp; counterintuitive terminology. For example, I’ll probably apply under the “U.S. Student Program” (as opposed to the U.S. Scholar Program) despite having completed my MFA in 2014.</p>
-
-<p>There are also separate websites for those Fulbright programs on completely different domains:</p>
-<ul>
-  <li><a href="https://awards.cies.org">U.S. Scholar Program</a>: https://awards.cies.org</li>
-  <li><a href="https://us.fulbrightonline.org">U.S. Student Program</a>: https://us.fulbrightonline.org</li>
-</ul>
-
-<p>Why aren’t these programs unified at a single starting point?</p>
-
-<p>Right now, I have so many ideas for projects that I can’t decide which one to apply with. Which is a great problem to have. You can only submit a single application for a single project per cycle, so I do have to decide.</p>
-
-<p>I started looking into this at a good time because the current application cycle is ending. The next cycle starts in October, meaning I have plenty of time to decide on a project, write everything up, and find recommenders. (Isn’t asking other people to do work for you the absolute worst?)</p>
-
-<p>Along the way, I’ll post about my progress here. Hopefully, documenting the process will make it easier for someone else down the line.</p>
-
-<h2 id="gamestonks--amequic">Gamestonks &amp; AM(equi)C</h2>
-<p>(I tried.)</p>
-
-<p>Yes I jumped on this bandwagon. I won’t explain the whole situation, but here is a <a href="https://www.vice.com/en/article/pkdvgy/send-this-to-anyone-who-wants-to-know-wtf-is-up-with-gamestop-stock">good summary</a>.</p>
-
-<!-- Stonks screenshot -->
-<figure>
-<img class="docimage" src="images/buyStonks.png" alt="A screenshot of the buy amounts I paid for the popular meme stocks: AMC, BB, GME, NOK." style="max-width: 80%" />   <!-- Changed max-width attribute to % from px -->
-  <figcaption style="max-width: 80%">
-Holding for the meme
-  </figcaption>
-  <!-- Changed max-width attribute to % from px -->
-</figure>
-
-<p><strong>Quick disclaimer</strong>: I’m not any kind of financial expert. You shouldn’t consider anything I say below to be advice or wisdom.</p>
-
-<p>I’m lucky to have remained employed during the pandemic, and was able to spend a modest amount to participate in this cultural moment. I don’t expect to make money on these shares; I’m in it to help squeeze Melvin Capital &amp; Citron Research, and force them to pour billions into closing their positions. This will drive the stock price higher, and allow regular ole retail traders to reap some of that.</p>
-
-<p>This week already has been a massive redistribution of wealth from the financial elite to the middle class. This is wealth that we, as laborers whose capital is our very bodies, created. Firms like Melvin &amp; Citron fuck around with the capital our labor creates, manipulate the market with ladder attacks &amp; PR campaigns, and generally play with our lives &amp; money as a business. Their losses this week are just the vigorish on decades of recklessness.</p>
-
-<p>If you’re holding, here’s a simple site to let you know when it’s time to sell: <strong><a href="https://isthesqueezesquoze.com">is the squeeze squoze</a></strong>. Despite what r/WallStreetBets is saying, don’t hold forever. Those firms will eventually close their short positions, and then stocks like GME (which are absolutely overvalued now) will fall as everyone sells.</p>
-
-<p>That said, I’m willing to lose everything I have invested in these stocks if it means the hedge funds lose their asses and it results in some policy change.</p>]]></content><author><name>Andrew P. Dillon</name></author><category term="buffaloBills" /><category term="submissions" /><category term="techJourney" /><category term="troubleshooting" /><summary type="html"><![CDATA[America is no longer a democracy but an anocracy, so it’s a fun time to be alive in these here United States.]]></summary></entry></feed>
+<p>The market, of course, is very volatile, and the value of individual currencies can swing wildly from hour to hour, so you can’t be a reactive investor. If you want to invest some cash in crypto, here’s my <a href="https://www.coinbase.com/join/dillon_q3b">Coinbase referral link</a>. If you sign up and put in $100, we both get $10 in Bitcoin.</p>]]></content><author><name>Andrew P. Dillon</name></author><category term="crypto" /><category term="publications" /><category term="tgp" /><summary type="html"><![CDATA[Since last March, I’ve been going to a local high school track to exercise. My gym was hit by the tornado that flattened a path through East Nashville; and of course, the pandemic was fully in effect just a couple weeks later. There are several regulars in the early afternoon, and on Monday this week, a woman stopped to say hello.]]></summary></entry></feed>
