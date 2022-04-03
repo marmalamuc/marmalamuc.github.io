@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2022-02-15T09:37:06-06:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><author><name>Andrew P. Dillon</name></author><entry><title type="html">The Computer on Which I Troubleshoot</title><link href="https://www.andrewdillonpoetry.com/computerTroubleshoot" rel="alternate" type="text/html" title="The Computer on Which I Troubleshoot" /><published>2022-02-15T00:00:00-06:00</published><updated>2022-02-15T00:00:00-06:00</updated><id>https://www.andrewdillonpoetry.com/the-computer-on-which</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/computerTroubleshoot"><![CDATA[<p>We’re still in the habit of asking people “How was your week/weekend?” or “What have you been up to?” But since every day is the same and time has no meaning anymore, I have no answers. <!-- here -->Especially since most of the people asking those questions are colleagues or casual acquaintances. I’m not telling them about how I watched Rick &amp; Morty s5 in one sitting, or <em>all my computer problems</em>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2022-04-02T19:59:44-05:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><author><name>Andrew P. Dillon</name></author><entry><title type="html">The Computer on Which I Troubleshoot</title><link href="https://www.andrewdillonpoetry.com/computerTroubleshoot" rel="alternate" type="text/html" title="The Computer on Which I Troubleshoot" /><published>2022-02-15T00:00:00-06:00</published><updated>2022-02-15T00:00:00-06:00</updated><id>https://www.andrewdillonpoetry.com/the-computer-on-which</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/computerTroubleshoot"><![CDATA[<p>We’re still in the habit of asking people “How was your week/weekend?” or “What have you been up to?” But since every day is the same and time has no meaning anymore, I have no answers. <!-- here -->Especially since most of the people asking those questions are colleagues or casual acquaintances. I’m not telling them about how I watched Rick &amp; Morty s5 in one sitting, or <em>all my computer problems</em>.</p>
 
 <h2 id="publications">Publications</h2>
 <p>I’ve had several poems published recently! Sort of a coincidence that the publishing schedules all lined up in this three month period, because they were all accepted at different times—one a full year ago:</p>
@@ -102,7 +102,7 @@ I decided not to change anything with the poems in the booksite. They have custo
 
 <p>As far as I can tell, the only real downside here is that <em>every</em> poem gets pulled into the build, even the ones that aren’t being used anywhere. For this site, that’s kind of a pain in the ass, since the GitHub repo has to be public in order for GH Pages to read &amp; serve it, and a lot of journals have strict interpretations of what constitutes “previous publication”. So I have to manually remove those files.</p>
 
-<h2 id="the-book">The book</h2>
+<h2 id="the-booksite">The booksite</h2>
 <p>No real progress here because of all the time I spent dealing with the new computer. I have some time away from work coming up that I plan to devote to the book; specifically communicating with a friend who works in book promotion.</p>
 
 <h2 id="bjj">BJJ</h2>
@@ -146,7 +146,7 @@ A 192px copy for some reason
 
 <p>No other updates to this site. I think it’s serving its purpose as a digital landing page for my writing; though I suspect more people actually view <a href="https://www.instagram.com/andrewdillonpoetry">my Instagram</a>, which is <em>not saying much</em>.</p>
 
-<h2 id="the-book">The book</h2>
+<h2 id="the-booksite">The booksite</h2>
 <p>Lots of small, unremarkable progress on the backend. Mostly applying &amp; paring down tooltips, keywords, &amp; notes. One update is that I changed the subtitle from the simple &amp; obvious “Poems” to “A reliquary”. Some background here:</p>
 
 <p>I was talking to a potential editor (more below), and after I explained that <a href="https://www.commonpodcast.com/home/2019/11/18/episode-77-tina-chang">Rachel Zucker’s conversation with Tina Chang</a> was a major turning point for my conception of the book, they told me about Nikki Finney’s <cite class="book">Love Child’s Hotbed of Occasional Poetry: Poems and Artifacts</cite>. It clicked for me that my booksite—already pushing against what a collection of poetry looks like &amp; how it exists in the world, and with the pictures, recipes, &amp; notes—<em>is</em> more than a collection of poems. Its scope is larger.</p>
@@ -378,7 +378,7 @@ Live at Portland Brew East, 11 Dec 2021<br />Credit: Christine Hall
 
 <p>I had a sincere exchange with <em>The West Review</em>’s Editor-in-Chief, <a href="https://www.despyboutris.com">Despy Boutris</a>, about one word in the poem, where we expressed our positions and came to what I think is a good compromise. I love working with editors. I admit that my knee-jerk reaction is always incredulity whenever someone wants to change my work, but I would also say that any change I’ve made in concert with an editor has unequivocally improved the poem. I’m grateful for the time &amp; energy that other people spend on my work.</p>
 
-<h2 id="the-book">The book</h2>
+<h2 id="the-booksite">The booksite</h2>
 <p>Things are moving along! I decided that, no matter what, I’m releasing the book in 2022. I already own the domain, and it’s, strictly speaking, a functional website right now, so I’m not going to allow myself to delay it beyond next year. Very excited to have made that decision, and a huge relief.</p>
 
 <h3 id="looavulluhvulloueyville">Looavul/Luhvul/Loueyville</h3>
@@ -476,7 +476,7 @@ If there is absolutely gonna be a fight, be the one to start &amp; end it. Then 
 
 <p>Anyway, here’s how my creative life is going:</p>
 
-<h2 id="the-book">The book</h2>
+<h2 id="the-booksite">The booksite</h2>
 <p>Since lamenting my lack of motivation &amp; progress <a href="/updatesLatePatriarchy">a few posts ago</a>, I found a renewed wave of mental energy, and have been working steadily (if still slowly).</p>
 
 <h3 id="tooltips">Tooltips</h3>
@@ -998,7 +998,7 @@ poem3: forgingTheBoy
 
 <p>Feel free to drop me a line if you’re a poet who needs a push in the open source direction!</p>]]></content><author><name>Andrew P. Dillon</name></author><category term="submissions" /><category term="techJourney" /><category term="troubleshooting" /><summary type="html"><![CDATA[Not long after I started working professionally as a Technical Writer, I decided to design a content strategy that would eliminate Microsoft Word from my personal writing. What I’ve got now works fairly well. It’s much more streamlined than my previous setup using Word, but there are several areas where I’d like to improve.]]></summary></entry><entry><title type="html">What Tweets Come To</title><link href="https://www.andrewdillonpoetry.com/whatTweetsComeTo" rel="alternate" type="text/html" title="What Tweets Come To" /><published>2021-09-16T00:00:00-05:00</published><updated>2021-09-16T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/what-tweets-come-to</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/whatTweetsComeTo"><![CDATA[<p>Poetry Twitter blew up this month, and I’ve got cold takes. <!-- here -->But first, some updates.</p>
 
-<h2 id="the-book">The book</h2>
+<h2 id="the-booksite">The booksite</h2>
 <p>I finally made a bit of progress on the book (website? webbook? booksite?). After lamenting my lack of motivation in <a href="/updatesLatePatriarchy">the previous post</a>, I forced myself to open Atom and boldly continue to fail to understand a watered down scripting language.</p>
 
 <h3 id="nested-iteration">Nested iteration</h3>
@@ -1233,7 +1233,7 @@ Some guy the <em>Top Chef</em> host kissed
 
 <p>I haven’t submitted anything since ::checks notes:: the first week of May, so I’m not expecting any more acceptances until I get back to it.</p>
 
-<h2 id="the-book">The book</h2>
+<h2 id="the-booksite">The booksite</h2>
 <p>I have made no progress on the book.</p>
 
 <p>I still have to solve my issues with <a href="/moreBeautifulThings#thebook">creating the Gallery</a> &amp; <a href="/blogsongs#thebook">the previous/next buttons</a>, but just care less &amp; less about it the longer the pandemic drags on.</p>
@@ -1624,7 +1624,7 @@ A daily reminder in my living room
 
 <p>I think she must be an artist. I hope I’ll get a chance to chat with her again soon.</p>
 
-<h2 id="the-book">The book</h2>
+<h2 id="the-booksite">The booksite</h2>
 <p>I haven’t made any real progress on the book lately, but I’m taking some PTO next month to focus on finishing a handful of poems and working through a couple coding issues with the book.</p>
 
 <p>I did have a brief exchange with <a href="https://keithswilson.com">Keith Wilson</a> on Twitter about digital interactive poetry. He’s doing some interesting things with an open-source platform called <a href="https://twinery.org">Twine</a>, which I’d never heard of, but looks like it’s been around for several years. Check out his poem that was published in <a href="http://keithswilson.com/Blueshift%20Journal%20Love%20-%20Backup/The%20Blueshift%20Journal%20_%20keith%20wilson.html">The Blueshift Journal</a>.</p>
