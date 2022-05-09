@@ -377,6 +377,10 @@ pre.poem { font-family: "Kohinoor Bangla", -apple-system, BlinkMacSystemFont, "S
 
 @media screen and (max-width: 800px) { .post-content h4 { font-size: 18px; } }
 
+.footnotes { font-size: 12px; }
+
+.footnotes::before { content: "__<br />Notes"; }
+
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 
