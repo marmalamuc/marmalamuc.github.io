@@ -99,7 +99,7 @@
 <p>Dates are tricky in Liquid. I can’t just say something like <code class="highlighter-rouge">if date ≤ ('now' - 365)</code>. In Liquid, you can only use operators (==, !=, &lt;, &lt;=, &gt;, &gt;=, or, and) within control flow tags (if, unless, case/when). But you can’t use filters in any of those tags to limit output; and most of the useful filters (like <code class="highlighter-rouge">where</code>) only act on arrays. Basically, it takes too much effort to compare dates. And Liquid (sometimes?) treats them as strings instead of numbers or, ya know, dates.</p>
 
 <p>One solution <em>should be</em> to convert all dates to Unix time (the number of seconds since   <time datetime="1970-01-01T00:00:00">midnight 01 Jan 1970</time>
-), subtract the published date from today’s date, and ensure that number is greater than <code class="highlighter-rouge">31,556,926</code> (the number of seconds in a non-leap year). It’s basically how I wrote the <em>Links</em> page to say “forthcoming” if the issue hasn’t been released yet. But it’s not working, and I haven’t figured it out because I’m very bad at this.</p>
+), subtract the published date from today’s date, and ensure that number is greater than <code class="highlighter-rouge">31,556,926</code> (the number of seconds in a non-leap year). It’s basically how I wrote the <em>Links</em> page to say “forthcoming” if the issue hasn’t been released yet. But it’s not working, and I haven’t figured it out yet.</p>
 
 <p>Of course, that solution will only reflect dates at the second I build my site, before pushing to the GitHub repo. Javascript should be able to keep all my date-dependent code current, but I’m only just now learning that language.</p>
 
