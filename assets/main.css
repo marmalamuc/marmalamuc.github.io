@@ -82,6 +82,8 @@ body { font: 400 16px/1.5 "Kohinoor Bangla", -apple-system, BlinkMacSystemFont, 
 
 .alert-danger .alert-link { color: #843534; }
 
+.bs-callout > ul { margin-bottom: 0; }
+
 /* End Callout & Alert styles*/
 dl { display: flex; flex-flow: row wrap; border: hidden; }
 
@@ -130,9 +132,11 @@ figcaption { font-size: 14px; }
 /** Lists */
 ul, ol { margin-left: 30px; }
 
+ol > li { margin-bottom: 7.5px; }
+
 li > ul, li > ol { margin-bottom: 0; }
 
-p + ol, p + ul { padding-top: 0px; margin-top: -15px; }
+p + ol, p + ul { padding-top: 0px; margin-top: -10px; }
 
 /** Headings */
 h1, h2, h3, h4, h5, h6 { font-weight: 400; }
