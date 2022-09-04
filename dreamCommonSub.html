@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base target="_blank"><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <!-- <base target="_blank"> --><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>The Dream of a Common Submission | Andrew P. Dillon</title>
 <meta name="generator" content="Jekyll v4.0.1" />
 <meta property="og:title" content="The Dream of a Common Submission" />
@@ -47,7 +47,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/blog">Blog</a><a class="page-link" href="/greatPermission">The Great Permission</a><a class="page-link" href="/links">Links</a><a class="page-link" href="/now">Now</a></div>
+        <div class="trigger"><a class="page-link" href="/blog">Blog</a><a class="page-link" href="/links">Links</a><a class="page-link" href="/now">Now</a><a class="page-link" href="/tgp">The Great Permission</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -320,7 +320,7 @@ A very simple submission document
 <p>The biggest problem I have is maintaining multiple copies of each poem. Right now I have <em>three</em> poetry directories:</p>
 <ul>
   <li>The localhost setup I detailed in this post</li>
-  <li>The <a href="https://idratherbewriting.com/documentation-theme-jekyll/index.html">custom Jekyll</a> project for my manuscript, <em><a href="/greatPermission">The Great Permission</a></em> (which only includes the poems that are actually in the book)</li>
+  <li>The <a href="https://idratherbewriting.com/documentation-theme-jekyll/index.html">custom Jekyll</a> project for my manuscript, <em><a href="/tgp">The Great Permission</a></em> (which only includes the poems that are actually in the book)</li>
   <li>A default <a href="https:jekyllrb.com">Jekyll</a> project called <code class="highlighter-rouge">poetry</code> (which I don’t keep updated, but is meant to replace the localhost setup when I finally implement submodules)</li>
 </ul>
 
@@ -519,9 +519,24 @@ poem3: forgingTheBoy
       }
     });
     </script>
-    
+
     <script src="./js/utils.js"></script>
     <script src="./js/home.js"></script>
+
+    <script>
+      //open external links in a new window
+      //https://jekyllcodex.org/without-plugin/new-window-fix/
+      function external_new_window() {
+          for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+              var b = c[a];
+              if(b.getAttribute("href") && b.hostname !== location.hostname) {
+                  b.target = "_blank";
+                  b.rel = "noopener";
+              }
+          }
+      }
+      external_new_window();
+    </script>
 
   </body>
 

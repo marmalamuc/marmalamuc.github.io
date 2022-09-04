@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2022-08-22T19:45:53-05:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><author><name>Andrew P. Dillon</name></author><entry><title type="html">The Abridged History of Treason</title><link href="https://www.andrewdillonpoetry.com/abridgedHistory" rel="alternate" type="text/html" title="The Abridged History of Treason" /><published>2022-07-17T00:00:00-05:00</published><updated>2022-07-17T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/abridged-history</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/abridgedHistory"><![CDATA[<p>The Republican Party has overthrown the United States government.<!-- here --> Or, more accurately, they’ve been overthrowing it for decades.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://www.andrewdillonpoetry.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.andrewdillonpoetry.com/" rel="alternate" type="text/html" /><updated>2022-09-04T16:49:14-05:00</updated><id>https://www.andrewdillonpoetry.com/feed.xml</id><title type="html">Andrew P. Dillon</title><subtitle>Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</subtitle><author><name>Andrew P. Dillon</name></author><entry><title type="html">The Abridged History of Treason</title><link href="https://www.andrewdillonpoetry.com/abridgedHistory" rel="alternate" type="text/html" title="The Abridged History of Treason" /><published>2022-07-17T00:00:00-05:00</published><updated>2022-07-17T00:00:00-05:00</updated><id>https://www.andrewdillonpoetry.com/abridged-history</id><content type="html" xml:base="https://www.andrewdillonpoetry.com/abridgedHistory"><![CDATA[<p>The Republican Party has overthrown the United States government.<!-- here --> Or, more accurately, they’ve been overthrowing it for decades.</p>
 
 <h2 id="minority-rule">Minority rule</h2>
 <p>I was a high school sophomore when SCOTUS handed the presidency to George W. Bush, who lost the vote. Trump lost by a near-historic margin to Hillary Clinton, arguably the most qualified candidate in my lifetime. Both Republicans took office because of the <a href="https://www.brennancenter.org/our-work/analysis-opinion/electoral-colleges-racist-origins">racist Electoral College</a>, which was designed to empower white Southern voters.</p>
@@ -330,7 +330,7 @@ no name but amber, archers, cinnamon, horses and birds.</p>
 <p>The big thing that migrating forced me to deal with was my bad practice of <a href="dreamCommonSub#true-single-sourcing-with-submodules">maintaining multiple copies</a> of my poems. To recap, I have three projects that might need to use my poems:</p>
 <ul>
   <li>this site</li>
-  <li>the <a href="/greatPermission">booksite</a></li>
+  <li>the <a href="/tgp">booksite</a></li>
   <li>a setup for creating submissions</li>
 </ul>
 
@@ -1152,7 +1152,7 @@ A very simple submission document
 <p>The biggest problem I have is maintaining multiple copies of each poem. Right now I have <em>three</em> poetry directories:</p>
 <ul>
   <li>The localhost setup I detailed in this post</li>
-  <li>The <a href="https://idratherbewriting.com/documentation-theme-jekyll/index.html">custom Jekyll</a> project for my manuscript, <em><a href="/greatPermission">The Great Permission</a></em> (which only includes the poems that are actually in the book)</li>
+  <li>The <a href="https://idratherbewriting.com/documentation-theme-jekyll/index.html">custom Jekyll</a> project for my manuscript, <em><a href="/tgp">The Great Permission</a></em> (which only includes the poems that are actually in the book)</li>
   <li>A default <a href="https:jekyllrb.com">Jekyll</a> project called <code class="highlighter-rouge">poetry</code> (which I don’t keep updated, but is meant to replace the localhost setup when I finally implement submodules)</li>
 </ul>
 

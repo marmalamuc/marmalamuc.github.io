@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base target="_blank"><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <!-- <base target="_blank"> --><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Unincorporated Problems in the Late Bama Dynasty | Andrew P. Dillon</title>
 <meta name="generator" content="Jekyll v4.0.1" />
 <meta property="og:title" content="Unincorporated Problems in the Late Bama Dynasty" />
@@ -47,7 +47,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/blog">Blog</a><a class="page-link" href="/greatPermission">The Great Permission</a><a class="page-link" href="/links">Links</a><a class="page-link" href="/now">Now</a></div>
+        <div class="trigger"><a class="page-link" href="/blog">Blog</a><a class="page-link" href="/links">Links</a><a class="page-link" href="/now">Now</a><a class="page-link" href="/tgp">The Great Permission</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -303,9 +303,24 @@ The one on my homepage is by the excellent <a href="https://www.instagram.com/co
       }
     });
     </script>
-    
+
     <script src="./js/utils.js"></script>
     <script src="./js/home.js"></script>
+
+    <script>
+      //open external links in a new window
+      //https://jekyllcodex.org/without-plugin/new-window-fix/
+      function external_new_window() {
+          for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+              var b = c[a];
+              if(b.getAttribute("href") && b.hostname !== location.hostname) {
+                  b.target = "_blank";
+                  b.rel = "noopener";
+              }
+          }
+      }
+      external_new_window();
+    </script>
 
   </body>
 

@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base target="_blank"><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <!-- <base target="_blank"> --><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Links | Andrew P. Dillon</title>
 <meta name="generator" content="Jekyll v4.0.1" />
 <meta property="og:title" content="Links" />
@@ -46,7 +46,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/blog">Blog</a><a class="page-link" href="/greatPermission">The Great Permission</a><a class="page-link" href="/links">Links</a><a class="page-link" href="/now">Now</a></div>
+        <div class="trigger"><a class="page-link" href="/blog">Blog</a><a class="page-link" href="/links">Links</a><a class="page-link" href="/now">Now</a><a class="page-link" href="/tgp">The Great Permission</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -58,7 +58,15 @@
   </header>
 
   <div class="post-content">
-    <h3 id="poems"><span class="label label-info">Poems</span></h3>
+    <ul class="fa-ul">
+  <li><span class="fa-li"><em class="fas fa-angle-double-down"></em></span><a href="#poems">Poems</a></li>
+  <li><span class="fa-li"><em class="fas fa-angle-double-down"></em></span><a href="#recent-features">Recent features</a></li>
+  <li><span class="fa-li"><em class="fas fa-angle-double-down"></em></span><a href="#interviews">Interviews</a></li>
+</ul>
+
+<hr />
+
+<h3 id="poems"><span class="label label-info">Poems</span></h3>
 
 <p><cite class="magazine pubTitle"> <a href="https://www.poetrysalzburg.com/psr-no38.htm" target="_blank">Poetry Salzburg Review</a> </cite><br /> <!-- had to convert date strings to Unix time (number of seconds since 1970-01-01) in order to compare dates --> April 2022:</p>
 
@@ -296,8 +304,11 @@
 
 <p><!-- The `sel` mapping in the YAML file wasn't recognizing the key:value pair because I didn't have the value wrapped in quotes. I mistakenly believed that because the value was a single word with no spaces, it would be recognized.
   Probably a boolean value (true/false) would have worked without spaces --></p>
+<hr />
 
 <h3 id="recent-features"><span class="label label-info">Recent features</span></h3>
+
+<p><span class="pubTitle">Uncorked</span><br /> 21 September 2022<br /> Americano Lounge, Nashville, TN<br /></p>
 
 <p><span class="pubTitle">Sundress Reading Series</span><br /> 01 March 2020<br /> Hexagon Brewing Co., Knoxville, TN<br /> with Bailey Martin, Tamara Zbrizher</p>
 
@@ -307,7 +318,11 @@
 
 <p><span class="pubTitle">TNT: MusiCircus</span><br /> 17 May 2018<br /> Oz Arts Nashville, Nashville, TN<br /></p>
 
+<hr />
+
 <h3 id="interviews"><span class="label label-info">Interviews</span></h3>
+
+<p><span class="pubTitle">University of Tennessee Department of English</span><br /> <a href="https://calendar.utk.edu/event/professional_writing_careers_speaker_series" target="_blank">Professional Writing Careers Speaker Series #1: Andrew Dillon</a> <br /> September 2022</p>
 
 <p><span class="pubTitle">Shitty First Drafts</span><br /> <a href="https://sfdpodcast.podbean.com/e/episode-008-andrew-p-dillon" target="_blank">Episode 008—Andrew P. Dillon</a> <br /> October 2019</p>
 
@@ -319,7 +334,7 @@
 <hr class="faded"/>
   <div class="headRoom">
     <span class="label label-info"><a href="/blog">Blog</a></span> •
-    <span class="label label-info"><a href="/greatPermission">TGP</a></span> •
+    <span class="label label-info"><a href="/tgp">TGP</a></span> •
     <span class="label label-info"><a href="/links">Links</a></span> •
     <span class="label label-info"><a href="/now">Now</a></span>
     <!-- • <span class="label label-info"><a href="/read">Read</a></span> -->
@@ -380,9 +395,24 @@
       }
     });
     </script>
-    
+
     <script src="./js/utils.js"></script>
     <script src="./js/home.js"></script>
+
+    <script>
+      //open external links in a new window
+      //https://jekyllcodex.org/without-plugin/new-window-fix/
+      function external_new_window() {
+          for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+              var b = c[a];
+              if(b.getAttribute("href") && b.hostname !== location.hostname) {
+                  b.target = "_blank";
+                  b.rel = "noopener";
+              }
+          }
+      }
+      external_new_window();
+    </script>
 
   </body>
 

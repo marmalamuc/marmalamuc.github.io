@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base target="_blank"><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <!-- <base target="_blank"> --><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>The Great Permission | Andrew P. Dillon</title>
 <meta name="generator" content="Jekyll v4.0.1" />
 <meta property="og:title" content="The Great Permission" />
@@ -11,14 +11,14 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon" />
 <meta property="og:description" content="Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon" />
-<link rel="canonical" href="https://www.andrewdillonpoetry.com/greatPermission" />
-<meta property="og:url" content="https://www.andrewdillonpoetry.com/greatPermission" />
+<link rel="canonical" href="https://www.andrewdillonpoetry.com/tgp" />
+<meta property="og:url" content="https://www.andrewdillonpoetry.com/tgp" />
 <meta property="og:site_name" content="Andrew P. Dillon" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="The Great Permission" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Andrew P. Dillon"},"description":"Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon","headline":"The Great Permission","url":"https://www.andrewdillonpoetry.com/greatPermission"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Andrew P. Dillon"},"description":"Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon","headline":"The Great Permission","url":"https://www.andrewdillonpoetry.com/tgp"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
 
@@ -46,7 +46,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/blog">Blog</a><a class="page-link" href="/greatPermission">The Great Permission</a><a class="page-link" href="/links">Links</a><a class="page-link" href="/now">Now</a></div>
+        <div class="trigger"><a class="page-link" href="/blog">Blog</a><a class="page-link" href="/links">Links</a><a class="page-link" href="/now">Now</a><a class="page-link" href="/tgp">The Great Permission</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -58,14 +58,25 @@
   </header>
 
   <div class="post-content">
-    <p>Andrew P. Dillon’s first collection, <em>The Great Permission</em>, is a booksite he’s developing using a <a href="https://idratherbewriting.com/documentation-theme-jekyll/index.html">custom Jekyll theme</a>. It will be available at thegreatpermission.com sometime in 2022.</p>
+    <p><em>The Great Permission</em> is Andrew P. Dillon’s debut poetry collection—in the form of a website. He’s developing this booksite using a <a href="https://idratherbewriting.com/documentation-theme-jekyll/index.html">custom Jekyll theme</a>.</p>
 
-<p>His work experience as a Technical Writer led him to search out alternative authoring &amp; publishing strategies for his poetry, which is how he arrived at the insane, consuming work of writing a book with an open source toolchain.</p>
+<p>Subtitled <em>A reliquary</em>, it features:</p>
+<ul>
+  <li>66 poems</li>
+  <li>audio of the author reading each poem</li>
+  <li>annotations</li>
+  <li>pictures</li>
+  <li>family recipes</li>
+</ul>
+
+<p>—some of the many relics of a life.</p>
+
+<!-- His work experience as a Technical Writer led him to search out alternative authoring & publishing strategies for his poetry, which is how he arrived at the insane, consuming work of writing a book with an open source toolchain. -->
 
 <!-- [thegreatpermission.com](https://www.thegreatpermission.com). -->
 
 <div class="bs-callout bs-callout-info">
-Look for an announcement here when it's live!
+v1.0 will be available at thegreatpermission.com on <strong>Wednesday, September 21, 2022</strong>.
 </div>
 
 <figure>
@@ -79,7 +90,7 @@ Look for an announcement here when it's live!
 <hr class="faded"/>
   <div class="headRoom">
     <span class="label label-info"><a href="/blog">Blog</a></span> •
-    <span class="label label-info"><a href="/greatPermission">TGP</a></span> •
+    <span class="label label-info"><a href="/tgp">TGP</a></span> •
     <span class="label label-info"><a href="/links">Links</a></span> •
     <span class="label label-info"><a href="/now">Now</a></span>
     <!-- • <span class="label label-info"><a href="/read">Read</a></span> -->
@@ -140,9 +151,24 @@ Look for an announcement here when it's live!
       }
     });
     </script>
-    
+
     <script src="./js/utils.js"></script>
     <script src="./js/home.js"></script>
+
+    <script>
+      //open external links in a new window
+      //https://jekyllcodex.org/without-plugin/new-window-fix/
+      function external_new_window() {
+          for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+              var b = c[a];
+              if(b.getAttribute("href") && b.hostname !== location.hostname) {
+                  b.target = "_blank";
+                  b.rel = "noopener";
+              }
+          }
+      }
+      external_new_window();
+    </script>
 
   </body>
 

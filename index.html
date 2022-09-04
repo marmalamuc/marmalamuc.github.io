@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base target="_blank"><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <!-- <base target="_blank"> --><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Andrew P. Dillon | Poetry, blog posts, links, &amp; contact info for poet Andrew P. Dillon</title>
 <meta name="generator" content="Jekyll v4.0.1" />
 <meta property="og:title" content="Andrew P. Dillon" />
@@ -46,7 +46,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/blog">Blog</a><a class="page-link" href="/greatPermission">The Great Permission</a><a class="page-link" href="/links">Links</a><a class="page-link" href="/now">Now</a></div>
+        <div class="trigger"><a class="page-link" href="/blog">Blog</a><a class="page-link" href="/links">Links</a><a class="page-link" href="/now">Now</a><a class="page-link" href="/tgp">The Great Permission</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -68,12 +68,13 @@ Credit: Colin Potts
   <!-- Changed max-width attribute to % from px -->
 </figure>
 
-<p>Andrew P. Dillon is a poet who lives in Nashville, born in Buffalo. He graduated in the University of Tennessee’s inaugural MFA class, was awarded a scholarship to the Virginia Center for Creative Arts workshop in Auvillar, France, and has been nominated for the Best New Poets anthology &amp; the Pushcart Prize.</p>
+<p>Andrew P. Dillon is an American poet<!-- who currently lives in Amsterdam-->. He graduated in the University of Tennessee’s inaugural MFA class, was awarded a scholarship to the Virginia Center for Creative Arts workshop in Auvillar, France, and has been nominated for the Best New Poets anthology &amp; the Pushcart Prize.</p>
 
 <p>He pops up on the Nashville poetry scene, most often attending:</p>
 <ul>
   <li><a href="https://poetryinthebrew.wordpress.com">Poetry in the Brew</a>, an open mic active on second Saturday (in person) &amp; fourth Saturday (online).</li>
   <li><a href="https://www.facebook.com/poetryblackdogbookco">Black Dog open mic</a>, active second Tuesday (in person or online).</li>
+  <li><a href="https://www.instagram.com/americanolounge">Uncorked</a> at Americano Lounge, active third Wednesday (in person).</li>
 </ul>
 
 <!-- Professionally, he's a Technical Writer with nearly a decade of experience. -->
@@ -88,7 +89,7 @@ Credit: Colin Potts
 <div class="center">
   <hr class="faded" />
   <div class="headRoom">
-<span class="label label-info"><a href="/blog">Blog</a></span> • <span class="label label-info"><a href="/greatPermission">TGP</a></span> • <span class="label label-info"><a href="/links">Links</a></span> • <span class="label label-info"><a href="/now">Now</a></span>     <!-- • <span class="label label-info"><a href="/read">Read</a></span> -->
+<span class="label label-info"><a href="/blog">Blog</a></span> • <span class="label label-info"><a href="/tgp">TGP</a></span> • <span class="label label-info"><a href="/links">Links</a></span> • <span class="label label-info"><a href="/now">Now</a></span>     <!-- • <span class="label label-info"><a href="/read">Read</a></span> -->
   </div>
 </div>
 
@@ -147,9 +148,24 @@ Credit: Colin Potts
       }
     });
     </script>
-    
+
     <script src="./js/utils.js"></script>
     <script src="./js/home.js"></script>
+
+    <script>
+      //open external links in a new window
+      //https://jekyllcodex.org/without-plugin/new-window-fix/
+      function external_new_window() {
+          for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+              var b = c[a];
+              if(b.getAttribute("href") && b.hostname !== location.hostname) {
+                  b.target = "_blank";
+                  b.rel = "noopener";
+              }
+          }
+      }
+      external_new_window();
+    </script>
 
   </body>
 
