@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <base target="_blank"> --><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>There Are More Beautiful Things Than [My] Blog | Andrew P. Dillon</title>
-<meta name="generator" content="Jekyll v4.0.1" />
+<meta name="generator" content="Jekyll v4.3.1" />
 <meta property="og:title" content="There Are More Beautiful Things Than [My] Blog" />
 <meta name="author" content="Andrew P. Dillon" />
 <meta property="og:locale" content="en_US" />
@@ -66,11 +66,9 @@
 
 <!-- r/notTheOnion screenshot -->
 <figure>
-<img class="docimage" src="images/notTheOnion.png" alt="A screenshot of a post from r/nottheonion, with the headline: Woman trampled to death at U.S. Capitol held flag that read, 'Don't tread on me'" style="max-width: 60%" />   <!-- Changed max-width attribute to % from px -->
-  <figcaption style="max-width: 60%">
+<img class="docimage" src="images/notTheOnion.png" alt="A screenshot of a post from r/nottheonion, with the headline: Woman trampled to death at U.S. Capitol held flag that read, 'Don't tread on me'" style="max-width: 60%" />   <figcaption style="max-width: 60%">
 Conservatives have killed satire
   </figcaption>
-  <!-- Changed max-width attribute to % from px -->
 </figure>
 
 <p>When I wasn’t doing meaningless knowledge work, here’s what I spent my time on:</p>
@@ -79,7 +77,7 @@ Conservatives have killed satire
 <p>I was mostly wrong about my issue with Google Analytics. And the fix was pretty simple. As it turns out, there’s either something wrong with Minima’s GA integration, or it’s incompatible with the new GA4 tracking IDs.</p>
 
 <h3 id="the-minima-theme">The Minima theme</h3>
-<p>Jekyll’s Minima theme comes with a file in the hidden gem directory at <code class="highlighter-rouge">_includes/google-analytics.html</code>. (The gem directory is separate from the Jekyll project directory, which is kind of a pain in the ass. On Mac, it’s at <code class="highlighter-rouge">Macintosh HD/Users/&lt;username&gt;/.rvm/gems/ruby-2.#.#/gems/minima-2.#.#</code>. JFC.) It holds the following script:</p>
+<p>Jekyll’s Minima theme comes with a file in the hidden gem directory at <code class="language-plaintext highlighter-rouge">_includes/google-analytics.html</code>. (The gem directory is separate from the Jekyll project directory, which is kind of a pain in the ass. On Mac, it’s at <code class="language-plaintext highlighter-rouge">Macintosh HD/Users/&lt;username&gt;/.rvm/gems/ruby-2.#.#/gems/minima-2.#.#</code>. JFC.) It holds the following script:</p>
 
 <figure class="highlight">
   <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
@@ -95,12 +93,12 @@ Conservatives have killed satire
 <span class="o">&lt;</span><span class="sr">/script&gt;</span></code></pre></div>  </div>
 </figure>
 
-<p>In that same directory is <code class="highlighter-rouge">head.html</code>. <code class="highlighter-rouge">head.html</code> is called by the <code class="highlighter-rouge">default</code> layout (also in the gem directory), which means it’s part of every page. <code class="highlighter-rouge">head.html</code> calls <code class="highlighter-rouge">google-analytics.html</code>, which should insert the script GA needs to track your pages.</p>
+<p>In that same directory is <code class="language-plaintext highlighter-rouge">head.html</code>. <code class="language-plaintext highlighter-rouge">head.html</code> is called by the <code class="language-plaintext highlighter-rouge">default</code> layout (also in the gem directory), which means it’s part of every page. <code class="language-plaintext highlighter-rouge">head.html</code> calls <code class="language-plaintext highlighter-rouge">google-analytics.html</code>, which should insert the script GA needs to track your pages.</p>
 
-<p>There’s also a site-wide variable for your GA tracking ID in <code class="highlighter-rouge">_config.yml</code>. You can see the script above calling {{ site.google_analytics }}.</p>
+<p>There’s also a site-wide variable for your GA tracking ID in <code class="language-plaintext highlighter-rouge">_config.yml</code>. You can see the script above calling {{ site.google_analytics }}.</p>
 
 <h3 id="on-the-other-hand">On the other hand</h3>
-<p>It’s also possible that I needed to build the site specifying <code class="highlighter-rouge">JEKYLL_ENV=production</code> for the built-in GA code to be triggered, which is just now occurring to me as I write this. On the command line, that looks like:</p>
+<p>It’s also possible that I needed to build the site specifying <code class="language-plaintext highlighter-rouge">JEKYLL_ENV=production</code> for the built-in GA code to be triggered, which is just now occurring to me as I write this. On the command line, that looks like:</p>
 
 <figure class="highlight">
   <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">JEKYLL_ENV</span><span class="o">=</span>production jekyll build</code></pre></div>  </div>
@@ -123,7 +121,7 @@ Conservatives have killed satire
 <span class="o">&lt;</span><span class="sr">/script&gt;</span></code></pre></div>  </div>
 </figure>
 
-<p>Then replace the reference in <code class="highlighter-rouge">default.html</code> to <code class="highlighter-rouge">google-analytics.html</code> with the new file.</p>
+<p>Then replace the reference in <code class="language-plaintext highlighter-rouge">default.html</code> to <code class="language-plaintext highlighter-rouge">google-analytics.html</code> with the new file.</p>
 
 <p>So now my GA account is tracking data! Not sure what I’ll ever do with it on the blog, but it’ll be useful to know how everything works before I launch the book.</p>
 
@@ -136,16 +134,16 @@ Conservatives have killed satire
   <h2 id="the-booksite">The booksite</h2>
   <p>With this site fully operational, I started getting back to work on the manuscript. One element of the book is family recipes that really don’t exist outside of the heads of my mom &amp; my aunts. For the recipes I know, it’s just rote data entry into HTML. Same for a collection of workouts. I’m using the built-in <strong>Collections</strong> functionality to group each of them on a single page, but each individual recipe &amp; workout will appear as an interlude in the primary TOC. I still have some work to do figuring out how to integrate them.</p>
   <h3 id="gallery">Gallery</h3>
-  <p>I’m also planning a picture gallery similar to the above Collections, with individual images accompanying some poems &amp; interludes, but I’m not sure how I’ll handle storage. I could just include all the pics in the <code class="highlighter-rouge">images</code> directory, but that will increase the build &amp; load times. I could host on a public Google Photos album or similar image hosting platform, but I need to look into security.</p>
+  <p>I’m also planning a picture gallery similar to the above Collections, with individual images accompanying some poems &amp; interludes, but I’m not sure how I’ll handle storage. I could just include all the pics in the <code class="language-plaintext highlighter-rouge">images</code> directory, but that will increase the build &amp; load times. I could host on a public Google Photos album or similar image hosting platform, but I need to look into security.</p>
   <p>A related issue is the recent news that Google Photos storage will count toward your total Google account storage starting in June 2021. I don’t take many pictures or videos, and don’t have a ton of media stored (relatively speaking), but will probably back up everything onto an external drive.</p>
   <h3 id="audio">Audio</h3>
   <p>I have a similar issue to think through regarding recordings of me reading my poems. My dad is going to record me reading each in his studio, so the sound quality will be professional. Again though, 50–60 audio files at 45–120 seconds each will really balloon the size of the project. I’ve thought about SoundCloud, where a free account can host ~3 hours of audio. But I’m limited to certain file formats, which may make professional recordings pointless.</p>
-  <p>The plan is for each poem to have an accompanying audio file. I’m using the HTML <code class="highlighter-rouge">&lt;audio&gt;</code> tag, which will use your browser’s default media player.</p>
-  <p>Right now, I have some scratch recordings in an <code class="highlighter-rouge">audio</code> directory; I created a <code class="highlighter-rouge">poem</code> layout, which has an include for <code class="highlighter-rouge">audio.html</code>—a nifty piece of code I wrote to pull the correct audio file into the page with the poem:</p>
+  <p>The plan is for each poem to have an accompanying audio file. I’m using the HTML <code class="language-plaintext highlighter-rouge">&lt;audio&gt;</code> tag, which will use your browser’s default media player.</p>
+  <p>Right now, I have some scratch recordings in an <code class="language-plaintext highlighter-rouge">audio</code> directory; I created a <code class="language-plaintext highlighter-rouge">poem</code> layout, which has an include for <code class="language-plaintext highlighter-rouge">audio.html</code>—a nifty piece of code I wrote to pull the correct audio file into the page with the poem:</p>
   <figure class="highlight">
     <div class="language-html highlighter-rouge">
       <div class="highlight">
-        <div class="highlight highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;audio display="block" controls&gt;
+        <div class="language-plaintext highlight highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;audio display="block" controls&gt;
   &lt;source src="audio/{{ page.permalink | replace: 'html', 'm4a' }}"&gt;
   Your browser doesn't support HTML5 audio. &lt;!-- fallback text for old browsers --&gt;
 &lt;/audio&gt;</code></pre></div>        </div>

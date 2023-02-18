@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <base target="_blank"> --><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>How Our Students Learned (Poetry) | Andrew P. Dillon</title>
-<meta name="generator" content="Jekyll v4.0.1" />
+<meta name="generator" content="Jekyll v4.3.1" />
 <meta property="og:title" content="How Our Students Learned (Poetry)" />
 <meta name="author" content="Andrew P. Dillon" />
 <meta property="og:locale" content="en_US" />
@@ -107,7 +107,7 @@
 -->
 
 <h3 id="callouts">Callouts</h3>
-<p>I copy &amp; pasted into my stylesheet the Bootstrap styles that format some simple panels that a tech writer would use for notes, warnings, alerts. Then I grabbed his include and put it in my <code class="highlighter-rouge">_includes</code> directory. Remember that in gem-based versions of Jekyll, the directories &amp; files that build the structure of your site live in the <code class="highlighter-rouge">gem</code> folder on your local drive. With at least Minima, the default Jekyll theme I use here, those include:</p>
+<p>I copy &amp; pasted into my stylesheet the Bootstrap styles that format some simple panels that a tech writer would use for notes, warnings, alerts. Then I grabbed his include and put it in my <code class="language-plaintext highlighter-rouge">_includes</code> directory. Remember that in gem-based versions of Jekyll, the directories &amp; files that build the structure of your site live in the <code class="language-plaintext highlighter-rouge">gem</code> folder on your local drive. With at least Minima, the default Jekyll theme I use here, those include:</p>
 
 <table>
   <colgroup>
@@ -122,7 +122,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><code class="highlighter-rouge">_includes</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_includes</code></td>
       <td>Files that are probably injected into every page:
         <ul>
           <li><code>header.html</code></li>
@@ -133,7 +133,7 @@
       </td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">_layouts</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_layouts</code></td>
       <td>Files that define the structure of individual pages. I have separate layouts for my:
         <ul>
           <li>homepage</li>
@@ -144,25 +144,25 @@
       </td>
     </tr>
       <tr>
-        <td><code class="highlighter-rouge">_sass</code></td>
+        <td><code class="language-plaintext highlighter-rouge">_sass</code></td>
         <td>Files for the CSS preprocessor, Sass, which allows you to single-source your styles</td>
       </tr>
   </tbody>
 </table>
 
-<p>You can also add any of those directories to your project tree (where everything you write, like posts &amp; images, lives). I have an <code class="highlighter-rouge">_includes</code> directory in my project folder for a few things like the callouts.</p>
+<p>You can also add any of those directories to your project tree (where everything you write, like posts &amp; images, lives). I have an <code class="language-plaintext highlighter-rouge">_includes</code> directory in my project folder for a few things like the callouts.</p>
 
-<p>The <code class="highlighter-rouge">callout.html</code> file looks like this:</p>
+<p>The <code class="language-plaintext highlighter-rouge">callout.html</code> file looks like this:</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">markdown=</span><span class="s">"span"</span> <span class="na">class=</span><span class="s">"bs-callout bs-callout-{{include.type}}"</span><span class="nt">&gt;</span>{{include.content}}<span class="nt">&lt;/div&gt;</span>
 </code></pre></div></div>
 
-<p>When I want to use a callout on a page, I write a line of Liquid that grabs everything in <code class="highlighter-rouge">callout.html</code>. It looks like this:</p>
+<p>When I want to use a callout on a page, I write a line of Liquid that grabs everything in <code class="language-plaintext highlighter-rouge">callout.html</code>. It looks like this:</p>
 
 <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>callout.html<span class="w"> </span><span class="na">type</span><span class="o">=</span><span class="s2">"default"</span><span class="w"> </span><span class="na">content</span><span class="o">=</span><span class="s2">"This is where I type what I want to appear in the callout."</span><span class="w"> </span><span class="p">%}</span>
 </code></pre></div></div>
 
-<p>You can even speed that up using snippets. Atom (my preferred editor) uses CoffeeScript, a JSON-like syntax, to specify a prefix that expands into a larger block of code. I type <code class="highlighter-rouge">callout</code>, and the whole include above appears.</p>
+<p>You can even speed that up using snippets. Atom (my preferred editor) uses CoffeeScript, a JSON-like syntax, to specify a prefix that expands into a larger block of code. I type <code class="language-plaintext highlighter-rouge">callout</code>, and the whole include above appears.</p>
 
 <p>The include is rendered like this:</p>
 <div class="bs-callout bs-callout-default">
@@ -179,9 +179,9 @@ This is where I type what I want to appear in the callout.
 -->
 
 <h3 id="fontawesome-icons">Fontawesome icons</h3>
-<p>The Jekyll Doc Theme also incorporates icons from <a href="https://fontawesome.com">Fontawesome</a> (among others). It was easy to inject them with a line of Javascript in my <code class="highlighter-rouge">head.html</code> file (an include) that connects to a Content Delivery Network to call the icons.</p>
+<p>The Jekyll Doc Theme also incorporates icons from <a href="https://fontawesome.com">Fontawesome</a> (among others). It was easy to inject them with a line of Javascript in my <code class="language-plaintext highlighter-rouge">head.html</code> file (an include) that connects to a Content Delivery Network to call the icons.</p>
 
-<p>Then, I use the semantically meaningless <code class="highlighter-rouge">&lt;i&gt;</code> element to specify which icon I want by adding specific classes to it: <code class="highlighter-rouge">&lt;i class="fas fa-icon-name fa-icon-size"&gt;&lt;/i&gt;</code>. I wrote an include to do that too:</p>
+<p>Then, I use the semantically meaningless <code class="language-plaintext highlighter-rouge">&lt;i&gt;</code> element to specify which icon I want by adding specific classes to it: <code class="language-plaintext highlighter-rouge">&lt;i class="fas fa-icon-name fa-icon-size"&gt;&lt;/i&gt;</code>. I wrote an include to do that too:</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"{{include.prefix}} fa-{{include.name}} fa-{{include.size}}"</span><span class="nt">&gt;&lt;/i&gt;</span>
 </code></pre></div></div>
@@ -211,7 +211,7 @@ This is where I type what I want to appear in the callout.
   NOTE: add class of "fa-fw" for fixed-width icons
 -->
 
-<p>It’s in every post because I put that code into my <code class="highlighter-rouge">post.html</code> layout file. Meaning, whenever a file contains <code class="highlighter-rouge">layout: post</code> in the YAML frontmatter, everything in <code class="highlighter-rouge">post.html</code> gets added (or not, depending on the <strong>if</strong> &amp; <strong>for</strong> logic in the file).</p>
+<p>It’s in every post because I put that code into my <code class="language-plaintext highlighter-rouge">post.html</code> layout file. Meaning, whenever a file contains <code class="language-plaintext highlighter-rouge">layout: post</code> in the YAML frontmatter, everything in <code class="language-plaintext highlighter-rouge">post.html</code> gets added (or not, depending on the <strong>if</strong> &amp; <strong>for</strong> logic in the file).</p>
 
 <h2 id="poetry-in-america-scratching-the-surface">Poetry in America: scratching the surface</h2>
 <p>There are always people claiming that poetry (or art in general) is dying. When I was getting my MFA, a handful of essays were published on the decline of American verse that became hot topics in the discourse community of poets. The two I remember most are Mark Edmundson’s <cite class="article">Poetry Slam</cite> in <cite class="journal">Harper’s Magazine</cite> (July 2013), and Arthur Krystal’s <cite class="article">The Missing Music in Today’s Poetry</cite> in <cite class="journal">The Chronicle of Higher Education</cite> (October 2013).</p>
@@ -291,11 +291,9 @@ Take all myself.</p>
 
 <!-- Shakespeare meme -->
 <figure>
-<img class="docimage" src="images/billyShakesMeme.png" alt="A meme image of Shakespeare that says 'Is the central focus of high school English | Basically write in a different language'" style="max-width: 100%" />   <!-- Changed max-width attribute to % from px -->
-  <figcaption style="max-width: 100%">
+<img class="docimage" src="images/billyShakesMeme.png" alt="A meme image of Shakespeare that says 'Is the central focus of high school English | Basically write in a different language'" style="max-width: 100%" />   <figcaption style="max-width: 100%">
 Let's teach 500 year old literature to every student as though we haven't been telling the same 27 stories since humans could speak
   </figcaption>
-  <!-- Changed max-width attribute to % from px -->
 </figure>
 
 <p>Besides the language, the cultural touchstones in the work of Shakespeare &amp; Dickinson are irrelevant to any 21st century teenager. Again, you need so much contextual knowledge to appreciate what’s going on. Matthew Zapruder did an interview a few years ago on the podcast <a href="http://historyofliterature.com/138-why-poetry-with-matthew-zapruder/"><em>The History of Literature</em></a>. In it, he talks about some problems with how poetry is taught, and one of them is this idea that you must learn the context of a poem before you can read it; and related, the belief that poetic language is coded and must carry some significant, deeper message.</p>
@@ -335,11 +333,9 @@ tongue has no words for endearment. […]</p>
 
 <!-- image: Stop confusing relaxation with laziness -->
 <figure>
-<img class="docimage" src="images/strictPleasure.png" alt="A picture of one corner of the author's living room. On the right side, there's a white-framed poster with a solid black background and text in white capital letters that says 'STOP CONFUSING RELAXATION WITH LAZINESS'." style="max-width: 100%" />   <!-- Changed max-width attribute to % from px -->
-  <figcaption style="max-width: 100%">
+<img class="docimage" src="images/strictPleasure.png" alt="A picture of one corner of the author's living room. On the right side, there's a white-framed poster with a solid black background and text in white capital letters that says 'STOP CONFUSING RELAXATION WITH LAZINESS'." style="max-width: 100%" />   <figcaption style="max-width: 100%">
 A daily reminder in my living room
   </figcaption>
-  <!-- Changed max-width attribute to % from px -->
 </figure>
 
 <h3 id="practical-matters">Practical matters</h3>

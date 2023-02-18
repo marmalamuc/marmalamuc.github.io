@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <base target="_blank"> --><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>The Dream of a Common Submission | Andrew P. Dillon</title>
-<meta name="generator" content="Jekyll v4.0.1" />
+<meta name="generator" content="Jekyll v4.3.1" />
 <meta property="og:title" content="The Dream of a Common Submission" />
 <meta name="author" content="Andrew P. Dillon" />
 <meta property="og:locale" content="en_US" />
@@ -96,7 +96,7 @@
 
 <p>A version control system (VCS) tracks every modification to the source files, and allows you to access any earlier version of those files. The industry standard VCS is <a href="https://git-scm.com/">Git</a>. It can get extremely complicated, but if you set up &amp; utilize a Git repo, you can feel confident that you’ll never lose anything you commit to the repo.</p>
 
-<p>But you can’t really track Microsoft documents (Word, Excel, etc.) with Git because of their proprietary markup. Git <em>will</em> save those files, but you can’t see the character-by-character changes you can with plaintext files. Which means if you wanted to find a previous version of a poem, you wouldn’t be able to tell which version you wanted with Git. If you don’t use a VCS, you probably have a dozen files for each poem, with <code class="highlighter-rouge">_v#</code> appended to the filename, and you still have to open each one to find the historical version you’re looking for.</p>
+<p>But you can’t really track Microsoft documents (Word, Excel, etc.) with Git because of their proprietary markup. Git <em>will</em> save those files, but you can’t see the character-by-character changes you can with plaintext files. Which means if you wanted to find a previous version of a poem, you wouldn’t be able to tell which version you wanted with Git. If you don’t use a VCS, you probably have a dozen files for each poem, with <code class="language-plaintext highlighter-rouge">_v#</code> appended to the filename, and you still have to open each one to find the historical version you’re looking for.</p>
 
 <p>Dropbox has a version control feature, but it’s premium. Google Drive includes versioning for free! Though I’m not sure how well it works or how easy it is to use.</p>
 
@@ -107,7 +107,7 @@
 </ul>
 
 <h3 id="theres-a-better-open-source-tool-for-that">There’s a better (open source) tool for that</h3>
-<p>Whatever you want to do with Word, there’s an easier, more efficient tool that’s probably free. In terms of submitting your poems, there’s no need to pay for Word when Google Docs &amp; LibreOffice can save as <code class="highlighter-rouge">.docx</code>.</p>
+<p>Whatever you want to do with Word, there’s an easier, more efficient tool that’s probably free. In terms of submitting your poems, there’s no need to pay for Word when Google Docs &amp; LibreOffice can save as <code class="language-plaintext highlighter-rouge">.docx</code>.</p>
 
 <div class="bs-callout bs-callout-warning">
 <em class="far fa-thumbs-up"></em> Editors, I am simply begging you to accept submissions in at least one format that is not Microsoft Word.
@@ -127,9 +127,9 @@
 </div>
 
 <h3 id="poems">Poems</h3>
-<p>I use a very simple file that I titled <code class="highlighter-rouge">poemTemplate.html</code> to write &amp; save each poem. It’s not, strictly speaking, a template because I have to <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>S</kbd> to save; it’s possible I could create templates in my editor (<a href="https://atom.io">Atom</a>), but I haven’t taken the time to look in to it.</p>
+<p>I use a very simple file that I titled <code class="language-plaintext highlighter-rouge">poemTemplate.html</code> to write &amp; save each poem. It’s not, strictly speaking, a template because I have to <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>S</kbd> to save; it’s possible I could create templates in my editor (<a href="https://atom.io">Atom</a>), but I haven’t taken the time to look in to it.</p>
 
-<p>I save each poem at <code class="highlighter-rouge">/Users/&lt;username&gt;/Sites/poems</code> (on Mac), which you can access in Finder when you want to edit a file, or view in your browser by navigating to <kbd>localhost/~username/poems</kbd> (where <code class="highlighter-rouge">poems</code> is a directory you add after setup). You want to use your browser to view because that forces the server &amp; browser to run all your code (like CSS, PHP, Javascript, etc.).</p>
+<p>I save each poem at <code class="language-plaintext highlighter-rouge">/Users/&lt;username&gt;/Sites/poems</code> (on Mac), which you can access in Finder when you want to edit a file, or view in your browser by navigating to <kbd>localhost/~username/poems</kbd> (where <code class="language-plaintext highlighter-rouge">poems</code> is a directory you add after setup). You want to use your browser to view because that forces the server &amp; browser to run all your code (like CSS, PHP, Javascript, etc.).</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
 
@@ -189,7 +189,7 @@
 <h3 id="submission-documents">Submission documents</h3>
 <p>Of course, no journal I’ve ever seen accepts submissions of HTML documents. So my final output is always to PDF.</p>
 
-<p>This file is <code class="highlighter-rouge">submissionTemplate.php</code>:</p>
+<p>This file is <code class="language-plaintext highlighter-rouge">submissionTemplate.php</code>:</p>
 
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
   <span class="nt">&lt;title&gt;</span>JOURNAL poetry submission<span class="nt">&lt;/title&gt;</span>
@@ -259,7 +259,7 @@
 <span class="nt">&lt;/body&gt;</span>
 </code></pre></div></div>
 
-<p>It needs to be a <code class="highlighter-rouge">.php</code> file so the server will parse the PHP commands (the date declaration &amp; includes). <em>Includes</em>, btw, are exactly what they sound like—they navigate to the file I specify and insert everything in that file into my submission document. That way, I only have to maintain:</p>
+<p>It needs to be a <code class="language-plaintext highlighter-rouge">.php</code> file so the server will parse the PHP commands (the date declaration &amp; includes). <em>Includes</em>, btw, are exactly what they sound like—they navigate to the file I specify and insert everything in that file into my submission document. That way, I only have to maintain:</p>
 <ul>
   <li>one file for contact info.</li>
   <li>one of each poem.</li>
@@ -277,11 +277,11 @@
 <ol>
   <li>Open the template and enter submission info:
     <ol>
-      <li>In the <code class="highlighter-rouge">head</code> element &amp; <code class="highlighter-rouge">JOURNAL</code> section, replace the <strong>JOURNAL</strong> placeholder with the name of the journal I’m submitting to.</li>
-      <li>In the <code class="highlighter-rouge">TOC</code> section, copy &amp; paste the titles of each poem.</li>
-      <li>Probably delete the <code class="highlighter-rouge">COVER LETTER</code> section because cover letters are unnecessary.<br />
+      <li>In the <code class="language-plaintext highlighter-rouge">head</code> element &amp; <code class="language-plaintext highlighter-rouge">JOURNAL</code> section, replace the <strong>JOURNAL</strong> placeholder with the name of the journal I’m submitting to.</li>
+      <li>In the <code class="language-plaintext highlighter-rouge">TOC</code> section, copy &amp; paste the titles of each poem.</li>
+      <li>Probably delete the <code class="language-plaintext highlighter-rouge">COVER LETTER</code> section because cover letters are unnecessary.<br />
  (More on this in a <a href="/greatFireblog">future post</a>.)</li>
-      <li>In the <code class="highlighter-rouge">POEM</code> section, enter the filename of each poem in front of <code class="highlighter-rouge">.html</code>.</li>
+      <li>In the <code class="language-plaintext highlighter-rouge">POEM</code> section, enter the filename of each poem in front of <code class="language-plaintext highlighter-rouge">.html</code>.</li>
       <li>Type <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>S</kbd> to Save As.
  <br /><br /></li>
     </ol>
@@ -304,14 +304,12 @@ This is an Adobe premium feature now, but I have an old version of Acrobat Pro. 
 <p>Here’s the cover page of the PDF I end up submitting:
 <!-- pdf output screenshot --></p>
 <figure>
-<img class="docimage" src="images/pdfOutput.png" alt="A screenshot of an example PDF generated by my localhost submission workflow. It contains author contact info, the name of the journal I'm submitting to, the date, and a hyperlinked list of the poems it contains." style="max-width: 100%" />   <!-- Changed max-width attribute to % from px -->
-  <figcaption style="max-width: 100%">
+<img class="docimage" src="images/pdfOutput.png" alt="A screenshot of an example PDF generated by my localhost submission workflow. It contains author contact info, the name of the journal I'm submitting to, the date, and a hyperlinked list of the poems it contains." style="max-width: 100%" />   <figcaption style="max-width: 100%">
 A very simple submission document
   </figcaption>
-  <!-- Changed max-width attribute to % from px -->
 </figure>
 
-<p>Unfortunately, some journals that I <em>really</em> want to submit to still only accept <code class="highlighter-rouge">.docx</code> files, so I do occasionally use Word. If you’re a student or work for a big enough company, you can usually get a discount on MS Office. At my previous employer, I think I upgraded to my current version for like $10. Of course, Office365 is a web subscription model now. I had to edit OneNote in the browser a couple times, and it’s essentially unusable. I can’t imagine a browser-based Word editor isn’t flaming garbage.</p>
+<p>Unfortunately, some journals that I <em>really</em> want to submit to still only accept <code class="language-plaintext highlighter-rouge">.docx</code> files, so I do occasionally use Word. If you’re a student or work for a big enough company, you can usually get a discount on MS Office. At my previous employer, I think I upgraded to my current version for like $10. Of course, Office365 is a web subscription model now. I had to edit OneNote in the browser a couple times, and it’s essentially unusable. I can’t imagine a browser-based Word editor isn’t flaming garbage.</p>
 
 <h2 id="room-for-improvement">Room for improvement</h2>
 <p>You can probably see that a lot of the process is still somewhat manual &amp; tedious. And considering I’m writing a book using a static site generator, which has <em>its own</em> repository of poems, I am still duplicating effort in a major way. Here are some ways I’d like to streamline:</p>
@@ -321,7 +319,7 @@ A very simple submission document
 <ul>
   <li>The localhost setup I detailed in this post</li>
   <li>The <a href="https://idratherbewriting.com/documentation-theme-jekyll/index.html">custom Jekyll</a> project for my manuscript, <em><a href="/tgp">The Great Permission</a></em> (which only includes the poems that are actually in the book)</li>
-  <li>A default <a href="https:jekyllrb.com">Jekyll</a> project called <code class="highlighter-rouge">poetry</code> (which I don’t keep updated, but is meant to replace the localhost setup when I finally implement submodules)</li>
+  <li>A default <a href="https:jekyllrb.com">Jekyll</a> project called <code class="language-plaintext highlighter-rouge">poetry</code> (which I don’t keep updated, but is meant to replace the localhost setup when I finally implement submodules)</li>
 </ul>
 
 <p>Plus, I have this Jekyll project, the one that hosts this blog. Obviously, it doesn’t currently include any poems, but I’d like to one day add a <a href="/read">Read</a> page that compiles poems that were published a while ago or aren’t available online.</p>
@@ -352,7 +350,7 @@ A very simple submission document
 <h3 id="page-level-variables">Page-level variables</h3>
 <p>Looking at the localhost setup in isolation, the only real issue is that I still have to copy &amp; paste a decent amount. In contrast, with a Jekyll project, <a href="https://shopify.dev/api/liquid">Liquid</a> allows me to access variables on the pages I’m targeting so they’re auto-filled in each document.</p>
 
-<p>For example, here’s what my submission template could look like in the <code class="highlighter-rouge">poetry</code> project:</p>
+<p>For example, here’s what my submission template could look like in the <code class="language-plaintext highlighter-rouge">poetry</code> project:</p>
 
 <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 author: "Andrew P. Dillon"
@@ -421,12 +419,12 @@ poem3: forgingTheBoy
 
 <p>The variables streamline everything. In this case, all I need to do is:</p>
 <ol>
-  <li>Open the template and fill out the YAML frontmatter (the top of the document, between the <code class="highlighter-rouge">---</code>).</li>
+  <li>Open the template and fill out the YAML frontmatter (the top of the document, between the <code class="language-plaintext highlighter-rouge">---</code>).</li>
   <li>On the command line, navigate to the project and serve the site: <kbd>bundle exec jekyll serve</kbd>.</li>
   <li>Navigate to the submission in my browser (it also gets a localhost address), and save a PDF as described above.</li>
 </ol>
 
-<p>I could also set some of those YAML variables as default values (like <code class="highlighter-rouge">author</code> &amp; <code class="highlighter-rouge">layout</code>) in the config file, so I wouldn’t have to include them in each file. And there are ways to automate creating PDFs, but all I know of, like PrinceXML, are paid. Pandoc might be able to handle it, but it seems very complicated. Jekyll might be able to do some post-processing using <a href="https://jekyllrb.com/docs/plugins/hooks">hooks</a>, but again, I haven’t looked into it yet.</p>
+<p>I could also set some of those YAML variables as default values (like <code class="language-plaintext highlighter-rouge">author</code> &amp; <code class="language-plaintext highlighter-rouge">layout</code>) in the config file, so I wouldn’t have to include them in each file. And there are ways to automate creating PDFs, but all I know of, like PrinceXML, are paid. Pandoc might be able to handle it, but it seems very complicated. Jekyll might be able to do some post-processing using <a href="https://jekyllrb.com/docs/plugins/hooks">hooks</a>, but again, I haven’t looked into it yet.</p>
 
 <h2 id="final-thoughts">Final thoughts</h2>
 <p>Setting all this up is pretty complicated—especially the Jekyll projects, and especially if you’re not familiar with any markup or scripting languages. It’s a big effort, both in terms of time &amp; mental energy. But then again, so is writing poetry &amp; submitting <em class="far fa-eye"></em></p>
