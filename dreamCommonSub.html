@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <base target="_blank"> --><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>The Dream of a Common Submission | Andrew P. Dillon</title>
-<meta name="generator" content="Jekyll v4.3.1" />
+<meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="The Dream of a Common Submission" />
 <meta name="author" content="Andrew P. Dillon" />
 <meta property="og:locale" content="en_US" />
@@ -364,55 +364,55 @@ poem1: apologiaNoAnswers
 poem2: todayYouWillDie
 poem3: forgingTheBoy
 ---
-<span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">poem1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">poems</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">where</span><span class="p">:</span><span class="w"> </span><span class="s2">"permalink"</span><span class="p">,</span><span class="w"> </span><span class="s2">"{{poem1}}"</span><span class="w"> </span><span class="p">%}</span>
-<span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">poem2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">poems</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">where</span><span class="p">:</span><span class="w"> </span><span class="s2">"permalink"</span><span class="p">,</span><span class="w"> </span><span class="s2">"{{poem2}}"</span><span class="w"> </span><span class="p">%}</span>
-<span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">poem3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">poems</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">where</span><span class="p">:</span><span class="w"> </span><span class="s2">"permalink"</span><span class="p">,</span><span class="w"> </span><span class="s2">"{{poem3}}"</span><span class="w"> </span><span class="p">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">poem1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">poems</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">where</span><span class="p">:</span><span class="w"> </span><span class="s2">"permalink"</span><span class="p">,</span><span class="w"> </span><span class="s2">"{{poem1}}"</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">poem2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">poems</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">where</span><span class="p">:</span><span class="w"> </span><span class="s2">"permalink"</span><span class="p">,</span><span class="w"> </span><span class="s2">"{{poem2}}"</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">poem3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">poems</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">where</span><span class="p">:</span><span class="w"> </span><span class="s2">"permalink"</span><span class="p">,</span><span class="w"> </span><span class="s2">"{{poem3}}"</span><span class="w"> </span><span class="cp">%}</span>
 
 &lt;body&gt;
   &lt;!-- CONTACT --&gt;
-  <span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>contactInfo.md<span class="w"> </span><span class="p">%}</span>
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>contactInfo.md<span class="w"> </span><span class="cp">%}</span>
 
   &lt;!-- JOURNAL --&gt;
-  &lt;p id="journal"&gt;<span class="p">{{</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">title</span><span class="w"> </span><span class="p">}}</span>&lt;br /&gt;
-  <span class="p">{{</span><span class="w"> </span><span class="s2">"now"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">date</span><span class="p">:</span><span class="w"> </span><span class="s2">"%d %b %Y"</span><span class="w"> </span><span class="p">}}</span>&lt;/p&gt;
+  &lt;p id="journal"&gt;<span class="cp">{{</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">title</span><span class="w"> </span><span class="cp">}}</span>&lt;br /&gt;
+  <span class="cp">{{</span><span class="w"> </span><span class="s2">"now"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">date</span><span class="p">:</span><span class="w"> </span><span class="s2">"%d %b %Y"</span><span class="w"> </span><span class="cp">}}</span>&lt;/p&gt;
 
   &lt;!-- TOC --&gt;
   &lt;h4&gt;Contents&lt;/h4&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href="#coverLetter"&gt;Cover Letter&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#poem1"&gt;<span class="p">{{</span><span class="nv">poem1</span><span class="p">.</span><span class="nv">title</span><span class="p">}}</span>&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#poem2"&gt;<span class="p">{{</span><span class="nv">poem2</span><span class="p">.</span><span class="nv">title</span><span class="p">}}</span>&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#poem3"&gt;<span class="p">{{</span><span class="nv">poem3</span><span class="p">.</span><span class="nv">title</span><span class="p">}}</span>&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#poem1"&gt;<span class="cp">{{</span><span class="nv">poem1</span><span class="p">.</span><span class="nv">title</span><span class="cp">}}</span>&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#poem2"&gt;<span class="cp">{{</span><span class="nv">poem2</span><span class="p">.</span><span class="nv">title</span><span class="cp">}}</span>&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#poem3"&gt;<span class="cp">{{</span><span class="nv">poem3</span><span class="p">.</span><span class="nv">title</span><span class="cp">}}</span>&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="#bio"&gt;Bio&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 
   &lt;!-- COVER LETTER --&gt;
   &lt;div class="page-break" id="coverLetter"&gt;
-    <span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>coverLetter.md<span class="w"> </span><span class="p">%}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>coverLetter.md<span class="w"> </span><span class="cp">%}</span>
   &lt;/div&gt;
 
   &lt;!-- POEMS --&gt;
   &lt;div class="page-break" id="poem1"&gt;
-    <span class="p">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">poem</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">poem1</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{{</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">content</span><span class="w"> </span><span class="p">}}</span>
-    <span class="p">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="p">%}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">poem</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">poem1</span><span class="w"> </span><span class="cp">%}</span>
+      <span class="cp">{{</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">content</span><span class="w"> </span><span class="cp">}}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="cp">%}</span>
   &lt;/div&gt;
 
   &lt;div class="page-break" id="poem2"&gt;
-    <span class="p">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">poem</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">poem2</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{{</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">content</span><span class="w"> </span><span class="p">}}</span>
-    <span class="p">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="p">%}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">poem</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">poem2</span><span class="w"> </span><span class="cp">%}</span>
+      <span class="cp">{{</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">content</span><span class="w"> </span><span class="cp">}}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="cp">%}</span>
   &lt;/div&gt;
 
   &lt;div class="page-break" id="poem3"&gt;
-    <span class="p">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">poem</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">poem3</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{{</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">content</span><span class="w"> </span><span class="p">}}</span>
-    <span class="p">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="p">%}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">poem</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">poem3</span><span class="w"> </span><span class="cp">%}</span>
+      <span class="cp">{{</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">content</span><span class="w"> </span><span class="cp">}}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="cp">%}</span>
   &lt;/div&gt;
 
   &lt;!-- BIO --&gt;
   &lt;div class="page-break" id="bio"&gt;
-    <span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>shortBio.md<span class="w"> </span><span class="p">%}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>shortBio.md<span class="w"> </span><span class="cp">%}</span>
   &lt;/div&gt;
 &lt;/body&gt;
 </code></pre></div></div>
@@ -487,7 +487,7 @@ poem3: forgingTheBoy
 
       <div class="footer-col footer-col-2">
         Built with <a href="https://jekyllrb.com">Jekyll</a>
-        Site last generated: 16 Dec 2023
+        Site last generated: 06 Mar 2024
       </div>
 
       <div class="footer-col footer-col-3">

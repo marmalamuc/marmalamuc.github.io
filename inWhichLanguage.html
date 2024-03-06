@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <base target="_blank"> --><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>In Which Language Do I Keep Blogging | Andrew P. Dillon</title>
-<meta name="generator" content="Jekyll v4.3.1" />
+<meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="In Which Language Do I Keep Blogging" />
 <meta name="author" content="Andrew P. Dillon" />
 <meta property="og:locale" content="en_US" />
@@ -171,42 +171,42 @@ Live at Portland Brew East, 11 Dec 2021<br />Credit: Christine Hall
 
 <p>Eventually, I noticed that when I formatted <code class="language-plaintext highlighter-rouge">notes</code> as an array (even if there was only a single note), everything rendered correctly with no errors. Of course, that meant that the <em>About</em> tab would always be formatted as a list if it included a note (though not if there were a pubnote &amp; no notes, as above). Which… fine. I dislike the inconsistency, but I’m tired of fucking with it. Here’s that code:</p>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">aboutTitle</span><span class="w"> </span><span class="p">%}</span>
-  <span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">layout</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"poem"</span><span class="w"> </span><span class="ow">or</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"dedication.html"</span><span class="w"> </span><span class="p">%}</span>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">aboutTitle</span><span class="w"> </span><span class="cp">%}</span>
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">layout</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"poem"</span><span class="w"> </span><span class="ow">or</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"dedication.html"</span><span class="w"> </span><span class="cp">%}</span>
       About this poem
-    <span class="p">{%</span><span class="w"> </span><span class="kr">elsif</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="ow">contains</span><span class="w"> </span><span class="s2">"recipe"</span><span class="w"> </span><span class="p">%}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">elsif</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="ow">contains</span><span class="w"> </span><span class="s2">"recipe"</span><span class="w"> </span><span class="cp">%}</span>
       About this recipe
-    <span class="p">{%</span><span class="w"> </span><span class="kr">elsif</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="ow">contains</span><span class="w"> </span><span class="s2">"workout"</span><span class="w"> </span><span class="p">%}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">elsif</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="ow">contains</span><span class="w"> </span><span class="s2">"workout"</span><span class="w"> </span><span class="cp">%}</span>
       About this workout
-  <span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
-<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="cp">%}</span>
 
-<span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">notes</span><span class="w"> </span><span class="p">%}</span>
-  <span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">notes</span><span class="p">.</span><span class="nf">first</span><span class="w"> </span><span class="p">%}</span> &lt;!-- if the NOTES frontmatter contains a list --&gt;
+<span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">notes</span><span class="w"> </span><span class="cp">%}</span>
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">notes</span><span class="p">.</span><span class="nf">first</span><span class="w"> </span><span class="cp">%}</span> &lt;!-- if the NOTES frontmatter contains a list --&gt;
     &lt;ul&gt;
-      <span class="p">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">item</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">page.notes</span><span class="w"> </span><span class="p">%}</span> &lt;!-- create a list item for each NOTE --&gt;
-        &lt;li&gt;<span class="p">{{</span><span class="nv">item</span><span class="p">}}</span>&lt;/li&gt;
-      <span class="p">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">publishedFlag</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="p">%}</span> &lt;!-- include the publication note in the list --&gt;
-        &lt;li&gt;This poem was first published in &lt;cite class="journal"&gt;<span class="p">{{</span><span class="nv">page</span><span class="p">.</span><span class="nv">journal-</span><span class="p">}}</span>&lt;/cite&gt;.&lt;/li&gt;
-      <span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
+      <span class="cp">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">item</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">notes</span><span class="w"> </span><span class="cp">%}</span> &lt;!-- create a list item for each NOTE --&gt;
+        &lt;li&gt;<span class="cp">{{</span><span class="nv">item</span><span class="cp">}}</span>&lt;/li&gt;
+      <span class="cp">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="cp">%}</span>
+      <span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">publishedFlag</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="cp">%}</span> &lt;!-- include the publication note in the list --&gt;
+        &lt;li&gt;This poem was first published in &lt;cite class="journal"&gt;<span class="cp">{{</span><span class="nv">page</span><span class="p">.</span><span class="nv">journal-</span><span class="cp">}}</span>&lt;/cite&gt;.&lt;/li&gt;
+      <span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
     &lt;/ul&gt;
-  <span class="p">{%</span><span class="w"> </span><span class="kr">elsif</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">notes</span><span class="w"> </span><span class="p">%}</span> &lt;!-- if the NOTES frontmatter does not contain a list but does contain a string --&gt;
-    <span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">publishedFlag</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="p">%}</span> &lt;!-- create a list if there's a publication note --&gt;
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">elsif</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">notes</span><span class="w"> </span><span class="cp">%}</span> &lt;!-- if the NOTES frontmatter does not contain a list but does contain a string --&gt;
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">publishedFlag</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="cp">%}</span> &lt;!-- create a list if there's a publication note --&gt;
     &lt;ul&gt;
-      &lt;li&gt;<span class="p">{{</span><span class="nv">page</span><span class="p">.</span><span class="nv">notes</span><span class="p">}}</span>&lt;/li&gt;
-      &lt;li&gt;This poem was first published in &lt;cite class="journal"&gt;<span class="p">{{</span><span class="nv">page</span><span class="p">.</span><span class="nv">journal-</span><span class="p">}}</span>&lt;/cite&gt;.&lt;/li&gt;
+      &lt;li&gt;<span class="cp">{{</span><span class="nv">page</span><span class="p">.</span><span class="nv">notes</span><span class="cp">}}</span>&lt;/li&gt;
+      &lt;li&gt;This poem was first published in &lt;cite class="journal"&gt;<span class="cp">{{</span><span class="nv">page</span><span class="p">.</span><span class="nv">journal-</span><span class="cp">}}</span>&lt;/cite&gt;.&lt;/li&gt;
     &lt;/ul&gt;
-    <span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
-  <span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
-<span class="p">{%</span><span class="w"> </span><span class="kr">else</span><span class="w"> </span><span class="p">%}</span> &lt;!-- the NOTES frontmatter is empty --&gt;
-  <span class="p">{%</span><span class="w"> </span><span class="kr">unless</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">publishedFlag</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="p">%}</span> &lt;!-- there's no publication note --&gt;
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">else</span><span class="w"> </span><span class="cp">%}</span> &lt;!-- the NOTES frontmatter is empty --&gt;
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">unless</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">publishedFlag</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="cp">%}</span> &lt;!-- there's no publication note --&gt;
   &lt;p&gt;No notes about this poem!&lt;/p&gt;
-  <span class="p">{%</span><span class="w"> </span><span class="kr">endunless</span><span class="w"> </span><span class="p">%}</span>
-  <span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">publishedFlag</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="p">%}</span>
-    &lt;p&gt;This poem was first published in &lt;cite class="journal"&gt;<span class="p">{{</span><span class="nv">page</span><span class="p">.</span><span class="nv">journal-</span><span class="p">}}</span>&lt;/cite&gt;.&lt;/p&gt;
-  <span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
-<span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">endunless</span><span class="w"> </span><span class="cp">%}</span>
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">publishedFlag</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="cp">%}</span>
+    &lt;p&gt;This poem was first published in &lt;cite class="journal"&gt;<span class="cp">{{</span><span class="nv">page</span><span class="p">.</span><span class="nv">journal-</span><span class="cp">}}</span>&lt;/cite&gt;.&lt;/p&gt;
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
 </code></pre></div></div>
 
 <p>So my comments in there are not totally accurate, but all the notes &amp; publication credits are rendering legibly on each poem, so I’m content.</p>
@@ -228,56 +228,56 @@ Live at Portland Brew East, 11 Dec 2021<br />Credit: Christine Hall
 
 <p>Anyway! Here’s how the Related lists are built:</p>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">thisSeries</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">series</span><span class="w"> </span><span class="p">%}</span>
-<span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">thisKey</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">keywords</span><span class="w"> </span><span class="p">%}</span>
-<span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">items</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">poems</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">sort</span><span class="p">:</span><span class="w"> </span><span class="s2">"title"</span><span class="w"> </span><span class="p">%}</span>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">thisSeries</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">series</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">thisKey</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">keywords</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">items</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">poems</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">sort</span><span class="p">:</span><span class="w"> </span><span class="s2">"title"</span><span class="w"> </span><span class="cp">%}</span>
 
-<span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">thisSeries</span><span class="w"> </span><span class="ow">or</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">data</span><span class="p">.</span><span class="nv">poemlists</span><span class="w"> </span><span class="err">|</span><span class="w"> </span><span class="nv">where</span><span class="err">:</span><span class="w"> </span><span class="s2">"allowedKeywords"</span><span class="err">,</span><span class="w"> </span><span class="s2">"thisKey"</span><span class="w"> </span><span class="p">%}</span>
-<span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">thisSeries</span><span class="w"> </span><span class="p">%}</span>
-  &lt;h5&gt;More poems in the &lt;b&gt;<span class="p">{{</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">data</span><span class="p">.</span><span class="nv">poemlists</span><span class="p">.</span><span class="nv">series</span><span class="p">[</span><span class="nv">thisSeries</span><span class="p">]</span><span class="w"> </span><span class="p">}}</span>&lt;/b&gt; series:&lt;/h5&gt;
+<span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">thisSeries</span><span class="w"> </span><span class="ow">or</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">data</span><span class="p">.</span><span class="nv">poemlists</span><span class="w"> </span>|<span class="w"> </span><span class="nv">where</span><span class="p">:</span><span class="w"> </span><span class="s2">"allowedKeywords"</span><span class="p">,</span><span class="w"> </span><span class="s2">"thisKey"</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">thisSeries</span><span class="w"> </span><span class="cp">%}</span>
+  &lt;h5&gt;More poems in the &lt;b&gt;<span class="cp">{{</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">data</span><span class="p">.</span><span class="nv">poemlists</span><span class="p">.</span><span class="nv">series</span><span class="p">[</span><span class="nv">thisSeries</span><span class="p">]</span><span class="w"> </span><span class="cp">}}</span>&lt;/b&gt; series:&lt;/h5&gt;
   &lt;ul&gt;
-    <span class="p">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">poem</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">items</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">series</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nv">thisSeries</span><span class="w"> </span><span class="p">%}</span>
-        <span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="p">%}</span>
-          <span class="p">{%</span><span class="w"> </span><span class="nt">continue</span><span class="w"> </span><span class="p">%}</span>
-        <span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
-        &lt;li&gt;&lt;a href="<span class="p">{{</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="p">}}</span>"&gt;<span class="p">{{</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">title</span><span class="w"> </span><span class="p">}}</span>&lt;/a&gt;&lt;/li&gt;
-      <span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
-    <span class="p">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="p">%}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">poem</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">items</span><span class="w"> </span><span class="cp">%}</span>
+      <span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">series</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nv">thisSeries</span><span class="w"> </span><span class="cp">%}</span>
+        <span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="cp">%}</span>
+          <span class="cp">{%</span><span class="w"> </span><span class="kr">continue</span><span class="w"> </span><span class="cp">%}</span>
+        <span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
+        &lt;li&gt;&lt;a href="<span class="cp">{{</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="cp">}}</span>"&gt;<span class="cp">{{</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">title</span><span class="w"> </span><span class="cp">}}</span>&lt;/a&gt;&lt;/li&gt;
+      <span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="cp">%}</span>
   &lt;/ul&gt;
-<span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
 
-<span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">allowed</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">data</span><span class="p">.</span><span class="nv">poemlists</span><span class="p">.</span><span class="nv">allowedKeywords</span><span class="w"> </span><span class="p">%}</span>
-<span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">keywords</span><span class="w"> </span><span class="p">%}</span>
-<span class="p">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">page.keywords</span><span class="w"> </span><span class="p">%}</span>
-  <span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">allowed</span><span class="w"> </span><span class="ow">contains</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="p">%}</span>
-    <span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"ars poetica"</span><span class="w"> </span><span class="p">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">allowed</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">data</span><span class="p">.</span><span class="nv">poemlists</span><span class="p">.</span><span class="nv">allowedKeywords</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">keywords</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">keywords</span><span class="w"> </span><span class="cp">%}</span>
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">allowed</span><span class="w"> </span><span class="ow">contains</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="cp">%}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"ars poetica"</span><span class="w"> </span><span class="cp">%}</span>
       &lt;h5&gt;More ars poetica:&lt;/h5&gt;
-      <span class="p">{%</span><span class="w"> </span><span class="kr">elsif</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"singing"</span><span class="w"> </span><span class="p">%}</span>
+      <span class="cp">{%</span><span class="w"> </span><span class="nt">elsif</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"singing"</span><span class="w"> </span><span class="cp">%}</span>
       &lt;h5&gt;More poems to sing:&lt;/h5&gt;
-      <span class="p">{%</span><span class="w"> </span><span class="kr">elsif</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"body"</span><span class="w"> </span><span class="p">%}</span>
+      <span class="cp">{%</span><span class="w"> </span><span class="nt">elsif</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"body"</span><span class="w"> </span><span class="cp">%}</span>
       &lt;h5&gt;More poems about the body:&lt;/h5&gt;
-      <span class="p">{%</span><span class="w"> </span><span class="kr">elsif</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"funny"</span><span class="w"> </span><span class="p">%}</span>
+      <span class="cp">{%</span><span class="w"> </span><span class="nt">elsif</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"funny"</span><span class="w"> </span><span class="cp">%}</span>
       &lt;h5&gt;More poems with a laugh:&lt;/h5&gt;
-      <span class="p">{%</span><span class="w"> </span><span class="kr">else</span><span class="w"> </span><span class="p">%}</span>
-      &lt;h5&gt;More poems about <span class="p">{{</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">capitalize</span><span class="w"> </span><span class="p">}}</span>:&lt;/h5&gt;
-    <span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
+      <span class="cp">{%</span><span class="w"> </span><span class="nt">else</span><span class="w"> </span><span class="cp">%}</span>
+      &lt;h5&gt;More poems about <span class="cp">{{</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">capitalize</span><span class="w"> </span><span class="cp">}}</span>:&lt;/h5&gt;
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
     &lt;ul&gt;
-      <span class="p">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">poem</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">items</span><span class="w"> </span><span class="p">%}</span>
-        <span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">keywords</span><span class="w"> </span><span class="ow">contains</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="p">%}</span>
-          <span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="p">%}</span>
-            <span class="p">{%</span><span class="w"> </span><span class="nt">continue</span><span class="w"> </span><span class="p">%}</span>
-          <span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
-          &lt;li&gt;&lt;a href="<span class="p">{{</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="p">}}</span>"&gt;<span class="p">{{</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">title</span><span class="w"> </span><span class="p">}}</span>&lt;/a&gt;&lt;/li&gt;
-        <span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="p">%}</span>
+      <span class="cp">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">poem</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">items</span><span class="w"> </span><span class="cp">%}</span>
+        <span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">keywords</span><span class="w"> </span><span class="ow">contains</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="cp">%}</span>
+          <span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="cp">%}</span>
+            <span class="cp">{%</span><span class="w"> </span><span class="kr">continue</span><span class="w"> </span><span class="cp">%}</span>
+          <span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
+          &lt;li&gt;&lt;a href="<span class="cp">{{</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">permalink</span><span class="w"> </span><span class="cp">}}</span>"&gt;<span class="cp">{{</span><span class="w"> </span><span class="nv">poem</span><span class="p">.</span><span class="nv">title</span><span class="w"> </span><span class="cp">}}</span>&lt;/a&gt;&lt;/li&gt;
+        <span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
+      <span class="cp">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="cp">%}</span>
     &lt;/ul&gt;
-  <span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
-<span class="p">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="p">%}</span>
-<span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
-  <span class="p">{%</span><span class="w"> </span><span class="kr">else</span><span class="w"> </span><span class="p">%}</span>
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">else</span><span class="w"> </span><span class="cp">%}</span>
     &lt;p&gt;No related poems!&lt;/p&gt;
-<span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
 
 </code></pre></div></div>
 
@@ -350,7 +350,7 @@ Live at Portland Brew East, 11 Dec 2021<br />Credit: Christine Hall
 
       <div class="footer-col footer-col-2">
         Built with <a href="https://jekyllrb.com">Jekyll</a>
-        Site last generated: 16 Dec 2023
+        Site last generated: 06 Mar 2024
       </div>
 
       <div class="footer-col footer-col-3">
