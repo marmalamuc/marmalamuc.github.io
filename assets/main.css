@@ -361,7 +361,7 @@ a {
   text-decoration: none;
 }
 a:visited {
-  color: #1756a9;
+  color: rgb(22.9483471074, 86.2541322314, 168.5516528926);
 }
 a:hover {
   color: #111;
@@ -466,7 +466,7 @@ table {
   margin-bottom: 30px;
   width: 100%;
   text-align: left;
-  color: #3f3f3f;
+  color: rgb(62.9, 62.9, 62.9);
   border-collapse: separate;
   border: 0px;
   /*tr {
@@ -479,9 +479,9 @@ table th, table td {
   padding: 10px 15px;
 }
 table th {
-  background-color: #f0f0f0;
+  background-color: rgb(239.65, 239.65, 239.65);
   border: 0px;
-  border-bottom-color: #c9c9c9;
+  border-bottom-color: rgb(201.4, 201.4, 201.4);
 }
 table td {
   border: 0px;
@@ -645,6 +645,7 @@ cite.journal,
 cite.magazine,
 cite.movie,
 cite.podcast,
+cite.series,
 cite.tv,
 cite.vgame {
   font-style: italic;
@@ -769,7 +770,7 @@ pre.poem {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
+  border-top: 5px solid rgb(66.25, 66.25, 66.25);
   border-bottom: 1px solid #e8e8e8;
   min-height: 55.95px;
   position: relative;
@@ -784,7 +785,7 @@ pre.poem {
   float: left;
 }
 .site-title, .site-title:visited {
-  color: #424242;
+  color: rgb(66.25, 66.25, 66.25);
 }
 
 .site-nav {
@@ -832,7 +833,7 @@ pre.poem {
     text-align: center;
   }
   .site-nav .menu-icon > svg {
-    fill: #424242;
+    fill: rgb(66.25, 66.25, 66.25);
   }
   .site-nav input ~ .trigger {
     clear: both;
