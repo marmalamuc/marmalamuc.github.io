@@ -1,5 +1,5 @@
 # An author's website
 
-Poems & blog posts, or contact Andrew P. Dillon: [andrewdillonpoetry.com](https://andrewdillonpoetry.com)
+Poems & blog posts, or contact Andrew P. Dillon: [andrewdillonpoetry.com]({{site.url}})
 
-Debut poetry collection *[The Great Permission: A reliquary](https://thegreatpermission.com)* is now live.
+Debut poetry collection *[{{site.data.collections[0].title}}]({{site.data.collections[0].url}})* is now live.
